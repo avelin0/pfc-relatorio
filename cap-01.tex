@@ -93,27 +93,39 @@ A segmentação de imagens tem como uma de suas interpretações como a divisão
 Para seres humanos, a identificação de regiões similares ou objetos diferentes presentes em uma imagem é um processo fácil. Nosso sistema cognitivo auxiliado por nosso sistema visual nos permite reconhecer e segmentar os objetos de forma instantânea sem nos darmos conta desse processo. Além disso, usamos a segmentação por distância como técnica auxiliar , uma vez que nossa visão estereoscópica nos fornece informação de profundidade.
 No caso de computadores, essa tarefa se torna mais complexa, pois envolve a análise de características de cada pixel ou da distribuição da população de pixels. Para isso, deve-se implementar algoritmos de segmentação, os quais serão explorados com maior profundidade nas seções subsequentes dessa pesquisa. A Figura \ref{fig:Berkeley_mulher} exibe uma imagem que foi manualmente segmentada por 4 seres humanos. É possível notar que cada pessoa não identificou como "relevantes" as mesmas áreas, conforme ilustrado pela Figura \ref{fig:Berkeley_mulher_segmentada}. 
 
-% Figura -----------------------------------------------------------------------------------------------------------------------------
+% Figura 
   \begin{figure}[!htb]
        \begin{center}  
-          \includegraphics[width=0.35\columnwidth]{img/198023.jpg}
+          \includegraphics[width=0.3\columnwidth]{img/198023.jpg}
            \caption{\label{fig:Berkeley_mulher}Imagem original\citep{Arbelez2011}.}
            % \vspace{2.0em}
        \end{center}
    \end{figure}
- % Figura -----------------------------------------------------------------------------------------------------------------------------
 
- % Figura -----------------------------------------------------------------------------------------------------------------------------       
+ % Figura 
 \begin{figure}[!htb]
  \centering
  \def\baselinestretch{1}\small\normalsize
- \includegraphics[width=0.25\textwidth]{img/198023-8-color.jpg}\qquad
- \includegraphics[width=0.25\textwidth]{img/198023-8.jpg}  \qquad
- \includegraphics[width=0.25\textwidth]{img/198023-16.jpg}        
- \caption{\label{fig:Berkeley_mulher_segmentada}Imagens segmentadas por seres humanos, gerando 8, 16, 22 e 26 segmentos \citep{Arbelez2011}.}
+ \includegraphics[width=0.2\textwidth]{img/198023-8-color.jpg}\qquad
+ \includegraphics[width=0.2\textwidth]{img/198023-8.jpg}  \qquad
+  \includegraphics[width=0.2\textwidth]{img/198023-16-color.jpg}  \qquad
+ \includegraphics[width=0.2\textwidth]{img/198023-16.jpg}        
+ \caption{\label{fig:Berkeley_mulher_segmentada}Imagens segmentadas por seres humanos, gerando 8 e 16 segmentos nas duas primeiras imagens e nas duas últimas, respectivamente.\citep{Arbelez2011}.}
  %\vspace{2.0em}
 \end{figure}
- % Figura -----------------------------------------------------------------------------------------------------------------------------
+
+
+% Figura 
+\begin{figure}[!h]
+ \centering
+ \def\baselinestretch{1}\small\normalsize
+ \includegraphics[width=0.2\textwidth]{img/198023-22-color.jpg}\qquad
+ \includegraphics[width=0.2\textwidth]{img/198023-22.jpg}  \qquad
+  \includegraphics[width=0.2\textwidth]{img/198023-26-color.jpg}  \qquad
+ \includegraphics[width=0.2\textwidth]{img/198023-26.jpg}        
+ \caption{\label{fig:Berkeley_mulher_segmentada}Imagens segmentadas por seres humanos, gerando 22 e 26 segmentos nas duas primeiras imagens e nas duas últimas, respectivamente.\citep{Arbelez2011}.}
+ %\vspace{2.0em}
+\end{figure}
 
 
 

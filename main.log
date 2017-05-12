@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.16)  12 MAY 2017 20:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.16)  12 MAY 2017 20:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -699,7 +699,11 @@ Package geometry Warning: Over-specification in `h'-direction.
 Package geometry Warning: Over-specification in `v'-direction.
     `height' (688.55669pt) is ignored.
 
-(./main.aux (./dados-pfc.aux) (./pre-texto.aux) (./cap-01.aux))
+(./main.aux (./dados-pfc.aux) (./pre-texto.aux) (./cap-01.aux
+
+LaTeX Warning: Label `fig:Berkeley_mulher_segmentada' multiply defined.
+
+))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 88.
@@ -714,8 +718,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 88.
 LaTeX Font Info:    ... okay on input line 88.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 88.
 LaTeX Font Info:    ... okay on input line 88.
-
-(/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+ (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count157
 \scratchdimen=\dimen144
@@ -923,43 +926,78 @@ CAP{\'I}TULO 2.
 File: img/198023.jpg Graphic file (type jpg)
  <use img/198023.jpg>
 Package pdftex.def Info: img/198023.jpg used on input line 99.
-(pdftex.def)             Requested size: 159.33821pt x 238.7639pt.
+(pdftex.def)             Requested size: 136.57462pt x 204.65477pt.
 
 <img/198023-8-color.jpg, id=61, 160.6pt x 240.9pt>
 File: img/198023-8-color.jpg Graphic file (type jpg)
 
 <use img/198023-8-color.jpg>
-Package pdftex.def Info: img/198023-8-color.jpg used on input line 110.
-(pdftex.def)             Requested size: 113.81102pt x 170.72038pt.
+Package pdftex.def Info: img/198023-8-color.jpg used on input line 109.
+(pdftex.def)             Requested size: 91.04742pt x 136.57558pt.
  <img/198023-8.jpg, id=62, 160.6pt x 240.9pt>
 File: img/198023-8.jpg Graphic file (type jpg)
 
 <use img/198023-8.jpg>
-Package pdftex.def Info: img/198023-8.jpg used on input line 111.
-(pdftex.def)             Requested size: 113.81102pt x 170.72038pt.
- <img/198023-16.jpg, id=63, 160.6pt x 240.9pt>
+Package pdftex.def Info: img/198023-8.jpg used on input line 110.
+(pdftex.def)             Requested size: 91.04742pt x 136.57558pt.
+ <img/198023-16-color.jpg, id=63, 160.6pt x 240.9pt>
+File: img/198023-16-color.jpg Graphic file (type jpg)
+
+<use img/198023-16-color.jpg>
+Package pdftex.def Info: img/198023-16-color.jpg used on input line 111.
+(pdftex.def)             Requested size: 91.04742pt x 136.57558pt.
+ <img/198023-16.jpg, id=64, 160.6pt x 240.9pt>
 File: img/198023-16.jpg Graphic file (type jpg)
 
 <use img/198023-16.jpg>
 Package pdftex.def Info: img/198023-16.jpg used on input line 112.
-(pdftex.def)             Requested size: 113.81102pt x 170.72038pt.
- [13
+(pdftex.def)             Requested size: 91.04742pt x 136.57558pt.
+ <img/198023-22-color.jpg, id=65, 160.6pt x 240.9pt>
+File: img/198023-22-color.jpg Graphic file (type jpg)
+
+<use img/198023-22-color.jpg>
+Package pdftex.def Info: img/198023-22-color.jpg used on input line 122.
+(pdftex.def)             Requested size: 91.04742pt x 136.57558pt.
+ <img/198023-22.jpg, id=66, 160.6pt x 240.9pt>
+File: img/198023-22.jpg Graphic file (type jpg)
+
+<use img/198023-22.jpg>
+Package pdftex.def Info: img/198023-22.jpg used on input line 123.
+(pdftex.def)             Requested size: 91.04742pt x 136.57558pt.
+ <img/198023-26-color.jpg, id=67, 160.6pt x 240.9pt>
+File: img/198023-26-color.jpg Graphic file (type jpg)
+
+<use img/198023-26-color.jpg>
+Package pdftex.def Info: img/198023-26-color.jpg used on input line 124.
+(pdftex.def)             Requested size: 91.04742pt x 136.57558pt.
+ <img/198023-26.jpg, id=68, 160.6pt x 240.9pt>
+File: img/198023-26.jpg Graphic file (type jpg)
+
+<use img/198023-26.jpg>
+Package pdftex.def Info: img/198023-26.jpg used on input line 125.
+(pdftex.def)             Requested size: 91.04742pt x 136.57558pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[13
 
 ] [14 <./img/198023.jpg> <./img/198023-8-color.jpg> <./img/198023-8.jpg> <./img
-/198023-16.jpg>]
-<img/101087.jpg, id=70, 322.20375pt x 482.80376pt>
+/198023-16-color.jpg> <./img/198023-16.jpg> <./img/198023-22-color.jpg> <./img/
+198023-22.jpg> <./img/198023-26-color.jpg> <./img/198023-26.jpg>]
+<img/101087.jpg, id=75, 322.20375pt x 482.80376pt>
 File: img/101087.jpg Graphic file (type jpg)
  <use img/101087.jpg>
-Package pdftex.def Info: img/101087.jpg used on input line 128.
+Package pdftex.def Info: img/101087.jpg used on input line 140.
 (pdftex.def)             Requested size: 113.81102pt x 170.53827pt.
 File: img/101087.jpg Graphic file (type jpg)
 
 <use img/101087.jpg>
-Package pdftex.def Info: img/101087.jpg used on input line 129.
+Package pdftex.def Info: img/101087.jpg used on input line 141.
 (pdftex.def)             Requested size: 113.81102pt x 170.53827pt.
 File: img/101087.jpg Graphic file (type jpg)
  <use img/101087.jpg>
-Package pdftex.def Info: img/101087.jpg used on input line 130.
+Package pdftex.def Info: img/101087.jpg used on input line 142.
 (pdftex.def)             Requested size: 113.81102pt x 170.53827pt.
  [15 <./img/101087.jpg>]
 CAP{\'I}TULO 3.
@@ -1015,12 +1053,15 @@ AED: lastpage setting LastPage
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.2pt have occurred.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 10978 strings out of 493014
- 181220 string characters out of 6133350
- 344626 words of memory out of 5000000
- 14275 multiletter control sequences out of 15000+600000
+ 11003 strings out of 493014
+ 181810 string characters out of 6133350
+ 344665 words of memory out of 5000000
+ 14295 multiletter control sequences out of 15000+600000
  13685 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,9n,43p,1218b,841s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1032,10 +1073,10 @@ sr/local/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr
 ocal/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/loc
 al/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local
 /texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb>
-Output written on main.pdf (24 pages, 481642 bytes).
+Output written on main.pdf (24 pages, 544847 bytes).
 PDF statistics:
- 122 PDF objects out of 1000 (max. 8388607)
+ 127 PDF objects out of 1000 (max. 8388607)
  77 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 66 words of extra memory for PDF output out of 10000 (max. 10000000)
 
