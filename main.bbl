@@ -1,0 +1,38 @@
+\begin{thethesisbibliography}{3}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{{\tt #1}}\fi
+
+\bibitem[Arbelaez \NATetal{}(2011){\MakeUppercase{Arbelaez}},
+  {\MakeUppercase{Maire}}, {\MakeUppercase{Fowlkes}}  e
+  {\MakeUppercase{Malik}}]{Arbelez2011}
+{\MakeUppercase{Arbelaez, P.}}; {\MakeUppercase{Maire, M.}};
+  {\MakeUppercase{Fowlkes, C.}} ; {\MakeUppercase{Malik, J.}}
+\newblock
+\newblock Contour detection and hierarchical image segmentation. {\bf IEEE
+  Transactions on Pattern Analysis and Machine Intelligence}, v. 33, n. 5, p.
+  898--916, 2011.
+
+\bibitem[Dataset\NATand{} Benchmark(){\MakeUppercase{Dataset}} e
+  {\MakeUppercase{Benchmark}}]{berkeley}
+{\MakeUppercase{Dataset, T. B.~S.}}; {\MakeUppercase{Benchmark}}.
+\newblock
+\newblock Berkeley segmentation dataset. {\color{red}ERRO (arquivo refs.bib):
+  falta campo {\MakeUppercase{journal}} em @\{{\MakeUppercase{berkeley}}},
+  {\color{red}ERRO (arquivo refs.bib): falta campo {\MakeUppercase{volume}} em
+  @\{{\MakeUppercase{berkeley}}}, {\color{red}ERRO (arquivo refs.bib): falta
+  campo {\MakeUppercase{year}} em @\{{\MakeUppercase{berkeley}}}. Disponível
+  em:
+  <https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/bsds/BSDS300>.
+  {\color{red}ERRO (arquivo refs.bib): falta campo {\MakeUppercase{note}} em
+  @\{{\MakeUppercase{berkeley}}}.
+
+\bibitem[Poggio \NATetal{}(1985){\MakeUppercase{Poggio}},
+  {\MakeUppercase{Torre}}  e {\MakeUppercase{Koch}}]{Poggio1985}
+{\MakeUppercase{Poggio, T.}}; {\MakeUppercase{Torre, V.}} ;
+  {\MakeUppercase{Koch, C.}}
+\newblock
+\newblock Computational vision and regularization theory. {\bf Nature}, v. 317,
+  n. 26, p. 314--319, 1985.
+
+\end{thethesisbibliography}
