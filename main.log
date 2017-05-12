@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.16)  12 MAY 2017 20:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.16)  12 MAY 2017 20:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -827,12 +827,30 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 23.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1] [1]
-Underfull \hbox (badness 10000) in paragraph at lines 34--34
+) [1]
+! Undefined control sequence.
+<argument> ...mpdima \@parboxrestore \@bibliorefA 
+                                                  \@@par 
+l.28 \makecredits
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
- []
+! Undefined control sequence.
+<argument> ...mpdima \@parboxrestore \@bibliorefB 
+                                                  \@@par 
+l.28 \makecredits
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-[2] [3
+[1] [2] [3
 
 ] [4
 
@@ -856,25 +874,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--34
 
  [8
 
-] (./main.lon)
+]
+(./main.lon)
 \tf@lon=\write6
 \openout6 = `main.lon'.
 
-[9
+ [9
 
 ])
 \openout2 = `cap-01.aux'.
 
  (./cap-01.tex
 CAP{\'I}TULO 1.
-<img/tela_android-original.png, id=41, 190.7125pt x 308.15125pt>
+<img/tela_android-original.png, id=42, 190.7125pt x 308.15125pt>
 File: img/tela_android-original.png Graphic file (type png)
 
 <use img/tela_android-original.png>
 Package pdftex.def Info: img/tela_android-original.png used on input line 46.
 (pdftex.def)             Requested size: 91.04742pt x 147.11157pt.
 
-<img/tela_android.png, id=43, 191.71625pt x 308.15125pt>
+<img/tela_android.png, id=44, 191.71625pt x 308.15125pt>
 File: img/tela_android.png Graphic file (type png)
 
 <use img/tela_android.png>
@@ -885,7 +904,7 @@ Package pdftex.def Info: img/tela_android.png used on input line 47.
 
 
  <./img/tela_android-original.png> <./img/tela_android.png>] <img/diag_blocos.p
-ng, id=49, 886.31125pt x 497.86pt>
+ng, id=50, 886.31125pt x 497.86pt>
 File: img/diag_blocos.png Graphic file (type png)
 
 <use img/diag_blocos.png>
@@ -900,25 +919,25 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 74.
  [11 <./img/diag_blocos.png>] [12]
 CAP{\'I}TULO 2.
-<img/198023.jpg, id=59, 322.20375pt x 482.80376pt>
+<img/198023.jpg, id=60, 322.20375pt x 482.80376pt>
 File: img/198023.jpg Graphic file (type jpg)
  <use img/198023.jpg>
 Package pdftex.def Info: img/198023.jpg used on input line 99.
 (pdftex.def)             Requested size: 159.33821pt x 238.7639pt.
 
-<img/198023-8-color.jpg, id=60, 160.6pt x 240.9pt>
+<img/198023-8-color.jpg, id=61, 160.6pt x 240.9pt>
 File: img/198023-8-color.jpg Graphic file (type jpg)
 
 <use img/198023-8-color.jpg>
 Package pdftex.def Info: img/198023-8-color.jpg used on input line 110.
 (pdftex.def)             Requested size: 113.81102pt x 170.72038pt.
- <img/198023-8.jpg, id=61, 160.6pt x 240.9pt>
+ <img/198023-8.jpg, id=62, 160.6pt x 240.9pt>
 File: img/198023-8.jpg Graphic file (type jpg)
 
 <use img/198023-8.jpg>
 Package pdftex.def Info: img/198023-8.jpg used on input line 111.
 (pdftex.def)             Requested size: 113.81102pt x 170.72038pt.
- <img/198023-16.jpg, id=62, 160.6pt x 240.9pt>
+ <img/198023-16.jpg, id=63, 160.6pt x 240.9pt>
 File: img/198023-16.jpg Graphic file (type jpg)
 
 <use img/198023-16.jpg>
@@ -928,7 +947,7 @@ Package pdftex.def Info: img/198023-16.jpg used on input line 112.
 
 ] [14 <./img/198023.jpg> <./img/198023-8-color.jpg> <./img/198023-8.jpg> <./img
 /198023-16.jpg>]
-<img/101087.jpg, id=69, 322.20375pt x 482.80376pt>
+<img/101087.jpg, id=70, 322.20375pt x 482.80376pt>
 File: img/101087.jpg Graphic file (type jpg)
  <use img/101087.jpg>
 Package pdftex.def Info: img/101087.jpg used on input line 128.
@@ -1004,18 +1023,19 @@ Here is how much of TeX's memory you used:
  14275 multiletter control sequences out of 15000+600000
  13685 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,9n,43p,1218b,839s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 44i,9n,43p,1218b,841s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
-</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
-/usr/local/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></u
-sr/local/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr
-/local/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/l
-ocal/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/loc
-al/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb>
-Output written on main.pdf (24 pages, 473884 bytes).
+</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></
+usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></u
+sr/local/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr
+/local/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/l
+ocal/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/loc
+al/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local
+/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb>
+Output written on main.pdf (24 pages, 481642 bytes).
 PDF statistics:
- 118 PDF objects out of 1000 (max. 8388607)
- 74 compressed objects within 1 object stream
+ 122 PDF objects out of 1000 (max. 8388607)
+ 77 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
