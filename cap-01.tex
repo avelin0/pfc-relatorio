@@ -89,7 +89,7 @@ A segmentação de imagens tem como uma de suas interpretações como a divisão
 \item Robótica.
 \end{itemize}
 
-\section{Segmentação para seres humanos e para computadores}
+\section{Segmentação para seres humanos e para computadores}\label{sec:segmenthm}
 Para seres humanos, a identificação de regiões similares ou objetos diferentes presentes em uma imagem é um processo fácil. Nosso sistema cognitivo auxiliado por nosso sistema visual nos permite reconhecer e segmentar os objetos de forma instantânea sem nos darmos conta desse processo. Além disso, usamos a segmentação por distância como técnica auxiliar , uma vez que nossa visão estereoscópica nos fornece informação de profundidade.
 No caso de computadores, essa tarefa se torna mais complexa, pois envolve a análise de características de cada pixel ou da distribuição da população de pixels. Para isso, deve-se implementar algoritmos de segmentação, os quais serão explorados com maior profundidade nas seções subsequentes dessa pesquisa. A Figura \ref{fig:Berkeley_mulher} exibe uma imagem que foi manualmente segmentada por 4 seres humanos. É possível notar que cada pessoa não identificou como "relevantes" as mesmas áreas, conforme ilustrado pela Figura \ref{fig:Berkeley_mulher_segmentada}. 
 
@@ -123,7 +123,7 @@ No caso de computadores, essa tarefa se torna mais complexa, pois envolve a aná
  \includegraphics[width=0.2\textwidth]{img/198023-22.jpg}  \qquad
   \includegraphics[width=0.2\textwidth]{img/198023-26-color.jpg}  \qquad
  \includegraphics[width=0.2\textwidth]{img/198023-26.jpg}        
- \caption{\label{fig:Berkeley_mulher_segmentada}Imagens segmentadas por seres humanos, gerando 22 e 26 segmentos nas duas primeiras imagens e nas duas últimas, respectivamente.\citep{Arbelez2011}.}
+ \caption{\label{fig:Berkeley_mulher_segmentada2}Imagens segmentadas por seres humanos, gerando 22 e 26 segmentos nas duas primeiras imagens e nas duas últimas, respectivamente.\citep{Arbelez2011}.}
  %\vspace{2.0em}
 \end{figure}
 
@@ -137,7 +137,7 @@ O mesmo problema ocorre de forma mais acentuada com relação aos diferentes alg
   \begin{figure}[!htb]
        \begin{center}  
           \includegraphics[width=0.3\columnwidth]{img/101087.jpg}
-           \caption{\label{fig:Berkeley_mulher}Imagem original\citep{berkeley}.}
+           \caption{\label{fig:indio}Imagem original\citep{berkeley}.}
            % \vspace{2.0em}
        \end{center}
    \end{figure}
@@ -152,7 +152,7 @@ O mesmo problema ocorre de forma mais acentuada com relação aos diferentes alg
  \includegraphics[width=0.2\textwidth]{img/101087-80.jpg}  \qquad 
   \includegraphics[width=0.2\textwidth]{img/101087-82.jpg}  \qquad
  \includegraphics[width=0.2\textwidth]{img/101087-85.jpg}        
- \caption{\label{fig:indio}Resultados de 4 algoritmo de detec\c{c}\~{a}o de bordas \citep{berkeley}.}
+ \caption{\label{fig:indiosegmentado}Resultados de 4 algoritmo de detec\c{c}\~{a}o de bordas \citep{berkeley}.}
  %\vspace{2.0em}
 \end{figure}
  % Figura -----------------------------------------------------------------------------------------------------------------------------
@@ -184,12 +184,12 @@ Busca dividir a imagem em duas categorias: objetos (foreground) e plano de fundo
 Cada pixel é alocado a uma categoria de acordo com seu valor em níveis de cinza.
 
 Dado um limiar T (threshold), o pixel com valor $f_i_j$  e localizado na posição (i,j)  é alocado à:
-
+\\
 \begin{cases}
 $  categoria 1, se: f_{ij} $\leq$ T. $ \\
 $  categoria 2, caso contrário. $ \\
 \end{cases}
-
+\\
 O limiar T pode ser escolhido manualmente, tentando diferentes valores de T e analisando qual deles é mais eficiente na identificação dos objetos de interesse.
 O threshold T também pode ser escolhido a partir do Histograma da imagem, e escolhe-se T como o valor entre as duas distribuições de cinza.
 
@@ -228,7 +228,7 @@ Divide-se a imagem em regiões distintas e adota-se um valor T para cada uma del
        \end{center}
    \end{figure}
    
-   Pode-se observar pela figura \ref{fig:einsteinlocal} que houve a separação em mais regiões nesse método do que em \ref{fig:einsteinglobal}, já que foi usado um limiar mais apropriado a cada região.
+   Pode-se observar pela figura \ref{fig:einsteinlocal} que houve a separação em mais regiões nesse método do que na figura \ref{fig:einsteinglobal}, já que foi usado um limiar mais apropriado a cada região.
 
 \subsection{Baseado em Bordas}
 Primeiramente, classifica-se os pixels como “borda” ou “não-borda”.
@@ -236,15 +236,27 @@ Depois, divide-se a imagem em regiões, baseado nas bordas detectadas.
 
 As bordas são identificadas por meio das descontinuidades, isto é, variações abruptas nos valores dos pixels. 
 
-\textcolor{red}{EXEMPLOS e as REFERENCIAS, se for o caso}
+Como pode-se perceber na figura \ref{fig:smandrill}, por esse método houve a segmentação da imagem de um macaco em regiões de olhos, nariz e outras partes. 
+
+% ------------------------------------------------------------------------------------------------------------
+% Figura 
+\begin{figure}[!htb]
+ \centering
+ \def\baselinestretch{1}\small\normalsize
+ \includegraphics[width=0.4\textwidth]{img/stf-smandrill.jpg}\qquad
+ \includegraphics[width=0.4\textwidth]{img/stf-smandrill-edgedetect.jpg} 
+ \caption{\label{fig:smandrill} Uma imagem de um macaco \citep{stanford} à esquerda e à direita segmentada pelo método de detecção de bordas em linguagem de programação python.}
+ %\vspace{2.0em}
+\end{figure}
 
 
 \subsection{Baseado em Regiões}
 \subsubsection*{O que é uma região?}
 Uma região pode ser “definida” como um grupo de pixels conectados com propriedades similares.
-Porém, é um conceito importante e difícil de definir, já que depende da interpretação do que seria uma região  em determinado caso, conforme ilustrado no capitulo \ref{cap:segmentacao} pelas Figuras \ref{fig:Berkeley_mulher_segmentada} e \ref{fig:indio}.
 
-\textcolor{red}{EXEMPLOS}
+Porém, é um conceito importante e difícil de definir, já que depende da interpretação do que seria uma região  em determinado caso.
+
+Pelas figuras da seção \ref{sec:segmenthm} do capitulo \ref{cap:segmentacao}, nota-se as diferentes interpretações do conceito de região pelas diferentes quantidades de regiões notadas por humanos nas Figuras \ref{fig:Berkeley_mulher_segmentada} e \ref{fig:Berkeley_mulher_segmentada2}. Tal fato também acontece com os computadores, como nota-se pelas figuras \ref{fig:indiosegmentado}.
 
 \subsubsection{Split and Merge}
 \subsubsection*{Procedimento}
@@ -258,7 +270,7 @@ As etapas fundamentais deste algoritmo segundo  são:
     \item Repetir Passo 5 até que não se consiga mais agrupar.
 \end{enumerate}
 
-\subsubsection*{EXEMPLO - SPLIT AND MERGE}
+\subsubsection*{EXEMPLO - QUADTREE}
 Um exemplo de segmentação baseada em região Split and Merge é o algoritmo quadtree. A figura \ref{fig:aral} abaixo ilustra a segmentação de imagem por este algoritmo, e observa-se a segmentação da região que contém água na figura.
 
 % ------------------------------------------------------------------------------------------------------------
@@ -282,7 +294,7 @@ As etapas fundamentais deste algoritmo são:
 \end{enumerate}
 
 \subsubsection*{EXEMPLO - WATERSHEED}
-Um exemplo de segmentação baseada em região Region growing é o algoritmo watershed. A figura \ref{fig:coins} abaixo ilustra a segmentação de imagem por este algoritmo, e observa-se que regiões distintas correspondentes à cada moeda da figura.
+Um exemplo de segmentação baseada no método Region growing é o algoritmo watershed. A figura \ref{fig:coins} abaixo ilustra a segmentação de imagem por este algoritmo, e observa-se regiões distintas correspondentes à cada moeda da figura.
 
 % ------------------------------------------------------------------------------------------------------------
 % Figura 

@@ -12,7 +12,7 @@
 \contentsline {subsection}{\numberline {3.0.1}Thresholding}{16}
 \contentsline {subsection}{\numberline {3.0.2}Baseado em Bordas}{18}
 \contentsline {subsection}{\numberline {3.0.3}Baseado em Regi\IeC {\~o}es}{18}
-\contentsline {subsubsection}{\numberline {3.0.3.1}Split and Merge}{18}
+\contentsline {subsubsection}{\numberline {3.0.3.1}Split and Merge}{19}
 \contentsline {subsubsection}{\numberline {3.0.3.2}Region growing (abordagem bottom-up)}{19}
 \contentsline {chapter}{\numberline {4\ }\bf Ferramentas}{21}
 \contentsline {chapter}{\numberline {5\ }\bf Cronograma}{22}

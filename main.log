@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.16)  12 MAY 2017 23:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.16)  13 MAY 2017 00:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -699,14 +699,7 @@ Package geometry Warning: Over-specification in `h'-direction.
 Package geometry Warning: Over-specification in `v'-direction.
     `height' (688.55669pt) is ignored.
 
-(./main.aux (./dados-pfc.aux) (./pre-texto.aux) (./cap-01.aux
-
-LaTeX Warning: Label `fig:Berkeley_mulher_segmentada' multiply defined.
-
-
-LaTeX Warning: Label `fig:Berkeley_mulher' multiply defined.
-
-))
+(./main.aux (./dados-pfc.aux) (./pre-texto.aux) (./cap-01.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 88.
@@ -721,7 +714,8 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 88.
 LaTeX Font Info:    ... okay on input line 88.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 88.
 LaTeX Font Info:    ... okay on input line 88.
- (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+
+(/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count157
 \scratchdimen=\dimen144
@@ -1081,34 +1075,49 @@ d on input line 225.
 
 ] [17 <./img/einstein.jpg> <./img/einstein-globalthresholding127.jpg> <./img/ei
 nstein-localthresholding-adaptivegausian.jpg>]
-<img/stf-aral1997.jpg, id=95, 451.6875pt x 325.215pt>
+<img/stf-smandrill.jpg, id=95, 256.96pt x 256.96pt>
+File: img/stf-smandrill.jpg Graphic file (type jpg)
+
+<use img/stf-smandrill.jpg>
+Package pdftex.def Info: img/stf-smandrill.jpg used on input line 246.
+(pdftex.def)             Requested size: 182.09486pt x 182.09782pt.
+
+<img/stf-smandrill-edgedetect.jpg, id=96, 284.06125pt x 284.06125pt>
+File: img/stf-smandrill-edgedetect.jpg Graphic file (type jpg)
+
+<use img/stf-smandrill-edgedetect.jpg>
+Package pdftex.def Info: img/stf-smandrill-edgedetect.jpg used on input line 24
+7.
+(pdftex.def)             Requested size: 182.09486pt x 182.10197pt.
+ [18 <./img/stf-smandrill.jpg> <./img/stf-smandrill-edgedetect.jpg>]
+<img/stf-aral1997.jpg, id=100, 451.6875pt x 325.215pt>
 File: img/stf-aral1997.jpg Graphic file (type jpg)
 
 <use img/stf-aral1997.jpg>
-Package pdftex.def Info: img/stf-aral1997.jpg used on input line 269.
+Package pdftex.def Info: img/stf-aral1997.jpg used on input line 281.
 (pdftex.def)             Requested size: 182.09486pt x 131.1109pt.
 
-<img/stf-aral1997-quadtree.jpg, id=96, 452.69125pt x 326.21875pt>
+<img/stf-aral1997-quadtree.jpg, id=101, 452.69125pt x 326.21875pt>
 File: img/stf-aral1997-quadtree.jpg Graphic file (type jpg)
 
 <use img/stf-aral1997-quadtree.jpg>
-Package pdftex.def Info: img/stf-aral1997-quadtree.jpg used on input line 270.
+Package pdftex.def Info: img/stf-aral1997-quadtree.jpg used on input line 282.
 (pdftex.def)             Requested size: 182.09486pt x 131.22188pt.
- [18]
-<img/stf-coins.jpg, id=100, 258.9675pt x 195.73125pt>
+ [19 <./img/stf-aral1997.jpg> <./img/stf-aral1997-quadtree.jpg>] <img/stf-coins
+.jpg, id=105, 258.9675pt x 195.73125pt>
 File: img/stf-coins.jpg Graphic file (type jpg)
- <use img/stf-coins.jpg>
-Package pdftex.def Info: img/stf-coins.jpg used on input line 292.
+
+<use img/stf-coins.jpg>
+Package pdftex.def Info: img/stf-coins.jpg used on input line 304.
 (pdftex.def)             Requested size: 182.09486pt x 137.63513pt.
 
-<img/stf-coins-watersheed.jpg, id=101, 626.34pt x 472.76625pt>
+<img/stf-coins-watersheed.jpg, id=106, 626.34pt x 472.76625pt>
 File: img/stf-coins-watersheed.jpg Graphic file (type jpg)
 
 <use img/stf-coins-watersheed.jpg>
-Package pdftex.def Info: img/stf-coins-watersheed.jpg used on input line 293.
+Package pdftex.def Info: img/stf-coins-watersheed.jpg used on input line 305.
 (pdftex.def)             Requested size: 182.09486pt x 137.44496pt.
- [19 <./img/stf-aral1997.jpg> <./img/stf-aral1997-quadtree.jpg>] [20 <./img/stf
--coins.jpg> <./img/stf-coins-watersheed.jpg>]
+ [20 <./img/stf-coins.jpg> <./img/stf-coins-watersheed.jpg>]
 CAP{\'I}TULO 4.
 [21
 
@@ -1144,15 +1153,12 @@ AED: lastpage setting LastPage
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.2pt have occurred.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
  ) 
 Here is how much of TeX's memory you used:
- 11062 strings out of 493014
- 183399 string characters out of 6133350
- 344760 words of memory out of 5000000
- 14346 multiletter control sequences out of 15000+600000
+ 11076 strings out of 493014
+ 183778 string characters out of 6133350
+ 344763 words of memory out of 5000000
+ 14358 multiletter control sequences out of 15000+600000
  13685 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,9n,43p,1218b,841s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1166,10 +1172,10 @@ ocal/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/loc
 al/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local
 /texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/t
 exlive/2016/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb>
-Output written on main.pdf (26 pages, 1073135 bytes).
+Output written on main.pdf (26 pages, 1169402 bytes).
 PDF statistics:
- 153 PDF objects out of 1000 (max. 8388607)
+ 155 PDF objects out of 1000 (max. 8388607)
  88 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 121 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 131 words of extra memory for PDF output out of 10000 (max. 10000000)
 
