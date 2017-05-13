@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.16)  12 MAY 2017 22:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.16)  12 MAY 2017 22:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1017,20 +1017,34 @@ Package pdftex.def Info: img/101087-85.jpg used on input line 154.
 CAP{\'I}TULO 3.
 [16
 
-] [17] <img/stf-coins.jpg, id=90, 258.9675pt x 195.73125pt>
-File: img/stf-coins.jpg Graphic file (type jpg)
+] <img/stf-aral1997.jpg, id=86, 451.6875pt x 325.215pt>
+File: img/stf-aral1997.jpg Graphic file (type jpg)
 
-<use img/stf-coins.jpg>
-Package pdftex.def Info: img/stf-coins.jpg used on input line 248.
+<use img/stf-aral1997.jpg>
+Package pdftex.def Info: img/stf-aral1997.jpg used on input line 237.
+(pdftex.def)             Requested size: 182.09486pt x 131.1109pt.
+
+<img/stf-aral1997-quadtree.jpg, id=87, 452.69125pt x 326.21875pt>
+File: img/stf-aral1997-quadtree.jpg Graphic file (type jpg)
+
+<use img/stf-aral1997-quadtree.jpg>
+Package pdftex.def Info: img/stf-aral1997-quadtree.jpg used on input line 238.
+(pdftex.def)             Requested size: 182.09486pt x 131.22188pt.
+ [17]
+<img/stf-coins.jpg, id=92, 258.9675pt x 195.73125pt>
+File: img/stf-coins.jpg Graphic file (type jpg)
+ <use img/stf-coins.jpg>
+Package pdftex.def Info: img/stf-coins.jpg used on input line 260.
 (pdftex.def)             Requested size: 182.09486pt x 137.63513pt.
 
-<img/stf-coins-watersheed.jpg, id=91, 626.34pt x 472.76625pt>
+<img/stf-coins-watersheed.jpg, id=93, 626.34pt x 472.76625pt>
 File: img/stf-coins-watersheed.jpg Graphic file (type jpg)
 
 <use img/stf-coins-watersheed.jpg>
-Package pdftex.def Info: img/stf-coins-watersheed.jpg used on input line 249.
+Package pdftex.def Info: img/stf-coins-watersheed.jpg used on input line 261.
 (pdftex.def)             Requested size: 182.09486pt x 137.44496pt.
- [18 <./img/stf-coins.jpg> <./img/stf-coins-watersheed.jpg>]
+ [18 <./img/stf-aral1997.jpg> <./img/stf-aral1997-quadtree.jpg> <./img/stf-coin
+s.jpg> <./img/stf-coins-watersheed.jpg>]
 CAP{\'I}TULO 4.
 [19
 
@@ -1071,10 +1085,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 11033 strings out of 493014
- 182496 string characters out of 6133350
- 344716 words of memory out of 5000000
- 14322 multiletter control sequences out of 15000+600000
+ 11044 strings out of 493014
+ 182781 string characters out of 6133350
+ 344727 words of memory out of 5000000
+ 14331 multiletter control sequences out of 15000+600000
  13685 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,9n,43p,1218b,841s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1086,10 +1100,10 @@ sr/local/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr
 ocal/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/loc
 al/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local
 /texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb>
-Output written on main.pdf (24 pages, 720297 bytes).
+Output written on main.pdf (24 pages, 890094 bytes).
 PDF statistics:
- 133 PDF objects out of 1000 (max. 8388607)
+ 135 PDF objects out of 1000 (max. 8388607)
  77 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 96 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 106 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -225,8 +225,20 @@ As etapas fundamentais deste algoritmo segundo  são:
     \item Comparar sub-imagens com suas regiões vizinhas e agrupá-las se forem homogêneas.
     \item Repetir Passo 5 até que não se consiga mais agrupar.
 \end{enumerate}
-Um exemplo de segmentação baseada em região Split and Merge é o algoritmo quadtree.
 
+\subsubsection*{EXEMPLO - SPLIT AND MERGE}
+Um exemplo de segmentação baseada em região Split and Merge é o algoritmo quadtree. A figura \ref{fig:aral} abaixo ilustra a segmentação de imagem por este algoritmo, e observa-se a segmentação da região que contém água na figura.
+
+% ------------------------------------------------------------------------------------------------------------
+% Figura 
+\begin{figure}[!htb]
+ \centering
+ \def\baselinestretch{1}\small\normalsize
+ \includegraphics[width=0.4\textwidth]{img/stf-aral1997.jpg}\qquad
+ \includegraphics[width=0.4\textwidth]{img/stf-aral1997-quadtree.jpg} 
+ \caption{\label{fig:aral}Uma representação visual de uma região \citep{stanford} à esquerda e à direita segmentada pelo algoritmo quadtree em linguagem de programação python.}
+ %\vspace{2.0em}
+\end{figure}
 
 \subsubsection{Region growing (abordagem bottom-up)}
 \subsubsection*{Procedimento}
