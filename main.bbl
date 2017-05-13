@@ -1,7 +1,21 @@
-\begin{thethesisbibliography}{4}
+\begin{thethesisbibliography}{7}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{{\tt #1}}\fi
+
+\bibitem[Android(2017{\natexlab{a}}){\MakeUppercase{Android}}]{ndk}
+{\MakeUppercase{Developers Android}}.
+\newblock
+\newblock Primeiros passos com o NDK. Disponível em:
+  <https://developer.android.com/ndk/guides/index.html?hl=pt-br>. Acesso em: 10
+  mai. de 2017.
+
+\bibitem[Android(2017{\natexlab{b}}){\MakeUppercase{Android}}]{androidstudio}
+{\MakeUppercase{Developers Android}}.
+\newblock
+\newblock Tudo de que você precisa para criar aplicativos no Android.
+  Disponível em: <https://developer.android.com/studio/features.html>. Acesso
+  em: 10 mai. de 2017.
 
 \bibitem[Arbelaez \NATetal{}(2011){\MakeUppercase{Arbelaez}},
   {\MakeUppercase{Maire}}, {\MakeUppercase{Fowlkes}}  e
@@ -20,6 +34,12 @@
 \newblock Berkeley Segmentation Dataset. Disponível em:
   <https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/bsds/BSDS300>.
   Acesso em: 10 mai. de 2017.
+
+\bibitem[OpenCV(2017){\MakeUppercase{OpenCV}}]{opencv}
+{\MakeUppercase{OpenCV}}.
+\newblock
+\newblock OpenCV About. Disponível em: <http://opencv.org/about.html>. Acesso
+  em: 10 mai. de 2017.
 
 \bibitem[Poggio \NATetal{}(1985){\MakeUppercase{Poggio}},
   {\MakeUppercase{Torre}}  e {\MakeUppercase{Koch}}]{Poggio1985}
