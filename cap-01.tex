@@ -227,8 +227,6 @@ As etapas fundamentais deste algoritmo segundo  são:
 \end{enumerate}
 Um exemplo de segmentação baseada em região Split and Merge é o algoritmo quadtree.
 
-\textcolor{red}{EXEMPLOS}
-
 
 \subsubsection{Region growing (abordagem bottom-up)}
 \subsubsection*{Procedimento}
@@ -238,9 +236,24 @@ As etapas fundamentais deste algoritmo são:
     \item Incluir pixels vizinhos com características similares (nível de cinza, textura, cor, etc).
     \item Continuar até que todos os pixels estejam associados com um dos pontos de partida.
 \end{enumerate}
-Um exemplo de segmentação baseada em região Region growing é o algoritmo watershed.
 
-\textcolor{red}{EXEMPLOS}
+\subsubsection*{EXEMPLO - WATERSHEED}
+Um exemplo de segmentação baseada em região Region growing é o algoritmo watershed. 
+
+% ------------------------------------------------------------------------------------------------------------
+% Figura 
+\begin{figure}[!htb]
+ \centering
+ \def\baselinestretch{1}\small\normalsize
+ \includegraphics[width=0.4\textwidth]{img/stf-coins.jpg}\qquad
+ \includegraphics[width=0.4\textwidth]{img/stf-coins-watersheed.jpg} 
+ \caption{\label{fig:coins}Imagem de uma moeda à esquerda e à direita segmentada pelo algoritmo watersheed em linguagem de programação python.}
+ %\vspace{2.0em}
+\end{figure}
+ 
+% Stanford DataSet
+%  https://scien.stanford.edu/index.php/test-images-and-videos/
+ 
 
 
 \chapter{Ferramentas}
