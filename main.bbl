@@ -1,4 +1,4 @@
-\begin{thethesisbibliography}{3}
+\begin{thethesisbibliography}{4}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{{\tt #1}}\fi
@@ -13,19 +13,13 @@
   Transactions on Pattern Analysis and Machine Intelligence}, v. 33, n. 5, p.
   898--916, 2011.
 
-\bibitem[Dataset\NATand{} Benchmark(){\MakeUppercase{Dataset}} e
+\bibitem[Dataset\NATand{} Benchmark(2017){\MakeUppercase{Dataset}} e
   {\MakeUppercase{Benchmark}}]{berkeley}
-{\MakeUppercase{Dataset, T. B.~S.}}; {\MakeUppercase{Benchmark}}.
+{\MakeUppercase{The Berkeley Segmentation Dataset and Benchmark}}.
 \newblock
-\newblock Berkeley segmentation dataset. {\color{red}ERRO (arquivo refs.bib):
-  falta campo {\MakeUppercase{journal}} em @\{{\MakeUppercase{berkeley}}},
-  {\color{red}ERRO (arquivo refs.bib): falta campo {\MakeUppercase{volume}} em
-  @\{{\MakeUppercase{berkeley}}}, {\color{red}ERRO (arquivo refs.bib): falta
-  campo {\MakeUppercase{year}} em @\{{\MakeUppercase{berkeley}}}. Disponível
-  em:
+\newblock Berkeley Segmentation Dataset. Disponível em:
   <https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/bsds/BSDS300>.
-  {\color{red}ERRO (arquivo refs.bib): falta campo {\MakeUppercase{note}} em
-  @\{{\MakeUppercase{berkeley}}}.
+  Acesso em: 10 mai. de 2017.
 
 \bibitem[Poggio \NATetal{}(1985){\MakeUppercase{Poggio}},
   {\MakeUppercase{Torre}}  e {\MakeUppercase{Koch}}]{Poggio1985}
@@ -34,5 +28,12 @@
 \newblock
 \newblock Computational vision and regularization theory. {\bf Nature}, v. 317,
   n. 26, p. 314--319, 1985.
+
+\bibitem[Stanford(2017){\MakeUppercase{Stanford}}]{stanford}
+{\MakeUppercase{Stanford}}.
+\newblock
+\newblock The Stanford Center for Image Systems Engineering. Disponível em:
+  <https://scien.stanford.edu/index.php/test-images-and-videos/>. Acesso em: 10
+  mai. de 2017.
 
 \end{thethesisbibliography}

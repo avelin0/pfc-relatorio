@@ -9,7 +9,7 @@
 \contentsline {figure}{\numberline {2.4}{\ignorespaces Imagem original\citep {berkeley}.}}{14}
 \contentsline {figure}{\numberline {2.5}{\ignorespaces Resultados de 4 algoritmo de detec\c {c}\~{a}o de bordas \citep {berkeley}.}}{14}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Imagem de uma moeda \IeC {\`a} esquerda e \IeC {\`a} direita segmentada pelo algoritmo watersheed em linguagem de programa\IeC {\c c}\IeC {\~a}o python.}}{17}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Imagem de uma moeda \citep {stanford} \IeC {\`a} esquerda e \IeC {\`a} direita segmentada pelo algoritmo watersheed em linguagem de programa\IeC {\c c}\IeC {\~a}o python.}}{18}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
