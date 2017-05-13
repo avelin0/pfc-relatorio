@@ -1,12 +1,13 @@
 \select@language {brazilian}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Tela do Aplicativo Android (imagem original e imagem segmentada).}}{10}
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Diagrama em Blocos do Projeto.}}{11}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Tela do Aplicativo Android (imagem original e imagem segmentada).}}{9}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Diagrama em Blocos do Projeto.}}{10}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Imagem original\citep {Arbelez2011}.}}{14}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Imagens segmentadas por seres humanos, gerando 8 e 16 segmentos nas duas primeiras imagens e nas duas \IeC {\'u}ltimas, respectivamente.\citep {Arbelez2011}.}}{14}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Imagens segmentadas por seres humanos, gerando 22 e 26 segmentos nas duas primeiras imagens e nas duas \IeC {\'u}ltimas, respectivamente.\citep {Arbelez2011}.}}{14}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Resultados de 4 algoritmo de detec\c {c}\~{a}o de bordas \citep {berkeley}.}}{15}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Imagem original\citep {Arbelez2011}.}}{13}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Imagens segmentadas por seres humanos, gerando 8 e 16 segmentos nas duas primeiras imagens e nas duas \IeC {\'u}ltimas, respectivamente.\citep {Arbelez2011}.}}{13}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Imagens segmentadas por seres humanos, gerando 22 e 26 segmentos nas duas primeiras imagens e nas duas \IeC {\'u}ltimas, respectivamente.\citep {Arbelez2011}.}}{13}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Imagem original\citep {berkeley}.}}{14}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Resultados de 4 algoritmo de detec\c {c}\~{a}o de bordas \citep {berkeley}.}}{14}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
