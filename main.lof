@@ -9,8 +9,11 @@
 \contentsline {figure}{\numberline {2.4}{\ignorespaces Imagem original\citep {berkeley}.}}{14}
 \contentsline {figure}{\numberline {2.5}{\ignorespaces Resultados de 4 algoritmo de detec\c {c}\~{a}o de bordas \citep {berkeley}.}}{14}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Uma representa\IeC {\c c}\IeC {\~a}o visual de uma regi\IeC {\~a}o \citep {stanford} \IeC {\`a} esquerda e \IeC {\`a} direita segmentada pelo algoritmo quadtree em linguagem de programa\IeC {\c c}\IeC {\~a}o python.}}{18}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Imagem de uma moeda \citep {stanford} \IeC {\`a} esquerda e \IeC {\`a} direita segmentada pelo algoritmo watersheed em linguagem de programa\IeC {\c c}\IeC {\~a}o python.}}{18}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Imagem original\citep {stanford}.}}{17}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Imagem segmentada pelo algoritmo threshold global.}}{17}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Imagem segmentada pelo m\IeC {\'e}todo de segmenta\IeC {\c c}\IeC {\~a}o thresholding local, chamado de adaptive gaussian thresholding.}}{17}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Uma representa\IeC {\c c}\IeC {\~a}o visual de uma regi\IeC {\~a}o \citep {stanford} \IeC {\`a} esquerda e \IeC {\`a} direita segmentada pelo algoritmo quadtree em linguagem de programa\IeC {\c c}\IeC {\~a}o python.}}{19}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Imagem de uma moeda \citep {stanford} \IeC {\`a} esquerda e \IeC {\`a} direita segmentada pelo algoritmo watersheed em linguagem de programa\IeC {\c c}\IeC {\~a}o python.}}{20}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

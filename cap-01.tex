@@ -180,23 +180,55 @@ Este capitulo descreve 4 técnicas de segmentação de imagens, sendo a por limi
 
 \subsection{Thresholding}
 É o método mais simples de segmentação de imagens.
-Busca dividir a imagem em duas categorias: objetos (foreground) e background. 
+Busca dividir a imagem em duas categorias: objetos (foreground) e plano de fundo (background). 
 Cada pixel é alocado a uma categoria de acordo com seu valor em níveis de cinza.
 
-Dado um threshold T, o pixel localizado na posição (i,j) com valor fij é alocado à categoria 1 se: fij $\leq$ T.Caso contrário, o pixel é alocado à categoria 2.
+Dado um limiar T (threshold), o pixel com valor $f_i_j$  e localizado na posição (i,j)  é alocado à:
 
-O threshold T pode ser escolhido manualmente, tentando diferentes valores de T e analisando qual deles é mais eficiente na identificação dos objetos de interesse.
-O threshold T também pode ser escolhido a partir do Histograma da imagem.
+\begin{cases}
+$  categoria 1, se: f_{ij} $\leq$ T. $ \\
+$  categoria 2, caso contrário. $ \\
+\end{cases}
 
-Escolhe-se T como o valor entre as duas distribuições de cinza.
+O limiar T pode ser escolhido manualmente, tentando diferentes valores de T e analisando qual deles é mais eficiente na identificação dos objetos de interesse.
+O threshold T também pode ser escolhido a partir do Histograma da imagem, e escolhe-se T como o valor entre as duas distribuições de cinza.
 
-\textcolor{red}{EXEMPLOS}
+A seguir há a figura \ref{fig:einstein}, uma imagem original do Einstein,  e as duas formas de segmentação de imagens por limiar (thresholding). Enquanto na figura \ref{fig:einsteinglobal} há um limiar T fixo , na  figura \ref{fig:einsteinlocal} ele é variável.
 
 \subsection*{Threshold Global}
 O mesmo valor de T é usado para a imagem inteira.
 
+% Figura 
+  \begin{figure}[!htb]
+       \begin{center}  
+          \includegraphics[width=0.3\columnwidth]{img/einstein.jpg}
+           \caption{\label{fig:einstein}Imagem original\citep{stanford}.}
+           % \vspace{2.0em}
+       \end{center}
+   \end{figure}
+
+% Figura 
+  \begin{figure}[!htb]
+       \begin{center}  
+          \includegraphics[width=0.3\columnwidth]{img/einstein-globalthresholding127.jpg}
+           \caption{\label{fig:einsteinglobal}Imagem segmentada pelo algoritmo threshold global.}
+           % \vspace{2.0em}
+       \end{center}
+   \end{figure}
+
 \subsection*{Threshold Local (ou dinâmico)}
-Divide-se a imagem em regiões distintas e adota-se um valor T para cada uma delas, onde esse valor funcionará como Threshold Global.
+Divide-se a imagem em regiões distintas e adota-se um valor T para cada uma delas, onde esse valor funcionará como threshold local. 
+
+% Figura 
+  \begin{figure}[!htb]
+       \begin{center}  
+          \includegraphics[width=0.3\columnwidth]{img/einstein-localthresholding-adaptivegausian.jpg}
+           \caption{\label{fig:einsteinlocal}Imagem segmentada pelo método de segmentação thresholding local, chamado de adaptive gaussian  thresholding.}
+           % \vspace{2.0em}
+       \end{center}
+   \end{figure}
+   
+   Pode-se observar pela figura \ref{fig:einsteinlocal} que houve a separação em mais regiões nesse método do que em \ref{fig:einsteinglobal}, já que foi usado um limiar mais apropriado a cada região.
 
 \subsection{Baseado em Bordas}
 Primeiramente, classifica-se os pixels como “borda” ou “não-borda”.

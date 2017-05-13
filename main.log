@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.16)  12 MAY 2017 22:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.16)  12 MAY 2017 23:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1015,44 +1015,108 @@ Package pdftex.def Info: img/101087-85.jpg used on input line 154.
 [14 <./img/101087.jpg> <./img/101087-77.jpg> <./img/101087-80.jpg> <./img/10108
 7-82.jpg> <./img/101087-85.jpg>] [15]
 CAP{\'I}TULO 3.
-[16
+! Double subscript.
+l.186 ...ar T (threshold), o pixel com valor $f_i_
+                                                  j$  e localizado na posiç...
+I treat `x_1_2' essentially like `x_1{}_2'.
 
-] <img/stf-aral1997.jpg, id=86, 451.6875pt x 325.215pt>
+! Missing $ inserted.
+<inserted text> 
+                $
+l.188 \begin{cases}
+                   
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.189 $  categoria 1, se: f_
+                            {ij} $\leq$ T. $ \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.189 $  categoria 1, se: f_{ij} $\leq
+                                      $ T. $ \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.191 \end{cases}
+                 
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+<img/einstein.jpg, id=83, 256.96pt x 256.96pt>
+File: img/einstein.jpg Graphic file (type jpg)
+ <use img/einstein.jpg>
+Package pdftex.def Info: img/einstein.jpg used on input line 204.
+(pdftex.def)             Requested size: 136.57462pt x 136.57631pt.
+
+<img/einstein-globalthresholding127.jpg, id=84, 449.68pt x 447.6725pt>
+File: img/einstein-globalthresholding127.jpg Graphic file (type jpg)
+
+<use img/einstein-globalthresholding127.jpg>
+Package pdftex.def Info: img/einstein-globalthresholding127.jpg used on input l
+ine 213.
+(pdftex.def)             Requested size: 136.57462pt x 135.96269pt.
+
+<img/einstein-localthresholding-adaptivegausian.jpg, id=85, 451.6875pt x 447.67
+25pt>
+File: img/einstein-localthresholding-adaptivegausian.jpg Graphic file (type jpg
+)
+ <use img/einstein-localthresholding-adaptivegausian.jpg>
+Package pdftex.def Info: img/einstein-localthresholding-adaptivegausian.jpg use
+d on input line 225.
+(pdftex.def)             Requested size: 136.57462pt x 135.36157pt.
+ [16
+
+] [17 <./img/einstein.jpg> <./img/einstein-globalthresholding127.jpg> <./img/ei
+nstein-localthresholding-adaptivegausian.jpg>]
+<img/stf-aral1997.jpg, id=95, 451.6875pt x 325.215pt>
 File: img/stf-aral1997.jpg Graphic file (type jpg)
 
 <use img/stf-aral1997.jpg>
-Package pdftex.def Info: img/stf-aral1997.jpg used on input line 237.
+Package pdftex.def Info: img/stf-aral1997.jpg used on input line 269.
 (pdftex.def)             Requested size: 182.09486pt x 131.1109pt.
 
-<img/stf-aral1997-quadtree.jpg, id=87, 452.69125pt x 326.21875pt>
+<img/stf-aral1997-quadtree.jpg, id=96, 452.69125pt x 326.21875pt>
 File: img/stf-aral1997-quadtree.jpg Graphic file (type jpg)
 
 <use img/stf-aral1997-quadtree.jpg>
-Package pdftex.def Info: img/stf-aral1997-quadtree.jpg used on input line 238.
+Package pdftex.def Info: img/stf-aral1997-quadtree.jpg used on input line 270.
 (pdftex.def)             Requested size: 182.09486pt x 131.22188pt.
- [17]
-<img/stf-coins.jpg, id=92, 258.9675pt x 195.73125pt>
+ [18]
+<img/stf-coins.jpg, id=100, 258.9675pt x 195.73125pt>
 File: img/stf-coins.jpg Graphic file (type jpg)
  <use img/stf-coins.jpg>
-Package pdftex.def Info: img/stf-coins.jpg used on input line 260.
+Package pdftex.def Info: img/stf-coins.jpg used on input line 292.
 (pdftex.def)             Requested size: 182.09486pt x 137.63513pt.
 
-<img/stf-coins-watersheed.jpg, id=93, 626.34pt x 472.76625pt>
+<img/stf-coins-watersheed.jpg, id=101, 626.34pt x 472.76625pt>
 File: img/stf-coins-watersheed.jpg Graphic file (type jpg)
 
 <use img/stf-coins-watersheed.jpg>
-Package pdftex.def Info: img/stf-coins-watersheed.jpg used on input line 261.
+Package pdftex.def Info: img/stf-coins-watersheed.jpg used on input line 293.
 (pdftex.def)             Requested size: 182.09486pt x 137.44496pt.
- [18 <./img/stf-aral1997.jpg> <./img/stf-aral1997-quadtree.jpg> <./img/stf-coin
-s.jpg> <./img/stf-coins-watersheed.jpg>]
+ [19 <./img/stf-aral1997.jpg> <./img/stf-aral1997-quadtree.jpg>] [20 <./img/stf
+-coins.jpg> <./img/stf-coins-watersheed.jpg>]
 CAP{\'I}TULO 4.
-[19
+[21
 
 ]
 CAP{\'I}TULO 5.
-[20
+[22
 
-]) [21] (./main.bbl
+]) [23] (./main.bbl
 CAP{\'I}TULO 6.
 
 Underfull \hbox (badness 10000) in paragraph at lines 18--23
@@ -1072,7 +1136,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--23
 
 ) 
 AED: lastpage setting LastPage
-[22
+[24
 
 
 ] (./main.aux (./dados-pfc.aux) (./pre-texto.aux) (./cap-01.aux))
@@ -1085,25 +1149,27 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 11044 strings out of 493014
- 182781 string characters out of 6133350
- 344727 words of memory out of 5000000
- 14331 multiletter control sequences out of 15000+600000
+ 11062 strings out of 493014
+ 183399 string characters out of 6133350
+ 344760 words of memory out of 5000000
+ 14346 multiletter control sequences out of 15000+600000
  13685 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,9n,43p,1218b,841s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
-</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></
-usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></u
-sr/local/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr
-/local/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/l
-ocal/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/loc
-al/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local
-/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb>
-Output written on main.pdf (24 pages, 890094 bytes).
+</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
+/usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></
+usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></us
+r/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr
+/local/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/l
+ocal/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/loc
+al/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local
+/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/t
+exlive/2016/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb>
+Output written on main.pdf (26 pages, 1073135 bytes).
 PDF statistics:
- 135 PDF objects out of 1000 (max. 8388607)
- 77 compressed objects within 1 object stream
+ 153 PDF objects out of 1000 (max. 8388607)
+ 88 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 106 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 121 words of extra memory for PDF output out of 10000 (max. 10000000)
 
