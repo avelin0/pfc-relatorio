@@ -15,8 +15,9 @@
 \contentsline {subsubsection}{\numberline {3.0.3.1}\textit {Split and Merge}}{19}
 \contentsline {subsubsection}{\numberline {3.0.3.2}\textit {Region growing} (abordagem \textit {bottom-up})}{19}
 \contentsline {chapter}{\numberline {4\ }\bf Algoritmo}{21}
-\contentsline {subsection}{\numberline {4.0.1}\textit {Watershed}}{21}
-\contentsline {subsection}{\numberline {4.0.2}\textit {Watershed Algorithm Based On Connected Components}}{22}
+\contentsline {section}{\numberline {4.1}\textit {Watershed}}{21}
+\contentsline {section}{\numberline {4.2}\textit {Watershed Algorithm Based On Connected Components}}{22}
+\contentsline {section}{\numberline {4.3}Pr\IeC {\'e}-Processamento}{22}
 \contentsline {chapter}{\numberline {5\ }\bf Ferramentas}{23}
 \contentsline {section}{\numberline {5.1}Android Studio}{23}
 \contentsline {section}{\numberline {5.2}OpenCV}{23}
