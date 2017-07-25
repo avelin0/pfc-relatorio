@@ -30,14 +30,14 @@
 % ---
 %%
 
-\chapter{Introdução}
+\chapter{Introdução}\label{cap:introducao}
 
 \section{Motivação}
-Cada vez mais as máquinas estão sendo utilizadas em atividades de nossa sociedade. Atuando na substituição de profissionais ou no auxílio dos mesmos, elas estão presentes e participando de nosso cotidiano ativamente. A implementação de sistemas de visão computacional tem se tornado, portanto, uma necessidade mais forte à medida que as aplicações que envolvem o tratamento de imagens se desenvolvem e buscam se aproximar da visão e da análise humana.
-A segmentação é uma importante técnica utilizada nas atividades que envolvem o processamento digital de imagens. Diversas são as aplicações que fazem uso da identificação e análise de uma imagem, necessitando do estudo de regiões específicas das mesmas a fim de alcançar resultados e conclusões de forma eficiente.
+Cada vez mais as máquinas estão sendo utilizadas em atividades de nossa sociedade. Atuando na substituição de profissionais ou no auxílio dos mesmos, elas estão presentes e participando do cotidiano ativamente. A implementação de sistemas de visão computacional tem se tornado, portanto, uma necessidade mais forte à medida que as aplicações que envolvem o tratamento de imagens se desenvolvem e buscam se aproximar da visão e da análise humana.
+A segmentação é uma técnica utilizada nas atividades que envolvem o processamento digital de imagens. Diversas são as aplicações que fazem uso da identificação e análise de uma imagem, necessitando do estudo de regiões específicas das mesmas a fim de alcançar resultados e conclusões de forma eficiente.
 Por se tratar de um problema sem solução universal e de vasta aplicação,  existem inúmeras possibilidades a serem exploradas e muito se tem estudado sobre essa área, com a evolução de novas técnicas e algoritmos que trazem uma nova abordagem ao problema.
 %Esse projeto trará, portanto, um conhecimento mais profundo nesse importante domínio da Visão Computacional com a concepção de um produto que servirá tanto como base para estudo quanto uma base para futuros projetos mais avançados.
-Esse projeto visa estudar e implementar técnicas de segmentação de imagens no ambiente Android, possibilitando o aprendizado de diferentes métodos da área de processamento de imagens, incluindo a área de visão computacional, bem como de desenvolvimento de aplicativos na plataforma Android. A Figura \ref{fig:tela_android} exibe o resultado do aplicativo que este projeto de final de curso está desenvolvendo.
+Esse projeto visa estudar e implementar técnicas de segmentação de imagens no ambiente Android, possibilitando o aprendizado de diferentes métodos da área de processamento de imagens, incluindo a área de visão computacional, bem como de desenvolvimento de aplicativos no ambiente Android. A Figura \ref{fig:tela_android} exibe o resultado do aplicativo que este projeto de final de curso está desenvolvendo.
 
 
 % Figura -----------------------------------------------------------------------------------------------------------------------------
@@ -55,7 +55,7 @@ Esse projeto visa estudar e implementar técnicas de segmentação de imagens no
 
 
 \section{Objetivos}
-O objetivo dessa pesquisa é o desenvolvimento de uma aplicação móvel, em plataforma Android, capaz de segmentar imagens por meio de diferentes algoritmos e técnicas de pré-processamento na área de Visão Computacional. A realização de todas as etapas de desenvolvimento até a concepção do produto final, que será disponibilizado para livre utilização, permitirá aos alunos maior conhecimento nesse assunto que é um dos domínios mais promissores da tecnologia e complementará a sua formação como engenheiros de Computação. A Figura \ref{fig:diag_blocos} ilustra os passos do projeto, onde o aplicativo poderá adquirir imagens diretamente da câmera do dispositivo ou da galeria de imagens do dispositivo. O bloco denominado Pré-Processamento ilustra uma possível etapa de pré-processamento das imagens oriundas da câmera ou do banco de imagens, com a finalidade de tratar as imagens para os algoritmos de segmentação. O bloco seguinte, Técnicas de Segmentação implementa um ou mais métodos de segmentação, descritos no capítulo \ref{cap:segmentacao}. Finalmente, o bloco Exibição vai exibir a imagem segmentada na tela do dispositivo. 
+O objetivo dessa pesquisa é o desenvolvimento de uma aplicação móvel, no ambiente Android, capaz de segmentar imagens por meio de diferentes algoritmos e técnicas de pré-processamento na área de Visão Computacional. Para estudar a eficiência dos resultados obtidos, será realizada uma análise comparativa com relação aos algoritmos fornecidos pela biblioteca OpenCV, ferramenta de apoio a essa pesquisa descrita na seção \ref{sec:opencv} do capítulo \ref{cap:ferramentas}. A realização de todas as etapas de desenvolvimento até a concepção do produto final, que será disponibilizado para livre utilização, permitirá aos alunos maior conhecimento nesse assunto que é um dos domínios mais promissores da tecnologia. A Figura \ref{fig:diag_blocos} ilustra os passos do projeto, onde o aplicativo poderá adquirir imagens diretamente da câmera do dispositivo ou da galeria de imagens do dispositivo. O bloco denominado Pré-Processamento ilustra uma possível etapa de procedimentos a serem realizados sobre as imagens oriundas da câmera ou do banco de imagens, com a finalidade de tratar as imagens para os algoritmos de segmentação. O bloco seguinte, Técnicas de Segmentação implementa um ou mais métodos de segmentação, descritos no capítulo \ref{cap:segmentacao}. Finalmente, o bloco Exibição vai exibir a imagem segmentada na tela do dispositivo. 
 
 % Figura -----------------------------------------------------------------------------------------------------------------------------
   \begin{figure}[!htb]
@@ -72,7 +72,7 @@ O objetivo dessa pesquisa é o desenvolvimento de uma aplicação móvel, em pla
 Este trabalho pode ser justificado com base nos seguintes pontos:
 \begin{itemize}
 \item Inexistência de uma solução única para o problema em questão. Trata-se de um problema ainda em aberto com muitas oportunidades a serem exploradas;
-\item Diversas aplicações necessitam da segmentação de imagens como parte importante das suas atividades, além de outras que podem ser aprimoradas e desenvolvidas por meio de sua utilização;
+\item Diversas aplicações necessitam da segmentação de imagens como parte importante das suas atividades, além de outras que podem ser aprimoradas e desenvolvidas por meio de sua utilização; e
 \item Visão computacional como domínio promissor da tecnologia, com uma atuação cada vez maior no mercado e interação com outros domínios como robótica e inteligência artificial.
 \end{itemize}
 

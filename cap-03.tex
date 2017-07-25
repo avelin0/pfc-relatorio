@@ -1,24 +1,24 @@
 \chapter{Algoritmos de Segmentação}\label{cap:algoritmos}
 
-Este capitulo descreve 4 técnicas de segmentação de imagens, sendo a por limiar (Thresholding) a mais simples. As técnicas baseadas em bordas e regiões são mais complexas e demandam um ônus computacional mais elevado.
+Este capítulo descreve 4 técnicas de segmentação de imagens, sendo a por limiar (\textit{thresholding}) a mais simples. As técnicas baseadas em bordas e regiões são mais complexas e demandam um ônus computacional mais elevado.
 
 % \section{Tipos de Algoritmos}
 \begin{itemize}
-    \item Thresholding
-    \item Método Baseado em Bordas 
+    \item \textit{Thresholding};
+    \item Método Baseado em Bordas; e  
     \item Método Baseado em Regiões
     \begin{itemize}  
-        \item Split and Merge
-        \item Watershed
+        \item \textit{Split and Merge}; e
+        \item \textit{Watershed}.
     \end{itemize}
 \end{itemize}
 
-\subsection{Thresholding}
-É o método mais simples de segmentação de imagens.
-Busca dividir a imagem em duas categorias: objetos (foreground) e plano de fundo (background). 
-Cada pixel é alocado a uma categoria de acordo com seu valor em níveis de cinza.
+\subsection{\textit{Thresholding}}
+É um método simples de segmentação de imagens.
+Busca dividir a imagem em duas categorias: objetos (\textit{foreground}) e plano de fundo (\textit{background}). 
+Cada \textit{pixel} é alocado a uma categoria de acordo com seu valor em níveis de cinza.
 
-Dado um limiar T (threshold), o pixel com valor $f_i_j$  e localizado na posição (i,j)  é alocado à:
+Dado um limiar T (\textit{threshold}), o \textit{pixel} com valor $f_i_j$  e localizado na posição (i,j)  é alocado à:
 \\
 \begin{cases}
 $  categoria 1, se: f_{ij} $\leq$ T. $ \\
@@ -26,11 +26,11 @@ $  categoria 2, caso contrário. $ \\
 \end{cases}
 \\
 O limiar T pode ser escolhido manualmente, tentando diferentes valores de T e analisando qual deles é mais eficiente na identificação dos objetos de interesse.
-O threshold T também pode ser escolhido a partir do Histograma da imagem, e escolhe-se T como o valor entre as duas distribuições de cinza.
+O \textit{threshold} T também pode ser escolhido a partir do histograma da imagem, e escolhe-se T como o valor entre as duas distribuições de cinza.
 
-A seguir há a figura \ref{fig:einstein}, uma imagem original do Einstein,  e as duas formas de segmentação de imagens por limiar (thresholding). Enquanto na figura \ref{fig:einsteinglobal} há um limiar T fixo , na  figura \ref{fig:einsteinlocal} ele é variável.
+A seguir há a figura \ref{fig:einstein}, uma imagem original do Einstein,  e as duas formas de segmentação de imagens por limiar (\textit{thresholding}). Enquanto na figura \ref{fig:einsteinglobal} há um limiar T fixo , na  figura \ref{fig:einsteinlocal} ele é variável.
 
-\subsection*{Threshold Global}
+\subsection*{\textit{Threshold} Global}
 O mesmo valor de T é usado para a imagem inteira.
 
 % Figura 
@@ -51,7 +51,7 @@ O mesmo valor de T é usado para a imagem inteira.
        \end{center}
    \end{figure}
 
-\subsection*{Threshold Local (ou dinâmico)}
+\subsection*{\textit{Threshold} Local (ou dinâmico)}
 Divide-se a imagem em regiões distintas e adota-se um valor T para cada uma delas, onde esse valor funcionará como threshold local. 
 
 % Figura 
@@ -66,10 +66,10 @@ Divide-se a imagem em regiões distintas e adota-se um valor T para cada uma del
    Pode-se observar pela figura \ref{fig:einsteinlocal} que houve a separação em mais regiões nesse método do que na figura \ref{fig:einsteinglobal}, já que foi usado um limiar mais apropriado a cada região.
 
 \subsection{Baseado em Bordas}
-Primeiramente, classifica-se os pixels como “borda” ou “não-borda”.
+Primeiramente, classifica-se os \textit{pixels} como “borda” ou “não-borda”.
 Depois, divide-se a imagem em regiões, baseado nas bordas detectadas.
 
-As bordas são identificadas por meio das descontinuidades, isto é, variações abruptas nos valores dos pixels. 
+As bordas são identificadas por meio das descontinuidades, isto é, variações abruptas nos valores dos \textit{pixels}. 
 
 Como pode-se perceber na figura \ref{fig:smandrill}, por esse método houve a segmentação da imagem de um macaco em regiões de olhos, nariz e outras partes. 
 
@@ -87,13 +87,13 @@ Como pode-se perceber na figura \ref{fig:smandrill}, por esse método houve a se
 
 \subsection{Baseado em Regiões}
 \subsubsection*{O que é uma região?}
-Uma região pode ser “definida” como um grupo de pixels conectados com propriedades similares.
+Uma região pode ser “definida” como um grupo de \textit{pixels} conectados com propriedades similares.
 
 Porém, é um conceito importante e difícil de definir, já que depende da interpretação do que seria uma região  em determinado caso.
 
-Pelas figuras da seção \ref{sec:segmenthm} do capitulo \ref{cap:segmentacao}, nota-se as diferentes interpretações do conceito de região pelas diferentes quantidades de regiões notadas por humanos nas Figuras \ref{fig:Berkeley_mulher_segmentada} e \ref{fig:Berkeley_mulher_segmentada2}. Tal fato também acontece com os computadores, como nota-se pelas figuras \ref{fig:indiosegmentado}.
+Pelas figuras da seção \ref{sec:segmenthm} do capítulo \ref{cap:segmentacao}, nota-se as diferentes interpretações do conceito de região pelas diferentes quantidades de regiões notadas por humanos nas Figuras \ref{fig:Berkeley_mulher_segmentada} e \ref{fig:Berkeley_mulher_segmentada2}. Tal fato também acontece com os computadores, como nota-se pelas figuras \ref{fig:indiosegmentado}.
 
-\subsubsection{Split and Merge}
+\subsubsection{\textit{Split and Merge}}
 \subsubsection*{Procedimento}
 As etapas fundamentais deste algoritmo segundo  são: 
 \begin{enumerate}
@@ -105,7 +105,7 @@ As etapas fundamentais deste algoritmo segundo  são:
     \item Repetir Passo 5 até que não se consiga mais agrupar.
 \end{enumerate}
 
-\subsubsection*{EXEMPLO - QUADTREE}
+\subsubsection*{EXEMPLO - \textit{QUADTREE}}
 Um exemplo de segmentação baseada em região Split and Merge é o algoritmo quadtree. A figura \ref{fig:aral} abaixo ilustra a segmentação de imagem por este algoritmo, e observa-se a segmentação da região que contém água na figura.
 
 % ------------------------------------------------------------------------------------------------------------
@@ -119,17 +119,17 @@ Um exemplo de segmentação baseada em região Split and Merge é o algoritmo qu
  %\vspace{2.0em}
 \end{figure}
 
-\subsubsection{Region growing (abordagem bottom-up)}
+\subsubsection{\textit{Region growing} (abordagem \textit{bottom-up})}
 \subsubsection*{Procedimento}
 As etapas fundamentais deste algoritmo são: 
 \begin{enumerate}
     \item Identificar o ponto de partida.
-    \item Incluir pixels vizinhos com características similares (nível de cinza, textura, cor, etc).
-    \item Continuar até que todos os pixels estejam associados com um dos pontos de partida.
+    \item Incluir \textit{pixels} vizinhos com características similares (nível de cinza, textura, cor, etc).
+    \item Continuar até que todos os \textit{pixels} estejam associados com um dos pontos de partida.
 \end{enumerate}
 
-\subsubsection*{EXEMPLO - WATERSHEED}
-Um exemplo de segmentação baseada no método Region growing é o algoritmo watershed. A figura \ref{fig:coins} abaixo ilustra a segmentação de imagem por este algoritmo, e observa-se regiões distintas correspondentes à cada moeda da figura.
+\subsubsection*{EXEMPLO - \textit{WATERSHED}}
+Um exemplo de segmentação baseada no método \textit{Region growing} é o algoritmo \textit{watershed}. A figura \ref{fig:coins} abaixo ilustra a segmentação de imagem por este algoritmo, e observa-se regiões distintas correspondentes à cada moeda da figura.
 
 % ------------------------------------------------------------------------------------------------------------
 % Figura 

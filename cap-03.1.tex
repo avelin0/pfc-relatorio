@@ -1,0 +1,49 @@
+\chapter{Algoritmo}
+
+O algoritmo proposto nessa pesquisa é baseado no algoritmo "\textit{Watershed Algorithm Based On Connected Components}", apresentado na tese xxxx, o qual trata-se de uma variação da técnica de \textit{watershed} com resultados de segmentação considerados bastante satisfatórios além da menor complexidade computacional com relação à abordagem tradicional \textit{watershed}.
+
+\section{\textit{Watershed}}
+
+\textit{Watershed} é uma técnica de segmentação criada em xxxx, Trata-se de uma ferramenta bastante eficiente e poderosa. Tal técnica tem como vantagem gerar sempre resultados com contornos fechados e bem definidos, o que é de grande importância para o processo de segmentação de imagens. Além disso, comparada a outras técnicas de segmentação, apresenta menor complexidade computacional.
+
+Duas abordagens são bastante utilizadas para explicar a ideia básica do \textit{watershed} na segmentação de imagens. 
+A primeira, denominada "\textit{flooding based watershed}", trata a imagem em níveis de cinza com uma paisagem formada por vales, onde encontram-se os mínimos locais. Considerando um processo de inundação com a água subindo a partir de cada um dos vales, serão construídas barragens nos pontos de encontro da água oriunda de dois vales distintos, chamadas de \textit{watersheds}. Essas barragens, portanto, são interpretadas como bordas entra diferentes regiões da imagem. 
+
+% Figura 
+
+
+A outra abordagem, denominada "\textit{rainfalling based watershed}" trata a imagem em níveis de cinza da mesma forma que a primeira, porém o fluxo de água ocorre a partir de gotas de água que ao incidirem em qualquer ponto da superfície escorrerão para um determinado vale, onde encontra-se um mínimo local. O conjunto de pontos para os quais a gota de água escorre para o mesmo local é interpretada como uma região e os limites entre duas regiões adjacentes,  interpretados como bordas, são as \textit{watersheds}.
+
+% Figura 
+
+
+Ambas abordagens tratam da mesma ideia básica por trás da técnica, sendo duas formas diferentes de ilustrar seus funcionamento sobre os quais diferentes algoritmos são propostos.
+
+Um dos principais problemas relacionados à abordagem tradicional do \textit{watershed} é o problema de \textit{over-segmentation}. Para reduzir esse problema, diversas variações de algoritmos baseados na técnica de \textit{watershed} foram implementados, tal qual o algoritmo utilizado nessa pesquisa que será explicado detalhadamente na seção xx. Assim as diferenças entre o algoritmo proposto e o tradicional, como o implementado na biblioteca OpenCV, apresentada na seção \ref{sec:opencv} do capítulo \ref{cap:ferramentas}, conduzirão a uma análise comparativa entre os resultados obtidos por meio de cada um deles.
+
+\section{\textit{Watershed Algorithm Based On Connected Components}}
+
+Destacam-se as seguintes características entre este algoritmo e a abordagem tradicional \textit{watershed} que demonstram sua maior eficiência:
+
+% \section{Características}
+\begin{itemize}
+    \item Fila FIFO ao invés de fila hierárquica - algoritmo tradicional - que requer sequências de acesso à memória não uniformes;
+    \item Estrutura de dados mais simples; e
+    \item Menor tempo de execução.
+\end{itemize}    
+
+Este algoritmo tem como princípio conectar cada \textit{pixel} (componente), caso este não seja o mínimo local, ao menor \textit{pixel} vizinho. Todos os \textit{pixels} direcionados para o mesmo mínimo local formam um segmento e são, portanto, rotulados da mesma forma.
+
+% Figura
+
+
+Os algoritmos baseados na técnica de segmentação por \textit{watershed} seguem a estrutura apresentada na figura xxxx. A imagem original passa por uma etapa de pré-processamento, em que diferentes procedimentos são realizados. Após a etapa de pré-processamento, a imagem é segmentada pela técnica \textit{watershed} e seu resultado pode ser processado, na etapa de pós-processamento, a fim de corrigir algumas falhas geradas pelo processo de segmentação para, finalmente, obter a segmentação como resultado final.
+Todas as etapas serão explicadas nas próximas seções de acordo como foram implementadas no algoritmo proposto por essa pesquisa.
+
+% Figura
+
+
+\section{Pré-Processamento}
+
+ 
+
