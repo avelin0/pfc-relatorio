@@ -1,31 +1,31 @@
-\contentsline {listas}{\nomelistafiguras }{7}
-\contentsline {listas}{\nomelistatabelas }{8}
+\contentsline {listas}{\nomelistafiguras }{8}
+\contentsline {listas}{\nomelistatabelas }{9}
 \select@language {brazilian}
-\contentsline {chapter}{\numberline {1\ }\bf Introdu\IeC {\c c}\IeC {\~a}o}{9}
-\contentsline {section}{\numberline {1.1}Motiva\IeC {\c c}\IeC {\~a}o}{9}
-\contentsline {section}{\numberline {1.2}Objetivos}{10}
-\contentsline {section}{\numberline {1.3}Justificativa}{10}
-\contentsline {chapter}{\numberline {2\ }\bf Segmenta\IeC {\c c}\IeC {\~a}o de Imagens}{12}
-\contentsline {section}{\numberline {2.1}Conceito}{12}
-\contentsline {section}{\numberline {2.2}Segmenta\IeC {\c c}\IeC {\~a}o para seres humanos e para computadores}{12}
-\contentsline {chapter}{\numberline {3\ }\bf Algoritmos de Segmenta\IeC {\c c}\IeC {\~a}o}{16}
-\contentsline {subsection}{\numberline {3.0.1}Thresholding}{16}
-\contentsline {subsection}{\numberline {3.0.2}Baseado em Bordas}{18}
-\contentsline {subsection}{\numberline {3.0.3}Baseado em Regi\IeC {\~o}es}{18}
-\contentsline {subsubsection}{\numberline {3.0.3.1}Split and Merge}{19}
-\contentsline {subsubsection}{\numberline {3.0.3.2}Region growing (abordagem bottom-up)}{19}
-\contentsline {chapter}{\numberline {4\ }\bf Ferramentas}{21}
-\contentsline {section}{\numberline {4.1}Android Studio}{21}
-\contentsline {section}{\numberline {4.2}OpenCV}{21}
-\contentsline {section}{\numberline {4.3}Android NDK}{21}
-\contentsline {chapter}{\numberline {5\ }\bf Cronograma}{22}
-\contentsline {section}{\numberline {5.1}Defini\IeC {\c c}\IeC {\~a}o de Etapas}{22}
-\contentsline {subsection}{\numberline {5.1.1}Escolha do Tema e Estudo de Viabilidade}{22}
-\contentsline {subsection}{\numberline {5.1.2}Revis\IeC {\~a}o Bibliogr\IeC {\'a}fica}{22}
-\contentsline {subsection}{\numberline {5.1.3}Elabora\IeC {\c c}\IeC {\~a}o da Monografia}{22}
-\contentsline {subsection}{\numberline {5.1.4}Estudo e An\IeC {\'a}lise dos Algoritmos de Segmenta\IeC {\c c}\IeC {\~a}o de Imagem}{22}
-\contentsline {subsection}{\numberline {5.1.5}Implementa\IeC {\c c}\IeC {\~a}o}{22}
-\contentsline {subsection}{\numberline {5.1.6}Teste}{23}
-\contentsline {subsection}{\numberline {5.1.7}Entrega do Relat\IeC {\'o}rio Final e Apresenta\IeC {\c c}\IeC {\~a}o}{23}
-\contentsline {section}{\numberline {5.2}Entreg\IeC {\'a}veis}{23}
-\contentsline {chapter}{\numberline {6\ }\bf REFER\^ENCIAS BIBLIOGR\'AFICAS }{24}
+\contentsline {chapter}{\numberline {1\ }\bf Introdu\IeC {\c c}\IeC {\~a}o}{10}
+\contentsline {section}{\numberline {1.1}Motiva\IeC {\c c}\IeC {\~a}o}{10}
+\contentsline {section}{\numberline {1.2}Objetivos}{11}
+\contentsline {section}{\numberline {1.3}Justificativa}{11}
+\contentsline {chapter}{\numberline {2\ }\bf Segmenta\IeC {\c c}\IeC {\~a}o de Imagens}{13}
+\contentsline {section}{\numberline {2.1}Conceito}{13}
+\contentsline {section}{\numberline {2.2}Segmenta\IeC {\c c}\IeC {\~a}o para seres humanos e para computadores}{13}
+\contentsline {chapter}{\numberline {3\ }\bf Algoritmos de Segmenta\IeC {\c c}\IeC {\~a}o}{17}
+\contentsline {subsection}{\numberline {3.0.1}Thresholding}{17}
+\contentsline {subsection}{\numberline {3.0.2}Baseado em Bordas}{19}
+\contentsline {subsection}{\numberline {3.0.3}Baseado em Regi\IeC {\~o}es}{19}
+\contentsline {subsubsection}{\numberline {3.0.3.1}Split and Merge}{20}
+\contentsline {subsubsection}{\numberline {3.0.3.2}Region growing (abordagem bottom-up)}{20}
+\contentsline {chapter}{\numberline {4\ }\bf Ferramentas}{22}
+\contentsline {section}{\numberline {4.1}Android Studio}{22}
+\contentsline {section}{\numberline {4.2}OpenCV}{22}
+\contentsline {section}{\numberline {4.3}Android NDK}{22}
+\contentsline {chapter}{\numberline {5\ }\bf Cronograma}{23}
+\contentsline {section}{\numberline {5.1}Defini\IeC {\c c}\IeC {\~a}o de Etapas}{23}
+\contentsline {subsection}{\numberline {5.1.1}Escolha do Tema e Estudo de Viabilidade}{23}
+\contentsline {subsection}{\numberline {5.1.2}Revis\IeC {\~a}o Bibliogr\IeC {\'a}fica}{23}
+\contentsline {subsection}{\numberline {5.1.3}Elabora\IeC {\c c}\IeC {\~a}o da Monografia}{23}
+\contentsline {subsection}{\numberline {5.1.4}Estudo e An\IeC {\'a}lise dos Algoritmos de Segmenta\IeC {\c c}\IeC {\~a}o de Imagem}{23}
+\contentsline {subsection}{\numberline {5.1.5}Implementa\IeC {\c c}\IeC {\~a}o}{23}
+\contentsline {subsection}{\numberline {5.1.6}Teste}{24}
+\contentsline {subsection}{\numberline {5.1.7}Entrega do Relat\IeC {\'o}rio Final e Apresenta\IeC {\c c}\IeC {\~a}o}{24}
+\contentsline {section}{\numberline {5.2}Entreg\IeC {\'a}veis}{24}
+\contentsline {chapter}{\numberline {6\ }\bf REFER\^ENCIAS BIBLIOGR\'AFICAS }{25}

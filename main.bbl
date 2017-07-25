@@ -1,4 +1,4 @@
-\begin{thethesisbibliography}{7}
+\begin{thethesisbibliography}{6}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{{\tt #1}}\fi
@@ -40,14 +40,6 @@
 \newblock
 \newblock OpenCV About. Disponível em: <http://opencv.org/about.html>. Acesso
   em: 10 mai. de 2017.
-
-\bibitem[Poggio \NATetal{}(1985){\MakeUppercase{Poggio}},
-  {\MakeUppercase{Torre}}  e {\MakeUppercase{Koch}}]{Poggio1985}
-{\MakeUppercase{Poggio, T.}}; {\MakeUppercase{Torre, V.}} ;
-  {\MakeUppercase{Koch, C.}}
-\newblock
-\newblock Computational vision and regularization theory. {\bf Nature}, v. 317,
-  n. 26, p. 314--319, 1985.
 
 \bibitem[Stanford(2017){\MakeUppercase{Stanford}}]{stanford}
 {\MakeUppercase{Stanford}}.
