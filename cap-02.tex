@@ -1,5 +1,5 @@
 \chapter{Segmentação de Imagens}\label{cap:segmentacao}
-A segmentação é um problema do tipo "ill-posed" ("mal definido"), uma vez que não existe uma solução única, universal. Por isso, a segmentação é considerada o problema mais difícil de ser resolvido em análise de imagens \citep{Poggio1985}.
+A segmentação é um problema do tipo "\textit{ill-posed}" ("mal definido"), uma vez que não existe uma solução única, universal. Por isso, a segmentação é considerada o problema mais difícil de ser resolvido em análise de imagens \citep{Poggio1985}.
 
 \section{Conceito}
 A segmentação de imagens tem como uma de suas interpretações como a divisão em regiões ou categorias consideradas "relevantes", que correspondem a objetos ou partes de objetos. Decidir o que é relevante em uma imagem depende do problema a ser resolvido, em que os objetos segmentados devem corresponder às áreas de interesse da aplicação. Dentre essas aplicações, podemos citar os seguintes exemplos:
@@ -7,12 +7,12 @@ A segmentação de imagens tem como uma de suas interpretações como a divisão
 \begin{itemize}
 \item Aplicações militares: Reconhecimento de alvos terrestres, aéreos e navais;
 \item Análise de imagens médicas: Identificação de doenças como tumores;
-\item Veículos autônomos;
+\item Veículos autônomos; e
 \item Robótica.
 \end{itemize}
 
 \section{Segmentação para seres humanos e para computadores}\label{sec:segmenthm}
-Para seres humanos, a identificação de regiões similares ou objetos diferentes presentes em uma imagem é um processo fácil. Nosso sistema cognitivo auxiliado por nosso sistema visual nos permite reconhecer e segmentar os objetos de forma instantânea sem nos darmos conta desse processo. Além disso, usamos a segmentação por distância como técnica auxiliar , uma vez que nossa visão estereoscópica nos fornece informação de profundidade.
+Para seres humanos, a identificação de regiões similares ou objetos diferentes presentes em uma imagem é um processo fácil. Seu sistema cognitivo auxiliado por seu sistema visual permite reconhecer e segmentar os objetos de forma instantânea sem a percepção de todo esse processo. Além disso, o uso da segmentação por distância como técnica auxiliar é outro fator que contribui para esse processo, uma vez que sua visão estereoscópica lhes fornece informação de profundidade.
 No caso de computadores, essa tarefa se torna mais complexa, pois envolve a análise de características de cada pixel ou da distribuição da população de pixels. Para isso, deve-se implementar algoritmos de segmentação, os quais serão explorados com maior profundidade nas seções subsequentes dessa pesquisa. A Figura \ref{fig:Berkeley_mulher} exibe uma imagem que foi manualmente segmentada por 4 seres humanos. É possível notar que cada pessoa não identificou como "relevantes" as mesmas áreas, conforme ilustrado pela Figura \ref{fig:Berkeley_mulher_segmentada}. 
 
 % Figura 
@@ -80,6 +80,6 @@ O mesmo problema ocorre de forma mais acentuada com relação aos diferentes alg
  % Figura -----------------------------------------------------------------------------------------------------------------------------
 
 
-Devido a  grande variedade de algoritmos existentes, nos limitaremos à explicação dos principais e mais utilizados, os quais fornecem um bom entendimento das técnicas utilizadas e servem como base para o desenvolvimento de novas técnicas. O Capitulo \ref{cap:algoritmos} apresenta as técnicas estudadas.
+Devido a grande variedade de algoritmos existentes, essa pesquisa se limitará à explicação dos principais e mais utilizados, os quais fornecem um bom entendimento das técnicas utilizadas e servem como base para o desenvolvimento de novas técnicas.
 
 
