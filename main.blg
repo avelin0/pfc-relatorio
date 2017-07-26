@@ -6,6 +6,7 @@ A level-1 auxiliary file: pre-texto.aux
 A level-1 auxiliary file: cap-01.aux
 A level-1 auxiliary file: cap-02.aux
 A level-1 auxiliary file: cap-03.aux
+A level-1 auxiliary file: cap-03.1.aux
 A level-1 auxiliary file: cap-04.aux
 A level-1 auxiliary file: cap-05.aux
 The style file: pfc.bst
@@ -32,7 +33,7 @@ You can't pop an empty literal stack for entry stanford
 while executing---line 1265 of file pfc.bst
 You've used 6 entries,
             3136 wiz_defined-function locations,
-            641 strings with 4896 characters,
+            642 strings with 4908 characters,
 and the built_in function-call counts, 1907 in all, are:
 = -- 200
 > -- 77
