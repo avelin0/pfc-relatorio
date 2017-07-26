@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.16)  26 JUL 2017 01:21
-=======
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.7.24)  26 JUL 2017 00:56
->>>>>>> d2be256ce43f1e9fec449d5ba968a606f16de9ed
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.16)  26 JUL 2017 03:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -667,7 +663,65 @@ subscribe by emailing sympa@lirmm.fr with 'subscribe <list> <firstname name>'
 \c@algocf=\count145
 \algocf@algoframe=\box38
 \algocf@algobox=\box39
-) (/usr/local/texlive/2016/texmf-dist/tex/latex/geometry/geometry.sty
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/03/10 v2.15b AMS math features
+\@mathmargin=\skip68
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks33
+\ex@=\dimen133
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen134
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count146
+LaTeX Info: Redefining \frac on input line 199.
+\uproot@=\count147
+\leftroot@=\count148
+LaTeX Info: Redefining \overline on input line 297.
+\classnum@=\count149
+\DOTSCASE@=\count150
+LaTeX Info: Redefining \ldots on input line 394.
+LaTeX Info: Redefining \dots on input line 397.
+LaTeX Info: Redefining \cdots on input line 518.
+\Mathstrutbox@=\box40
+\strutbox@=\box41
+\big@size=\dimen135
+LaTeX Font Info:    Redeclaring font encoding OML on input line 634.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
+\macc@depth=\count151
+\c@MaxMatrixCols=\count152
+\dotsspace@=\muskip10
+\c@parentequation=\count153
+\dspbrk@lvl=\count154
+\tag@help=\toks34
+\row@=\count155
+\column@=\count156
+\maxfields@=\count157
+\andhelp@=\toks35
+\eqnshift@=\dimen136
+\alignsep@=\dimen137
+\tagshift@=\dimen138
+\tagwidth@=\dimen139
+\totwidth@=\dimen140
+\lineht@=\dimen141
+\@envbody=\toks36
+\multlinegap=\skip69
+\multlinetaggap=\skip70
+\mathdisplay@stack=\toks37
+LaTeX Info: Redefining \[ on input line 2739.
+LaTeX Info: Redefining \] on input line 2740.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
 (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifvtex.sty
@@ -677,18 +731,18 @@ Package ifvtex Info: VTeX not detected.
 (/usr/local/texlive/2016/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count146
-\Gm@cntv=\count147
-\c@Gm@tempcnt=\count148
-\Gm@bindingoffset=\dimen133
-\Gm@wd@mp=\dimen134
-\Gm@odd@mp=\dimen135
-\Gm@even@mp=\dimen136
-\Gm@layoutwidth=\dimen137
-\Gm@layoutheight=\dimen138
-\Gm@layouthoffset=\dimen139
-\Gm@layoutvoffset=\dimen140
-\Gm@dimlist=\toks33
+\Gm@cnth=\count158
+\Gm@cntv=\count159
+\c@Gm@tempcnt=\count160
+\Gm@bindingoffset=\dimen142
+\Gm@wd@mp=\dimen143
+\Gm@odd@mp=\dimen144
+\Gm@even@mp=\dimen145
+\Gm@layoutwidth=\dimen146
+\Gm@layoutheight=\dimen147
+\Gm@layouthoffset=\dimen148
+\Gm@layoutvoffset=\dimen149
+\Gm@dimlist=\toks38
 )
 
 Package geometry Warning: Over-specification in `h'-direction.
@@ -702,32 +756,32 @@ Package geometry Warning: Over-specification in `v'-direction.
 (./cap-03.aux) (./cap-03.1.aux) (./cap-04.aux) (./cap-05.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
 
 (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count149
-\scratchdimen=\dimen141
-\scratchbox=\box40
-\nofMPsegments=\count150
-\nofMParguments=\count151
-\everyMPshowfont=\toks34
-\MPscratchCnt=\count152
-\MPscratchDim=\dimen142
-\MPnumerator=\count153
-\makeMPintoPDFobject=\count154
-\everyMPtoPDFconversion=\toks35
+\scratchcounter=\count161
+\scratchdimen=\dimen150
+\scratchbox=\box42
+\nofMPsegments=\count162
+\nofMParguments=\count163
+\everyMPshowfont=\toks39
+\MPscratchCnt=\count164
+\MPscratchDim=\dimen151
+\MPnumerator=\count165
+\makeMPintoPDFobject=\count166
+\everyMPtoPDFconversion=\toks40
 ) (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -761,7 +815,7 @@ e
 ))
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 89.
+(lastpage)             ! on input line 90.
 
 ABD: EveryShipout initializing macros
 *geometry* driver: auto-detecting
@@ -862,13 +916,9 @@ and I'll forget about whatever was undefined.
 \tf@toc=\write3
 \openout3 = `main.toc'.
 
-<<<<<<< HEAD
- [7] (./main.lof)
-=======
  [7] (./main.lof [8
 
 ])
->>>>>>> d2be256ce43f1e9fec449d5ba968a606f16de9ed
 \tf@lof=\write4
 \openout4 = `main.lof'.
 
@@ -882,16 +932,9 @@ and I'll forget about whatever was undefined.
 ])
 \openout2 = `cap-01.aux'.
 
-<<<<<<< HEAD
-
-(./cap-01.tex
-CAP{\'I}TULO 1.
-<img/tela_android-original.png, id=43, 190.7125pt x 308.15125pt>
-=======
  (./cap-01.tex
 CAP{\'I}TULO 1.
 <img/tela_android-original.png, id=46, 190.7125pt x 308.15125pt>
->>>>>>> d2be256ce43f1e9fec449d5ba968a606f16de9ed
 File: img/tela_android-original.png Graphic file (type png)
 
 <use img/tela_android-original.png>
@@ -904,20 +947,12 @@ File: img/tela_android.png Graphic file (type png)
 <use img/tela_android.png>
 Package pdftex.def Info: img/tela_android.png used on input line 47.
 (pdftex.def)             Requested size: 91.04742pt x 146.34514pt.
-<<<<<<< HEAD
- [10
-=======
  [11
->>>>>>> d2be256ce43f1e9fec449d5ba968a606f16de9ed
 
 
 
  <./img/tela_android-original.png> <./img/tela_android.png>] <img/diag_blocos.p
-<<<<<<< HEAD
-ng, id=51, 886.31125pt x 497.86pt>
-=======
 ng, id=55, 886.31125pt x 497.86pt>
->>>>>>> d2be256ce43f1e9fec449d5ba968a606f16de9ed
 File: img/diag_blocos.png Graphic file (type png)
 
 <use img/diag_blocos.png>
@@ -939,21 +974,13 @@ CAP{\'I}TULO 2.
 Package natbib Warning: Citation `Poggio1985' on page 14 undefined on input lin
 e 2.
 
-<<<<<<< HEAD
-<img/198023.jpg, id=61, 322.20375pt x 482.80376pt>
-=======
 <img/198023.jpg, id=64, 322.20375pt x 482.80376pt>
->>>>>>> d2be256ce43f1e9fec449d5ba968a606f16de9ed
 File: img/198023.jpg Graphic file (type jpg)
  <use img/198023.jpg>
 Package pdftex.def Info: img/198023.jpg used on input line 21.
 (pdftex.def)             Requested size: 136.57462pt x 204.65477pt.
 
-<<<<<<< HEAD
-<img/198023-8-color.jpg, id=62, 160.6pt x 240.9pt>
-=======
 <img/198023-8-color.jpg, id=65, 160.6pt x 240.9pt>
->>>>>>> d2be256ce43f1e9fec449d5ba968a606f16de9ed
 File: img/198023-8-color.jpg Graphic file (type jpg)
 
 <use img/198023-8-color.jpg>
@@ -977,11 +1004,7 @@ File: img/198023-16.jpg Graphic file (type jpg)
 <use img/198023-16.jpg>
 Package pdftex.def Info: img/198023-16.jpg used on input line 34.
 (pdftex.def)             Requested size: 91.04742pt x 136.57558pt.
-<<<<<<< HEAD
- <img/198023-22-color.jpg, id=66, 160.6pt x 240.9pt>
-=======
  <img/198023-22-color.jpg, id=69, 160.6pt x 240.9pt>
->>>>>>> d2be256ce43f1e9fec449d5ba968a606f16de9ed
 File: img/198023-22-color.jpg Graphic file (type jpg)
 
 <use img/198023-22-color.jpg>
@@ -1009,13 +1032,9 @@ Package pdftex.def Info: img/198023-26.jpg used on input line 47.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<<<<<<< HEAD
-[13
-=======
 [14
 
 
->>>>>>> d2be256ce43f1e9fec449d5ba968a606f16de9ed
 
 ] [15 <./img/198023.jpg> <./img/198023-8-color.jpg> <./img/198023-8.jpg> <./img
 /198023-16-color.jpg> <./img/198023-16.jpg> <./img/198023-22-color.jpg> <./img/
@@ -1026,11 +1045,7 @@ File: img/101087.jpg Graphic file (type jpg)
 Package pdftex.def Info: img/101087.jpg used on input line 61.
 (pdftex.def)             Requested size: 136.57462pt x 204.65477pt.
 
-<<<<<<< HEAD
-<img/101087-77.jpg, id=77, 322.20375pt x 482.80376pt>
-=======
 <img/101087-77.jpg, id=80, 322.20375pt x 482.80376pt>
->>>>>>> d2be256ce43f1e9fec449d5ba968a606f16de9ed
 File: img/101087-77.jpg Graphic file (type jpg)
  <use img/101087-77.jpg>
 Package pdftex.def Info: img/101087-77.jpg used on input line 73.
@@ -1054,11 +1069,7 @@ File: img/101087-85.jpg Graphic file (type jpg)
 Package pdftex.def Info: img/101087-85.jpg used on input line 76.
 (pdftex.def)             Requested size: 91.04742pt x 136.42915pt.
 )
-<<<<<<< HEAD
-[15 <./img/101087.jpg> <./img/101087-77.jpg> <./img/101087-80.jpg> <./img/10108
-=======
 [16 <./img/101087.jpg> <./img/101087-77.jpg> <./img/101087-80.jpg> <./img/10108
->>>>>>> d2be256ce43f1e9fec449d5ba968a606f16de9ed
 7-82.jpg> <./img/101087-85.jpg>]
 \openout2 = `cap-03.aux'.
 
@@ -1069,34 +1080,39 @@ l.21 ...eshold}), o \textit{pixel} com valor $f_i_
                                                   j$  e localizado na posiç...
 I treat `x_1_2' essentially like `x_1{}_2'.
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--23
+
+ []
+
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.24 $
-        categoria 1, se: f_{ij} $\leq$ T. $ \\
+l.25 \begin{cases}
+                  
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.24 $
-        categoria 1, se: f_{ij} $\leq$ T. $ \\
+l.28 				categoria 1, & \mbox{se f_{ij} $\leq$ T;}
+                                                   \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.24 $  categoria 1, se: f_{ij} $\leq
-                                     $ T. $ \\
+l.28 				categoria 1, & \mbox{se f_{ij} $\leq$ T;}
+                                                   \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.26 \end{cases}
+l.30 \end{cases}
                 
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1104,31 +1120,23 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-<<<<<<< HEAD
 
-Underfull \hbox (badness 10000) in paragraph at lines 21--30
+Underfull \hbox (badness 10000) in paragraph at lines 24--32
 
  []
 
-<img/einstein.jpg, id=84, 256.96pt x 256.96pt>
-=======
 <img/einstein.jpg, id=87, 256.96pt x 256.96pt>
->>>>>>> d2be256ce43f1e9fec449d5ba968a606f16de9ed
 File: img/einstein.jpg Graphic file (type jpg)
  <use img/einstein.jpg>
-Package pdftex.def Info: img/einstein.jpg used on input line 39.
+Package pdftex.def Info: img/einstein.jpg used on input line 44.
 (pdftex.def)             Requested size: 136.57462pt x 136.57631pt.
 
-<<<<<<< HEAD
-<img/einstein-globalthresholding127.jpg, id=85, 449.68pt x 447.6725pt>
-=======
 <img/einstein-globalthresholding127.jpg, id=88, 449.68pt x 447.6725pt>
->>>>>>> d2be256ce43f1e9fec449d5ba968a606f16de9ed
 File: img/einstein-globalthresholding127.jpg Graphic file (type jpg)
 
 <use img/einstein-globalthresholding127.jpg>
 Package pdftex.def Info: img/einstein-globalthresholding127.jpg used on input l
-ine 48.
+ine 53.
 (pdftex.def)             Requested size: 136.57462pt x 135.96269pt.
 
 <img/einstein-localthresholding-adaptivegausian.jpg, id=89, 451.6875pt x 447.67
@@ -1137,98 +1145,62 @@ File: img/einstein-localthresholding-adaptivegausian.jpg Graphic file (type jpg
 )
  <use img/einstein-localthresholding-adaptivegausian.jpg>
 Package pdftex.def Info: img/einstein-localthresholding-adaptivegausian.jpg use
-d on input line 60.
+d on input line 65.
 (pdftex.def)             Requested size: 136.57462pt x 135.36157pt.
-<<<<<<< HEAD
- [16
-
-
-
-] [17 <./img/einstein.jpg> <./img/einstein-globalthresholding127.jpg> <./img/ei
-nstein-localthresholding-adaptivegausian.jpg>]
-<img/stf-smandrill.jpg, id=96, 256.96pt x 256.96pt>
-=======
  [17
 
 
 
 ] [18 <./img/einstein.jpg> <./img/einstein-globalthresholding127.jpg> <./img/ei
 nstein-localthresholding-adaptivegausian.jpg>]
-<img/stf-smandrill.jpg, id=99, 256.96pt x 256.96pt>
->>>>>>> d2be256ce43f1e9fec449d5ba968a606f16de9ed
+<img/stf-smandrill.jpg, id=100, 256.96pt x 256.96pt>
 File: img/stf-smandrill.jpg Graphic file (type jpg)
 
 <use img/stf-smandrill.jpg>
-Package pdftex.def Info: img/stf-smandrill.jpg used on input line 81.
+Package pdftex.def Info: img/stf-smandrill.jpg used on input line 86.
 (pdftex.def)             Requested size: 182.09486pt x 182.09782pt.
 
-<img/stf-smandrill-edgedetect.jpg, id=100, 284.06125pt x 284.06125pt>
+<img/stf-smandrill-edgedetect.jpg, id=101, 284.06125pt x 284.06125pt>
 File: img/stf-smandrill-edgedetect.jpg Graphic file (type jpg)
 
 <use img/stf-smandrill-edgedetect.jpg>
-Package pdftex.def Info: img/stf-smandrill-edgedetect.jpg used on input line 82
+Package pdftex.def Info: img/stf-smandrill-edgedetect.jpg used on input line 87
 .
 (pdftex.def)             Requested size: 182.09486pt x 182.10197pt.
-<<<<<<< HEAD
- [18 <./img/stf-smandrill.jpg> <./img/stf-smandrill-edgedetect.jpg>]
-<img/stf-aral1997.jpg, id=101, 451.6875pt x 325.215pt>
-=======
  [19 <./img/stf-smandrill.jpg> <./img/stf-smandrill-edgedetect.jpg>]
-<img/stf-aral1997.jpg, id=104, 451.6875pt x 325.215pt>
->>>>>>> d2be256ce43f1e9fec449d5ba968a606f16de9ed
+<img/stf-aral1997.jpg, id=105, 451.6875pt x 325.215pt>
 File: img/stf-aral1997.jpg Graphic file (type jpg)
 
 <use img/stf-aral1997.jpg>
-Package pdftex.def Info: img/stf-aral1997.jpg used on input line 116.
+Package pdftex.def Info: img/stf-aral1997.jpg used on input line 121.
 (pdftex.def)             Requested size: 182.09486pt x 131.1109pt.
 
-<img/stf-aral1997-quadtree.jpg, id=105, 452.69125pt x 326.21875pt>
+<img/stf-aral1997-quadtree.jpg, id=106, 452.69125pt x 326.21875pt>
 File: img/stf-aral1997-quadtree.jpg Graphic file (type jpg)
 
 <use img/stf-aral1997-quadtree.jpg>
-Package pdftex.def Info: img/stf-aral1997-quadtree.jpg used on input line 117.
+Package pdftex.def Info: img/stf-aral1997-quadtree.jpg used on input line 122.
 (pdftex.def)             Requested size: 182.09486pt x 131.22188pt.
-<<<<<<< HEAD
- [19 <./img/stf-aral1997.jpg> <./img/stf-aral1997-quadtree.jpg>] <img/stf-coins
-.jpg, id=106, 258.9675pt x 195.73125pt>
-=======
  [20 <./img/stf-aral1997.jpg> <./img/stf-aral1997-quadtree.jpg>] <img/stf-coins
-.jpg, id=109, 258.9675pt x 195.73125pt>
->>>>>>> d2be256ce43f1e9fec449d5ba968a606f16de9ed
+.jpg, id=110, 258.9675pt x 195.73125pt>
 File: img/stf-coins.jpg Graphic file (type jpg)
 
 <use img/stf-coins.jpg>
-Package pdftex.def Info: img/stf-coins.jpg used on input line 139.
+Package pdftex.def Info: img/stf-coins.jpg used on input line 144.
 (pdftex.def)             Requested size: 182.09486pt x 137.63513pt.
 
-<img/stf-coins-watersheed.jpg, id=110, 626.34pt x 472.76625pt>
+<img/stf-coins-watersheed.jpg, id=111, 626.34pt x 472.76625pt>
 File: img/stf-coins-watersheed.jpg Graphic file (type jpg)
 
 <use img/stf-coins-watersheed.jpg>
-Package pdftex.def Info: img/stf-coins-watersheed.jpg used on input line 140.
+Package pdftex.def Info: img/stf-coins-watersheed.jpg used on input line 145.
 (pdftex.def)             Requested size: 182.09486pt x 137.44496pt.
-<<<<<<< HEAD
-) [20 <./img/stf-coins.jpg> <./img/stf-coins-watersheed.jpg>]
-=======
 ) [21 <./img/stf-coins.jpg> <./img/stf-coins-watersheed.jpg>]
->>>>>>> d2be256ce43f1e9fec449d5ba968a606f16de9ed
 \openout2 = `cap-03.1.aux'.
 
  (./cap-03.1.tex
 CAP{\'I}TULO 4.
-<<<<<<< HEAD
-[21
-
-
-
-] [22] [23] [24] [25]) [26] [27]
-\openout2 = `cap-04.aux'.
-
- (./cap-04.tex
-CAP{\'I}TULO 5.
-) [28
-=======
-<img/abordagem_flooding.jpg, id=114, 595.22375pt x 287.0725pt>
+<img/abordagem_flooding.jpg, id=115, 595.22375pt x 287.0725pt>
 File: img/abordagem_flooding.jpg Graphic file (type jpg)
 
 <use img/abordagem_flooding.jpg>
@@ -1239,21 +1211,21 @@ Package pdftex.def Info: img/abordagem_flooding.jpg used on input line 14.
 
 
  <./img/abordagem_flooding.jpg>]
-<img/abordagem_rainfalling.jpg, id=119, 457.71pt x 176.66pt>
+<img/abordagem_rainfalling.jpg, id=120, 457.71pt x 176.66pt>
 File: img/abordagem_rainfalling.jpg Graphic file (type jpg)
 
 <use img/abordagem_rainfalling.jpg>
 Package pdftex.def Info: img/abordagem_rainfalling.jpg used on input line 26.
 (pdftex.def)             Requested size: 364.19667pt x 140.57341pt.
  [23 <./img/abordagem_rainfalling.jpg>]
-<img/connected_components.jpg, id=125, 524.96124pt x 129.48375pt>
+<img/connected_components.jpg, id=126, 524.96124pt x 129.48375pt>
 File: img/connected_components.jpg Graphic file (type jpg)
 
 <use img/connected_components.jpg>
 Package pdftex.def Info: img/connected_components.jpg used on input line 52.
 (pdftex.def)             Requested size: 364.19667pt x 89.83385pt.
 
-<img/diagrama_blocos_preprocessamento.jpg, id=126, 645.41125pt x 249.93375pt>
+<img/diagrama_blocos_preprocessamento.jpg, id=127, 645.41125pt x 249.93375pt>
 File: img/diagrama_blocos_preprocessamento.jpg Graphic file (type jpg)
 
 <use img/diagrama_blocos_preprocessamento.jpg>
@@ -1269,20 +1241,62 @@ Package pdftex.def Info: img/diagrama_blocos_preprocessamento.jpg used on input
  line 79.
 (pdftex.def)             Requested size: 364.19667pt x 141.03358pt.
  [25]
-<img/filtromediana.jpg, id=135, 498.86375pt x 270.00874pt>
+<img/filtromediana.jpg, id=136, 498.86375pt x 270.00874pt>
 File: img/filtromediana.jpg Graphic file (type jpg)
 
 <use img/filtromediana.jpg>
-Package pdftex.def Info: img/filtromediana.jpg used on input line 113.
+Package pdftex.def Info: img/filtromediana.jpg used on input line 114.
 (pdftex.def)             Requested size: 364.19667pt x 197.12534pt.
- [26]) [27 <./img/filtromediana.jpg>] [28]
+ [26] [27 <./img/filtromediana.jpg>]
+
+! Package inputenc Error: Unicode char ́ (U+301)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.168 ...o um do algoritmo de \textit{watershed}.}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ́ (U+301)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.196 ...dois do algoritmo de \textit{watershed}.}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[28]
+
+! Package inputenc Error: Unicode char ́ (U+301)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.251 ...rês do algoritmo de \textit{watershed}.}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[29] [30]) [31]
 \openout2 = `cap-04.aux'.
 
-
-(./cap-04.tex
+ (./cap-04.tex
 CAP{\'I}TULO 5.
-) [29
->>>>>>> d2be256ce43f1e9fec449d5ba968a606f16de9ed
+) [32
 
 
 
@@ -1291,11 +1305,7 @@ CAP{\'I}TULO 5.
 
  (./cap-05.tex
 CAP{\'I}TULO 6.
-<<<<<<< HEAD
-[29
-=======
-[30
->>>>>>> d2be256ce43f1e9fec449d5ba968a606f16de9ed
+[33
 
 
 
@@ -1304,11 +1314,7 @@ Overfull \hbox (20.82771pt too wide) in paragraph at lines 52--67
  [][] 
  []
 
-<<<<<<< HEAD
-) [30] (./main.bbl
-=======
-) [31] (./main.bbl
->>>>>>> d2be256ce43f1e9fec449d5ba968a606f16de9ed
+) [34] (./main.bbl
 CAP{\'I}TULO 7.
 
 Underfull \hbox (badness 2564) in paragraph at lines 7--12
@@ -1338,11 +1344,7 @@ Package natbib Warning: There were undefined citations.
 
 
 AED: lastpage setting LastPage
-<<<<<<< HEAD
-[31
-=======
-[32
->>>>>>> d2be256ce43f1e9fec449d5ba968a606f16de9ed
+[35
 
 
 ] (./main.aux (./dados-pfc.aux) (./pre-texto.aux) (./cap-01.aux)
@@ -1351,65 +1353,35 @@ AED: lastpage setting LastPage
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.2pt have occurred.
 
-<<<<<<< HEAD
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  )
 (\end occurred inside a group at level 1)
 
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 11461 strings out of 493014
- 192536 string characters out of 6133350
- 365571 words of memory out of 5000000
- 14713 multiletter control sequences out of 15000+600000
+ 12084 strings out of 493014
+ 200227 string characters out of 6133350
+ 377542 words of memory out of 5000000
+ 15315 multiletter control sequences out of 15000+600000
  14369 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,15n,43p,1433b,3111s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 44i,15n,43p,1433b,3843s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/cm-super/cm
 -super-t1.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmmi12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmmi8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mr12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cms
-y10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfbx120
-0.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfbx1440.
-pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pf
-b></usr/local/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-</usr/local/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></
-usr/local/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on main.pdf (33 pages, 1230537 bytes).
+m/cmex10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmmi12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmmi8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
+10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfbx1200
+.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfbx1440.p
+fb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb
+></usr/local/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><
+/usr/local/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></u
+sr/local/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
+Output written on main.pdf (37 pages, 1322670 bytes).
 PDF statistics:
- 182 PDF objects out of 1000 (max. 8388607)
- 106 compressed objects within 2 object streams
-=======
- ) 
-Here is how much of TeX's memory you used:
- 11211 strings out of 492995
- 186018 string characters out of 6132704
- 351602 words of memory out of 5000000
- 14463 multiletter control sequences out of 15000+600000
- 14369 words of font info for 44 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 44i,9n,43p,1433b,841s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
-</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
-/usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></
-usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></us
-r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/
-local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/l
-ocal/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/loc
-al/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local
-/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/t
-exlive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/tex
-live/2017/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texli
-ve/2017/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on main.pdf (34 pages, 1307570 bytes).
-PDF statistics:
- 199 PDF objects out of 1000 (max. 8388607)
- 111 compressed objects within 2 object streams
->>>>>>> d2be256ce43f1e9fec449d5ba968a606f16de9ed
+ 211 PDF objects out of 1000 (max. 8388607)
+ 120 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  156 words of extra memory for PDF output out of 10000 (max. 10000000)
 

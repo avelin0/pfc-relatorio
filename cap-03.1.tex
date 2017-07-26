@@ -84,9 +84,10 @@ A ordem em que esses procedimentos ocorrem nesta etapa consta na estrutura apres
 
 \subsection*{Conversão para Cinza}
 Um dos procedimentos realizados na etapa de pré-processamento é a conversão da imagem original colorida para a imagem em níveis de cinza. Utiliza-se a quantização em 256 níveis de cinza (8 bits), onde o nível zero representa o preto e o nível 255, o branco.
-O objetivo dessa conversão é ...   
+O objetivo dessa conversão é tratar a imagem em um canal já que o escopo da presente pesquisa é tratar imagens em escala de cinza.
 
 \subsection*{Operador \textit{Not}}
+O operador not é utilizado no pré-processamento para que o algoritmo \textit{watersheed } seja executado da maneira correta, isto é, dos plateaus para os mínimos locais através. Ele inverte cada bit de um\textit{array}.
 
 \subsection*{Operador Sobel}
 Operador de detecção de bordas, que se baseia no operador gradiente. Esse operador é utilizado sobre a imagem resultante do operador \textit{not} com a finalidade de gerar uma imagem com as bordas detectadas brilhantes em um fundo (\textit{background}) mais escuro.
@@ -146,21 +147,113 @@ No algoritmo utiliza-se apenas a transformação \textit{closing}, a qual é út
 \subsection{Segmentação por Técnica Baseada em \textit{Watershed}}
 Dentre as duas principais abordagens da técnica de \textit{watershed} mencionadas na seção \ref{sec:watershed} do capítulo \ref{cap:algoritmo}, optou-se pela abordagem "\textit{rainfalling based watershed}" a fim de servir como base para a implementação da etapa de segmentação implementada neste algoritmo. Essa etapa é composta por três passos (\textit{steps}). 
 
-<<<<<<< HEAD
+\subsection{\textit{Step } 1}
 
-=======
-\subsection*{\textit{Step 1}}
-% Explicar 
 % Código 
+\begin{algorithm}[H]
+\SetAlgoLined
+
+    \SetKwInOut{Input}{Input}
+    \SetKwInOut{Output}{Output}
+
+    \underline{STEP1} $(p)$\;
+		\If{v[p] != 1}{
+  		\For{cada n vizinho de p}{
+   		\If{f[n] < f(p)}{
+	   		v[p] = 1\;   		
+   		}
+   }
+   }
  
-\subsection*{\textit{Step 2}}
-% Explicar 
-% Código 
+\caption{Pseudo código para o passo um do algoritmo de \textit{watershed}.}
+\end{algorithm}
 
-\subsection*{\textit{Step 3}}
-% Explicar 			
+% Explicar 
+O objetivo do passo 1 é encontrar os mínimos locais na imagem. Inicialmente, o \textit{array} v[p] e percorre-se a imagem de cima à esquerda até abaixo à direita e, v[p] assumirá o valor zero se o valor de seu vizinho for menos ou igual ao seu, e o valor 1 caso contrário.
+
+
+\subsection{\textit{Step } 2} 
 % Código 
->>>>>>> d2be256ce43f1e9fec449d5ba968a606f16de9ed
+\begin{algorithm}[H]
+\SetAlgoLined
+
+    \SetKwInOut{Input}{Input}
+    \SetKwInOut{Output}{Output}
+
+    \underline{STEP2} $(p)$\;
+		
+		  \If{v[p] != 1}{
+  		min = VMAX, para cada n de p\\				
+   		\If{f(n) = f(p) {\bf and} v[n] > 0 {\bf and} v[n] < min}{
+	   		min = v[n]\;   		
+   		}
+   		\If{min != VMAX {\bf and} v[p] != (min+1)  }{
+	   		v[p] = min+1\;   		
+   		}
+   
+   }
+ 
+\caption{Pseudo código para o passo dois do algoritmo de \textit{watershed}.}
+\end{algorithm}
+
+% Explicar 
+O fundamento do passo 2 é o de que se um píxel está no \textit{plateau} e seu vizinho apontado para um dos mínimos locais, então o píxel aponta para o respectivo vizinho. Para isso, considera-se os píxels com v[p] diferente de 1 e com seus pixels vizinhos no mesmo \textit{plateau} com v[p]=1, ou seja, regiões que não são de mínimo local. Em seguida, calcula-se a menor distancia até um mínimo local.
+
+\subsection{\textit{Step } 3}
+
+% Código 
+\begin{algorithm}[H]
+\SetAlgoLined
+
+    \SetKwInOut{Input}{Input}
+    \SetKwInOut{Output}{Output}
+
+    \underline{STEP3} $(p)$\;
+		
+		lmin=LMAX, fmin=f(p)\\
+   \uIf{v[p] = 0}{
+        \For{cada n vizinho de p}{
+            \If{f(n) = f(p) {\bf and} l[n] > 0  {\bf and} l[n] < lmin}{
+                lmin = l[n]
+            }
+            \If{lmin = LMAX  {\bf and} l[p] = 0 }{
+                lmin = New\_label+1
+            }
+        }
+    }
+    
+    \uElseIf{v[p] = 1}{
+       \For{cada n vizinho de p}{
+            \If{f(n) < fmin}{
+                fmin = f[n]
+            }
+        }
+        \For{cada n vizinho de p}{
+            \If{f(n) = fmin {\bf and} l[n] > 0 {\bf and} l[n] < lmin}{
+                lmin = l[n]
+            }
+        }
+       
+    }   
+    \Else{
+        \For{cada n vizinho de p}{
+            \If{f(n) = f(p) {\bf and} v[n] = v[p]-1 {\bf and} l[n] > 0 {\bf and} l[n] < lmin}{
+                lmin = l[n]
+            }
+        } 
+    }
+    
+    \If{lmin != LMAX {\bf and} l[n] != LMIN}{
+        l[p] = lmin
+    }
+ 
+ 
+\caption{Pseudo código para o passo três do algoritmo de \textit{watershed}.}
+\end{algorithm}
+
+% Explicar
+O objetivo da da terceira etapa do algoritmo é separar os píxels em regiões. Para isso, inicializa-se todos os pixels com valor zero. Inicialmente, começa-se a definir as regiões a partir dos mínimos locais cujo v[p]=0 cujos píxels vizinhos com o mesmo valor na escala de cinza ainda não estão associados a uma região definida. Essas regiões são propagadas para seus píxels vizinhos de acordo com o valor de v[p] para criar regiões cujo centro é um mínimo local. Em seguida, regiões similares são criadas para todos os mínimos locais por este mesmo procedimento.
+
 
 \subsection{Pós-Processamento}
 Após as etapas de pré-processamento e segmentação, ainda podem ser necessárias algumas correções relacionadas ao problema de \textit{over-segmentation}. É comum que tenhamos diferentes segmentos que fazem parte de uma mesma região. Para tanto pode-se utilizar algum método de  agrupamento para mesclar esses segmentos a fim de melhorar a qualidade da segmentação.

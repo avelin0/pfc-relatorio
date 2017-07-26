@@ -20,11 +20,16 @@ Cada \textit{pixel} é alocado a uma categoria de acordo com seu valor em nívei
 
 Dado um limiar T (\textit{threshold}), o \textit{pixel} com valor $f_i_j$  e localizado na posição (i,j)  é alocado à:
 \\
+
+ f(i,j) =
 \begin{cases}
-$  categoria 1, se: f_{ij} $\leq$ T. $ \\
-$  categoria 2, caso contrário. $ \\
+
+
+				categoria 1, & \mbox{se f_{ij} $\leq$ T;} \\
+             categoria 2, & \mbox{caso contrário.}
 \end{cases}
 \\
+
 O limiar T pode ser escolhido manualmente, tentando diferentes valores de T e analisando qual deles é mais eficiente na identificação dos objetos de interesse.
 O \textit{threshold} T também pode ser escolhido a partir do histograma da imagem, e escolhe-se T como o valor entre as duas distribuições de cinza.
 
