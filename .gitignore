@@ -1,3 +1,7 @@
+*.log
+*.aux
+*.lot
+*.gz
 main.log
 main.pdf
 cap-01.aux
