@@ -16,12 +16,12 @@
 \contentsline {figure}{\numberline {3.5}{\ignorespaces Uma representa\IeC {\c c}\IeC {\~a}o visual de uma regi\IeC {\~a}o \citep {stanford} \IeC {\`a} esquerda e \IeC {\`a} direita segmentada pelo algoritmo quadtree em linguagem de programa\IeC {\c c}\IeC {\~a}o python.}}{20}
 \contentsline {figure}{\numberline {3.6}{\ignorespaces Imagem de uma moeda \citep {stanford} \IeC {\`a} esquerda e \IeC {\`a} direita segmentada pelo algoritmo watersheed em linguagem de programa\IeC {\c c}\IeC {\~a}o python.}}{21}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Abordagem "\textit {flooding based watershed}".}}{22}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Abordagem "\textit {rainfalling based watershed}".}}{23}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Ilustra\IeC {\c c}\IeC {\~a}o do funcionamento da t\IeC {\'e}cnica \textit {Watershed Based On Connected Components}.}}{24}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Abordagem "\textit {flooding based watershed}".\cite {regseg1}}}{22}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Abordagem "\textit {rainfalling based watershed}".\cite {ruparelia2012implementation}}}{23}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Ilustra\IeC {\c c}\IeC {\~a}o do funcionamento da t\IeC {\'e}cnica \textit {Watershed Based On Connected Components}.\cite {ruparelia2012implementation}}}{24}
 \contentsline {figure}{\numberline {4.4}{\ignorespaces Diagrama de blocos do algoritmo de segmenta\IeC {\c c}\IeC {\~a}o dessa pesquisa.}}{24}
 \contentsline {figure}{\numberline {4.5}{\ignorespaces Diagrama de blocos da etapa de pr\IeC {\'e}-processamento.}}{25}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Ilustra\IeC {\c c}\IeC {\~a}o do funcionamento do filtro de mediana.}}{27}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Ilustra\IeC {\c c}\IeC {\~a}o do funcionamento do filtro de mediana.\cite {ruparelia2012implementation}}}{27}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

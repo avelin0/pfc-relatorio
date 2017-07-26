@@ -12,7 +12,7 @@ A primeira, denominada "\textit{flooding based watershed}", trata a imagem em n�
 	\begin{figure}[!htb]
        \begin{center}  
           \includegraphics[width=0.8\columnwidth]{img/abordagem_flooding.jpg}
-           \caption{\label{fig:abordagem_flooding}Abordagem "\textit{flooding based watershed}".}
+           \caption{\label{fig:abordagem_flooding}Abordagem "\textit{flooding based watershed}".\cite{regseg1}}
            % \vspace{2.0em}
        \end{center}
    \end{figure} 
@@ -24,7 +24,7 @@ A outra abordagem, denominada "\textit{rainfalling based watershed}" trata a ima
 	\begin{figure}[!htb]
        \begin{center}  
           \includegraphics[width=0.8\columnwidth]{img/abordagem_rainfalling.jpg}
-           \caption{\label{fig:abordagem_rainfalling}Abordagem "\textit{rainfalling based watershed}".}
+           \caption{\label{fig:abordagem_rainfalling}Abordagem "\textit{rainfalling based watershed}".\cite{ruparelia2012implementation}}
            % \vspace{2.0em}
        \end{center}
    \end{figure} 
@@ -50,7 +50,7 @@ Este algoritmo tem como princípio conectar cada \textit{pixel} (componente), ca
 	\begin{figure}[!htb]
        \begin{center}  
           \includegraphics[width=0.8\columnwidth]{img/connected_components.jpg}
-           \caption{\label{fig:connected_components}Ilustração do funcionamento da técnica \textit{Watershed Based On Connected Components}.}
+           \caption{\label{fig:connected_components}Ilustração do funcionamento da técnica \textit{Watershed Based On Connected Components}.\cite{ruparelia2012implementation}}
            % \vspace{2.0em}
        \end{center}
    \end{figure}
@@ -112,7 +112,7 @@ Para a implementação do filtro de mediana, considera-se uma imagem com \textit
 	\begin{figure}[!htb]
        \begin{center}  
           \includegraphics[width=0.8\columnwidth]{img/filtromediana.jpg}
-           \caption{\label{fig:filtromediana}Ilustração do funcionamento do filtro de mediana.}
+           \caption{\label{fig:filtromediana}Ilustração do funcionamento do filtro de mediana.\cite{ruparelia2012implementation}}
            % \vspace{2.0em}
        \end{center}
    \end{figure}
@@ -148,6 +148,9 @@ No algoritmo utiliza-se apenas a transformação \textit{closing}, a qual é út
 Dentre as duas principais abordagens da técnica de \textit{watershed} mencionadas na seção \ref{sec:watershed} do capítulo \ref{cap:algoritmo}, optou-se pela abordagem "\textit{rainfalling based watershed}" a fim de servir como base para a implementação da etapa de segmentação implementada neste algoritmo. Essa etapa é composta por três passos (\textit{steps}). 
 
 \subsection{\textit{Step } 1}
+% Explicar 
+O objetivo do passo 1 é encontrar os mínimos locais na imagem. Inicialmente, o \textit{array} v[p] e percorre-se a imagem de cima à esquerda até abaixo à direita e, v[p] assumirá o valor zero se o valor de seu vizinho for menos ou igual ao seu, e o valor 1 caso contrário.
+
 
 % Código 
 \begin{algorithm}[H]
@@ -165,14 +168,16 @@ Dentre as duas principais abordagens da técnica de \textit{watershed} mencionad
    }
    }
  
-\caption{Pseudo código para o passo um do algoritmo de \textit{watershed}.}
+\caption{Pseudo código para o passo um do algoritmo de \textit{watershed}. \cite{ruparelia2012implementation}}
 \end{algorithm}
 
-% Explicar 
-O objetivo do passo 1 é encontrar os mínimos locais na imagem. Inicialmente, o \textit{array} v[p] e percorre-se a imagem de cima à esquerda até abaixo à direita e, v[p] assumirá o valor zero se o valor de seu vizinho for menos ou igual ao seu, e o valor 1 caso contrário.
+
 
 
 \subsection{\textit{Step } 2} 
+% Explicar 
+O fundamento do passo 2 é o de que se um píxel está no \textit{plateau} e seu vizinho apontado para um dos mínimos locais, então o píxel aponta para o respectivo vizinho. Para isso, considera-se os píxels com v[p] diferente de 1 e com seus pixels vizinhos no mesmo \textit{plateau} com v[p]=1, ou seja, regiões que não são de mínimo local. Em seguida, calcula-se a menor distancia até um mínimo local.
+
 % Código 
 \begin{algorithm}[H]
 \SetAlgoLined
@@ -193,13 +198,13 @@ O objetivo do passo 1 é encontrar os mínimos locais na imagem. Inicialmente, o
    
    }
  
-\caption{Pseudo código para o passo dois do algoritmo de \textit{watershed}.}
+\caption{Pseudo código para o passo dois do algoritmo de \textit{watershed}. \cite{ruparelia2012implementation}}
 \end{algorithm}
 
-% Explicar 
-O fundamento do passo 2 é o de que se um píxel está no \textit{plateau} e seu vizinho apontado para um dos mínimos locais, então o píxel aponta para o respectivo vizinho. Para isso, considera-se os píxels com v[p] diferente de 1 e com seus pixels vizinhos no mesmo \textit{plateau} com v[p]=1, ou seja, regiões que não são de mínimo local. Em seguida, calcula-se a menor distancia até um mínimo local.
 
 \subsection{\textit{Step } 3}
+% Explicar
+O objetivo da da terceira etapa do algoritmo é separar os píxels em regiões. Para isso, inicializa-se todos os pixels com valor zero. Inicialmente, começa-se a definir as regiões a partir dos mínimos locais cujo v[p]=0 cujos píxels vizinhos com o mesmo valor na escala de cinza ainda não estão associados a uma região definida. Essas regiões são propagadas para seus píxels vizinhos de acordo com o valor de v[p] para criar regiões cujo centro é um mínimo local. Em seguida, regiões similares são criadas para todos os mínimos locais por este mesmo procedimento.
 
 % Código 
 \begin{algorithm}[H]
@@ -248,11 +253,10 @@ O fundamento do passo 2 é o de que se um píxel está no \textit{plateau} e seu
     }
  
  
-\caption{Pseudo código para o passo três do algoritmo de \textit{watershed}.}
+\caption{Pseudo código para o passo três do algoritmo de \textit{watershed}.\cite{ruparelia2012implementation}}
 \end{algorithm}
 
-% Explicar
-O objetivo da da terceira etapa do algoritmo é separar os píxels em regiões. Para isso, inicializa-se todos os pixels com valor zero. Inicialmente, começa-se a definir as regiões a partir dos mínimos locais cujo v[p]=0 cujos píxels vizinhos com o mesmo valor na escala de cinza ainda não estão associados a uma região definida. Essas regiões são propagadas para seus píxels vizinhos de acordo com o valor de v[p] para criar regiões cujo centro é um mínimo local. Em seguida, regiões similares são criadas para todos os mínimos locais por este mesmo procedimento.
+
 
 
 \subsection{Pós-Processamento}

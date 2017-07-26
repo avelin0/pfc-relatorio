@@ -1,4 +1,4 @@
-\begin{thethesisbibliography}{6}
+\begin{thethesisbibliography}{8}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{{\tt #1}}\fi
@@ -35,11 +35,25 @@
   <https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/bsds/BSDS300>.
   Acesso em: 10 mai. de 2017.
 
+\bibitem[Gomes(2017){\MakeUppercase{Gomes}}]{regseg1}
+{\MakeUppercase{Abel Gomes}}.
+\newblock
+\newblock Computação Visual e Multimídia. Disponível em:
+  <http://www.di.ubi.pt/~agomes/cvm/teoricas/07-regionsegmentation.pdf>. Acesso
+  em: 10 mai. de 2017.
+
 \bibitem[OpenCV(2017){\MakeUppercase{OpenCV}}]{opencv}
 {\MakeUppercase{OpenCV}}.
 \newblock
 \newblock OpenCV About. Disponível em: <http://opencv.org/about.html>. Acesso
   em: 10 mai. de 2017.
+
+\bibitem[Ruparelia(2012){\MakeUppercase{Ruparelia}}]{ruparelia2012implementation}
+{\MakeUppercase{Ruparelia, S.}}
+\newblock {\bf Implementation of watershed based image segmentation algorithm
+  in FPGA}.
+\newblock 2012. Dissertação (M.Sc. Information Technology) -- Universidade de
+  Stuttgart, Alemanha, 2012.
 
 \bibitem[Stanford(2017){\MakeUppercase{Stanford}}]{stanford}
 {\MakeUppercase{Stanford}}.

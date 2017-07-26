@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.16)  26 JUL 2017 03:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.16)  26 JUL 2017 09:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -916,9 +916,15 @@ and I'll forget about whatever was undefined.
 \tf@toc=\write3
 \openout3 = `main.toc'.
 
- [7] (./main.lof [8
+ [7] (./main.lof
+LaTeX Info: Redefining \NATand on input line 19.
+LaTeX Info: Redefining \NATand on input line 20.
+LaTeX Info: Redefining \NATand on input line 21.
+ [8
 
-])
+]
+LaTeX Info: Redefining \NATand on input line 24.
+)
 \tf@lof=\write4
 \openout4 = `main.lof'.
 
@@ -1206,6 +1212,7 @@ File: img/abordagem_flooding.jpg Graphic file (type jpg)
 <use img/abordagem_flooding.jpg>
 Package pdftex.def Info: img/abordagem_flooding.jpg used on input line 14.
 (pdftex.def)             Requested size: 364.19667pt x 175.64836pt.
+LaTeX Info: Redefining \NATand on input line 15.
  [22
 
 
@@ -1217,6 +1224,7 @@ File: img/abordagem_rainfalling.jpg Graphic file (type jpg)
 <use img/abordagem_rainfalling.jpg>
 Package pdftex.def Info: img/abordagem_rainfalling.jpg used on input line 26.
 (pdftex.def)             Requested size: 364.19667pt x 140.57341pt.
+LaTeX Info: Redefining \NATand on input line 27.
  [23 <./img/abordagem_rainfalling.jpg>]
 <img/connected_components.jpg, id=126, 524.96124pt x 129.48375pt>
 File: img/connected_components.jpg Graphic file (type jpg)
@@ -1224,6 +1232,8 @@ File: img/connected_components.jpg Graphic file (type jpg)
 <use img/connected_components.jpg>
 Package pdftex.def Info: img/connected_components.jpg used on input line 52.
 (pdftex.def)             Requested size: 364.19667pt x 89.83385pt.
+LaTeX Info: Redefining \NATand on input line 53.
+LaTeX Info: Redefining \NATand on input line 53.
 
 <img/diagrama_blocos_preprocessamento.jpg, id=127, 645.41125pt x 249.93375pt>
 File: img/diagrama_blocos_preprocessamento.jpg Graphic file (type jpg)
@@ -1247,6 +1257,7 @@ File: img/filtromediana.jpg Graphic file (type jpg)
 <use img/filtromediana.jpg>
 Package pdftex.def Info: img/filtromediana.jpg used on input line 114.
 (pdftex.def)             Requested size: 364.19667pt x 197.12534pt.
+LaTeX Info: Redefining \NATand on input line 115.
  [26] [27 <./img/filtromediana.jpg>]
 
 ! Package inputenc Error: Unicode char ÃÅ (U+301)
@@ -1256,12 +1267,13 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.168 ...o um do algoritmo de \textit{watershed}.}
+l.171 ...hed}. \cite{ruparelia2012implementation}}
                                                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
+LaTeX Info: Redefining \NATand on input line 171.
 
 ! Package inputenc Error: Unicode char ÃÅ (U+301)
 (inputenc)                not set up for use with LaTeX.
@@ -1270,12 +1282,43 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.196 ...dois do algoritmo de \textit{watershed}.}
+l.171 ...hed}. \cite{ruparelia2012implementation}}
                                                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
+LaTeX Info: Redefining \NATand on input line 171.
+
+! Package inputenc Error: Unicode char ÃÅ (U+301)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.201 ...hed}. \cite{ruparelia2012implementation}}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+LaTeX Info: Redefining \NATand on input line 201.
+
+! Package inputenc Error: Unicode char ÃÅ (U+301)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.201 ...hed}. \cite{ruparelia2012implementation}}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+LaTeX Info: Redefining \NATand on input line 201.
 [28]
 
 ! Package inputenc Error: Unicode char ÃÅ (U+301)
@@ -1285,13 +1328,29 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.251 ...r√™s do algoritmo de \textit{watershed}.}
+l.256 ...shed}.\cite{ruparelia2012implementation}}
                                                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[29] [30]) [31]
+LaTeX Info: Redefining \NATand on input line 256.
+
+! Package inputenc Error: Unicode char ÃÅ (U+301)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.256 ...shed}.\cite{ruparelia2012implementation}}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+LaTeX Info: Redefining \NATand on input line 256.
+[29]) [30] [31]
 \openout2 = `cap-04.aux'.
 
  (./cap-04.tex
@@ -1338,6 +1397,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 32--37
 /BSDS300>.
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--44
+[]\T1/cmr/m/n/12 ABEL GO-MES.   Com-pu-ta-Á„o Vi-sual e Mul-ti-mÌ-dia. Dis-po-n
+Ì-vel em:
+ []
+
 )
 
 Package natbib Warning: There were undefined citations.
@@ -1359,10 +1424,10 @@ LaTeX Font Warning: Size substitutions with differences
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 12084 strings out of 493014
- 200227 string characters out of 6133350
- 377542 words of memory out of 5000000
- 15315 multiletter control sequences out of 15000+600000
+ 12090 strings out of 493014
+ 200377 string characters out of 6133350
+ 377615 words of memory out of 5000000
+ 15321 multiletter control sequences out of 15000+600000
  14369 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,15n,43p,1433b,3843s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1378,7 +1443,7 @@ fb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb
 ></usr/local/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><
 /usr/local/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></u
 sr/local/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on main.pdf (37 pages, 1322670 bytes).
+Output written on main.pdf (37 pages, 1323761 bytes).
 PDF statistics:
  211 PDF objects out of 1000 (max. 8388607)
  120 compressed objects within 2 object streams
