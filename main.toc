@@ -18,7 +18,7 @@
 \contentsline {section}{\numberline {4.1}\textit {Watershed}}{22}
 \contentsline {section}{\numberline {4.2}\textit {Watershed Algorithm Based On Connected Components}}{23}
 \contentsline {section}{\numberline {4.3}Implementa\IeC {\c c}\IeC {\~a}o do Algoritmo}{24}
-\contentsline {subsection}{\numberline {4.3.1}Pr\IeC {\'e}-Processamento}{25}
+\contentsline {subsection}{\numberline {4.3.1}Pr\IeC {\'e}-Processamento}{24}
 \contentsline {subsection}{\numberline {4.3.2}Segmenta\IeC {\c c}\IeC {\~a}o por T\IeC {\'e}cnica Baseada em \textit {Watershed}}{28}
 \contentsline {subsection}{\numberline {4.3.3}\textit {Step } 1}{28}
 \contentsline {subsection}{\numberline {4.3.4}\textit {Step } 2}{28}

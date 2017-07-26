@@ -1,6 +1,6 @@
 \chapter{Algoritmo}\label{cap:algoritmo}
 
-O algoritmo proposto nessa pesquisa é baseado no algoritmo "\textit{Watershed Algorithm Based On Connected Components}", apresentado na tese xxxx, o qual trata-se de uma variação da técnica de \textit{watershed} com resultados de segmentação considerados bastante satisfatórios além da menor complexidade computacional com relação à abordagem tradicional \textit{watershed}.
+O algoritmo proposto nessa pesquisa é baseado no algoritmo "\textit{Watershed Algorithm Based On Connected Components}", apresentado na tese \cite{ruparelia2012implementation}, o qual trata-se de uma variação da técnica de \textit{watershed} com resultados de segmentação considerados bastante satisfatórios além da menor complexidade computacional com relação à abordagem tradicional \textit{watershed}.
 
 \section{\textit{Watershed}}\label{sec:watershed}
 \textit{Watershed} é uma técnica de segmentação bastante eficiente e poderosa. Tal técnica tem como vantagem gerar sempre resultados com contornos fechados e bem definidos, o que é de grande importância para o processo de segmentação de imagens. Além disso, comparada a outras técnicas de segmentação, apresenta menor complexidade computacional.
@@ -63,7 +63,7 @@ Todas as etapas serão explicadas nas próximas seções de acordo como foram im
 % Figura
 	\begin{figure}[!htb]
        \begin{center}  
-          \includegraphics[width=0.7\columnwidth]{img/diagrama_blocos_preprocessamento.jpg}
+          \includegraphics[width=0.7\columnwidth]{img/diagrama_blocos_algoritmo.jpg}
            \caption{\label{fig:diagrama_blocos_algoritmo}Diagrama de blocos do algoritmo de segmentação dessa pesquisa.}
            % \vspace{2.0em}
        \end{center}
@@ -168,7 +168,7 @@ O objetivo do passo 1 é encontrar os mínimos locais na imagem. Inicialmente, o
    }
    }
  
-\caption{Pseudo código para o passo um do algoritmo de \textit{watershed}. \cite{ruparelia2012implementation}}
+\caption{Pseudo código para o passo um do algoritmo de \textit{watershed}. \cite{ruparelia2012implementation}}
 \end{algorithm}
 
 
