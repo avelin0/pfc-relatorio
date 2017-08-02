@@ -1,4 +1,4 @@
-\begin{thethesisbibliography}{8}
+\begin{thethesisbibliography}{11}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{{\tt #1}}\fi
@@ -42,11 +42,25 @@
   <http://www.di.ubi.pt/~agomes/cvm/teoricas/07-regionsegmentation.pdf>. Acesso
   em: 10 mai. de 2017.
 
-\bibitem[OpenCV(2017){\MakeUppercase{OpenCV}}]{opencv}
+\bibitem[OpenCV(2017{\natexlab{a}}){\MakeUppercase{OpenCV}}]{morphology_transformations}
+{\MakeUppercase{OpenCV}}.
+\newblock
+\newblock More Morphology Transformations. Disponível em:
+  <http://docs.opencv.org/2.4/doc/tutorials/imgproc/opening_closing_hats/opening_closing_hats.html>.
+  Acesso em: 26 jul. de 2017.
+
+\bibitem[OpenCV(2017{\natexlab{b}}){\MakeUppercase{OpenCV}}]{opencv}
 {\MakeUppercase{OpenCV}}.
 \newblock
 \newblock OpenCV About. Disponível em: <http://opencv.org/about.html>. Acesso
   em: 10 mai. de 2017.
+
+\bibitem[OpenCV(2017{\natexlab{c}}){\MakeUppercase{OpenCV}}]{sobel}
+{\MakeUppercase{OpenCV}}.
+\newblock
+\newblock Sobel Derivatives. Disponível em:
+  <http://docs.opencv.org/2.4/doc/tutorials/imgproc/imgtrans/sobel_derivatives/sobel_derivatives.html>.
+  Acesso em: 26 jul. de 2017.
 
 \bibitem[Ruparelia(2012){\MakeUppercase{Ruparelia}}]{ruparelia2012implementation}
 {\MakeUppercase{Ruparelia, S.}}
@@ -61,5 +75,12 @@
 \newblock The Stanford Center for Image Systems Engineering. Disponível em:
   <https://scien.stanford.edu/index.php/test-images-and-videos/>. Acesso em: 10
   mai. de 2017.
+
+\bibitem[Strand(2017){\MakeUppercase{Strand}}]{l6}
+{\MakeUppercase{Robin Strand}}.
+\newblock
+\newblock Segmentation. Disponível em:
+  <www.it.uu.se/edu/course/homepage/bild1/ht14/L6_segmentation.pdf>. Acesso em:
+  10 mai. de 2017.
 
 \end{thethesisbibliography}

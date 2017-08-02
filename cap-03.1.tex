@@ -6,24 +6,24 @@ O algoritmo proposto nessa pesquisa é baseado no algoritmo "\textit{Watershed A
 \textit{Watershed} é uma técnica de segmentação bastante eficiente e poderosa. Tal técnica tem como vantagem gerar sempre resultados com contornos fechados e bem definidos, o que é de grande importância para o processo de segmentação de imagens. Além disso, comparada a outras técnicas de segmentação, apresenta menor complexidade computacional.
 
 Duas abordagens são bastante utilizadas para explicar a ideia básica do \textit{watershed} na segmentação de imagens. 
-A primeira, denominada "\textit{flooding based watershed}", trata a imagem em níveis de cinza com uma paisagem formada por vales, onde encontram-se os mínimos locais. Considerando um processo de inundação com a água subindo a partir de cada um dos vales, serão construídas barragens nos pontos de encontro da água oriunda de dois vales distintos, chamadas de \textit{watersheds}. Essas barragens, portanto, são interpretadas como bordas entra diferentes regiões da imagem. 
+A primeira, denominada "\textit{flooding based watershed}", trata a imagem em níveis de cinza com uma paisagem formada por vales, onde encontram-se os mínimos locais. Considerando um processo de inundação com a água subindo a partir de cada um dos vales, serão construídas barragens nos pontos de encontro da água oriunda de dois vales distintos, chamadas de \textit{watersheds}. Essas barragens, portanto, são interpretadas como bordas entra diferentes regiões da imagem.\citep{l6} 
 
 % Figura
 	\begin{figure}[!htb]
        \begin{center}  
-          \includegraphics[width=0.8\columnwidth]{img/abordagem_flooding.jpg}
+          \includegraphics[width=0.6\columnwidth]{img/abordagem_flooding.jpg}
            \caption{\label{fig:abordagem_flooding}Abordagem "\textit{flooding based watershed}".\cite{regseg1}}
            % \vspace{2.0em}
        \end{center}
    \end{figure} 
 
 
-A outra abordagem, denominada "\textit{rainfalling based watershed}" trata a imagem em níveis de cinza da mesma forma que a primeira, porém o fluxo de água ocorre a partir de gotas de água que ao incidirem em qualquer ponto da superfície escorrerão para um determinado vale, onde encontra-se um mínimo local. O conjunto de pontos para os quais a gota de água escorre para o mesmo local é interpretada como uma região e os limites entre duas regiões adjacentes,  interpretados como bordas, são as \textit{watersheds}.
+A outra abordagem, denominada "\textit{rainfalling based watershed}" trata a imagem em níveis de cinza da mesma forma que a primeira, porém o fluxo de água ocorre a partir de gotas de água que ao incidirem em qualquer ponto da superfície escorrerão para um determinado vale, onde encontra-se um mínimo local. O conjunto de pontos para os quais a gota de água escorre para o mesmo local é interpretada como uma região e os limites entre duas regiões adjacentes,  interpretados como bordas, são as \textit{watersheds}.\citep{l6} 
 
 % Figura 
 	\begin{figure}[!htb]
        \begin{center}  
-          \includegraphics[width=0.8\columnwidth]{img/abordagem_rainfalling.jpg}
+          \includegraphics[width=0.6\columnwidth]{img/abordagem_rainfalling.jpg}
            \caption{\label{fig:abordagem_rainfalling}Abordagem "\textit{rainfalling based watershed}".\cite{ruparelia2012implementation}}
            % \vspace{2.0em}
        \end{center}
@@ -49,7 +49,7 @@ Este algoritmo tem como princípio conectar cada \textit{pixel} (componente), ca
 % Figura
 	\begin{figure}[!htb]
        \begin{center}  
-          \includegraphics[width=0.8\columnwidth]{img/connected_components.jpg}
+          \includegraphics[width=0.9\columnwidth]{img/connected_components.jpg}
            \caption{\label{fig:connected_components}Ilustração do funcionamento da técnica \textit{Watershed Based On Connected Components}.\cite{ruparelia2012implementation}}
            % \vspace{2.0em}
        \end{center}
@@ -86,23 +86,23 @@ A ordem em que esses procedimentos ocorrem nesta etapa consta na estrutura apres
 Um dos procedimentos realizados na etapa de pré-processamento é a conversão da imagem original colorida para a imagem em níveis de cinza. Utiliza-se a quantização em 256 níveis de cinza (8 bits), onde o nível zero representa o preto e o nível 255, o branco.
 O objetivo dessa conversão é tratar a imagem em um canal já que o escopo da presente pesquisa é tratar imagens em escala de cinza.
 
+\subsection*{Filtro Gaussiano}
+O filtro gaussiano é utilizado como um dos primeiros procedimentos da etapa de pré-processamento a fim de remover os ruídos presentes na imagem a ser segmentada.
+
+
 \subsection*{Operador \textit{Not}}
-O operador not é utilizado no pré-processamento para que o algoritmo \textit{watersheed } seja executado da maneira correta, isto é, dos plateaus para os mínimos locais através. Ele inverte cada bit de um\textit{array}.
+O operador not é utilizado no pré-processamento para que o algoritmo \textit{watersheed } seja executado da maneira correta, isto é, dos plateaus para os mínimos locais através. Ele inverte cada bit de um \textit{array}.
 
 \subsection*{Operador Sobel}
 Operador de detecção de bordas, que se baseia no operador gradiente. Esse operador é utilizado sobre a imagem resultante do operador \textit{not} com a finalidade de gerar uma imagem com as bordas detectadas brilhantes em um fundo (\textit{background}) mais escuro.
 
-Computa-se os gradientes horizontal, \textit{Gx}, e vertical, \textit{Gy}, considerando uma janela de tamanho 3, isto é, \textit{3 x 3 pixels}, e calcula-se uma aproximação do gradiente em cada ponto da seguinte forma:
+Computa-se os gradientes horizontal, \textit{Gx}, e vertical, \textit{Gy}, considerando uma janela de tamanho 3, isto é, \textit{3 x 3 pixels}, e calcula-se uma aproximação do gradiente em cada ponto da seguinte forma: \citep{sobel}
 
 % Equação
 \[G = |G_{x}| + |G_{y}|\]
 
 % Código
 
-\subsection*{\textit{Thresholding}}
-Essa técnica de segmentação, já explicada na seção \ref{sec:alg_thresholding} do capítulo \ref{cap:algoritmos}, é aplicada sobre a imagem gradiente resultante do transformação morfológica. Seu objetivo é remover pequenas variações em regiões homogêneas e evitar a formação de diversas regiões, isto é, o problema de \textit{over-segmentation}. Dessa forma, o valor do \textit{threshold} é determinado como o mínimo local e todos os valores de gradiente menores que esse \textit{threshold} são estabelecidos também como o mínimo local.
-Cada imagem demanda um valor de \textit{threshold} ideal, o qual não é fácil de ser encontrado. Para valores baixos de \textit{threshold}, as bordas podem se tornar muito largas, enquanto que para valores altos, as bordas podem não ser detectadas.
-Assim, o ajuste pelo usuário se faz necessário a fim de que se possa obter a segmentação mais eficiente para uma dada imagem. Para isso, na interface do aplicativo proposto como produto final dessa pesquisa, será implementado alguma ferramenta que possibilite este ajuste.
 
 \subsection*{Filtro de Mediana}
 O objetivo do filtro de mediana é a redução ou, até mesmo, a remoção de ruídos das imagens, a fim de suavizá-las e torná-las mais tratáveis para o processo de segmentação. O filtro de mediana é eficaz para o tratamento de ruídos impulsivos, como o ruído Gaussiano (aleatório) e, principalmente, o ruído sal e pimenta, em que os \textit{pixels} ruidosos assumem os valores máximos e mínimos da imagem.
@@ -119,8 +119,8 @@ Para a implementação do filtro de mediana, considera-se uma imagem com \textit
    
 % Código
 
-\subsection*{Operador Morfológico}
-Utilizado sobre o resultado do operador Sobel, o operador morfológico funciona como uma técnica de realce a fim de enfatizar as bordas da imagem. 
+\subsection*{Operadores Morfológicos}
+Após a aplicação de um detector de bordas (operador Sobel) pode acontecer da imagem ficar com bordas "falhadas". Como a técnica de \textit{watershed} requer que as regiões estejam "fechadas", ou seja, sem falhas nas bordas, é aplicado um conjunto de operações morfológicas para conectar estas regiões fragmentadas. 
 Existem duas operações morfológicas básicas:
 % \section{Operações morfológicas básicas}
 \begin{itemize}
@@ -138,7 +138,7 @@ A biblioteca OpenCV fornece 5 transformações morfológicas baseadas nessas dua
     \item \textit{Black Hat}.
 \end{itemize} 
 
-No algoritmo utiliza-se apenas a transformação \textit{closing}, a qual é útil para o fechamento de bordas, removendo pequenos buracos que possam ter sido gerados nos procedimentos anteriores.
+No algoritmo utiliza-se apenas a transformação \textit{closing}, a qual é útil para o fechamento de bordas, removendo pequenos buracos que possam ter sido gerados nos procedimentos anteriores. \citep{morphology_transformations}
 
 % Equação
 \[dst = close(src, element) = erode(dilate(src, element))\]
@@ -147,7 +147,7 @@ No algoritmo utiliza-se apenas a transformação \textit{closing}, a qual é út
 \subsection{Segmentação por Técnica Baseada em \textit{Watershed}}
 Dentre as duas principais abordagens da técnica de \textit{watershed} mencionadas na seção \ref{sec:watershed} do capítulo \ref{cap:algoritmo}, optou-se pela abordagem "\textit{rainfalling based watershed}" a fim de servir como base para a implementação da etapa de segmentação implementada neste algoritmo. Essa etapa é composta por três passos (\textit{steps}). 
 
-\subsection{\textit{Step } 1}
+\subsection{\textit{Step} 1}
 % Explicar 
 O objetivo do passo 1 é encontrar os mínimos locais na imagem. Inicialmente, o \textit{array} v[p] e percorre-se a imagem de cima à esquerda até abaixo à direita e, v[p] assumirá o valor zero se o valor de seu vizinho for menos ou igual ao seu, e o valor 1 caso contrário.
 
@@ -174,9 +174,9 @@ O objetivo do passo 1 é encontrar os mínimos locais na imagem. Inicialmente, o
 
 
 
-\subsection{\textit{Step } 2} 
+\subsection{\textit{Step} 2} 
 % Explicar 
-O fundamento do passo 2 é o de que se um píxel está no \textit{plateau} e seu vizinho apontado para um dos mínimos locais, então o píxel aponta para o respectivo vizinho. Para isso, considera-se os píxels com v[p] diferente de 1 e com seus pixels vizinhos no mesmo \textit{plateau} com v[p]=1, ou seja, regiões que não são de mínimo local. Em seguida, calcula-se a menor distancia até um mínimo local.
+O fundamento do passo 2 é o de que se um \textit{pixel} está no \textit{plateau} e seu vizinho apontado para um dos mínimos locais, então o \textit{pixel} aponta para o respectivo vizinho. Para isso, considera-se os \textit{pixels} com v[p] diferente de 1 e com seus \textit{pixels} vizinhos no mesmo \textit{plateau} com v[p]=1, ou seja, regiões que não são de mínimo local. Em seguida, calcula-se a menor distancia até um mínimo local.
 
 % Código 
 \begin{algorithm}[H]
@@ -198,13 +198,13 @@ O fundamento do passo 2 é o de que se um píxel está no \textit{plateau} e seu
    
    }
  
-\caption{Pseudo código para o passo dois do algoritmo de \textit{watershed}. \cite{ruparelia2012implementation}}
+\caption{Pseudo código para o passo dois do algoritmo de \textit{watershed}. \cite{ruparelia2012implementation}}
 \end{algorithm}
 
 
-\subsection{\textit{Step } 3}
+\subsection{\textit{Step} 3}
 % Explicar
-O objetivo da da terceira etapa do algoritmo é separar os píxels em regiões. Para isso, inicializa-se todos os pixels com valor zero. Inicialmente, começa-se a definir as regiões a partir dos mínimos locais cujo v[p]=0 cujos píxels vizinhos com o mesmo valor na escala de cinza ainda não estão associados a uma região definida. Essas regiões são propagadas para seus píxels vizinhos de acordo com o valor de v[p] para criar regiões cujo centro é um mínimo local. Em seguida, regiões similares são criadas para todos os mínimos locais por este mesmo procedimento.
+O objetivo da da terceira etapa do algoritmo é separar os \textit{pixels} em regiões. Para isso, inicializa-se todos os \textit{pixels} com valor zero. Inicialmente, começa-se a definir as regiões a partir dos mínimos locais cujo v[p]=0 cujos \textit{pixels} vizinhos com o mesmo valor na escala de cinza ainda não estão associados a uma região definida. Essas regiões são propagadas para seus \textit{pixels} vizinhos de acordo com o valor de v[p] para criar regiões cujo centro é um mínimo local. Em seguida, regiões similares são criadas para todos os mínimos locais por este mesmo procedimento.
 
 % Código 
 \begin{algorithm}[H]
@@ -253,7 +253,7 @@ O objetivo da da terceira etapa do algoritmo é separar os píxels em regiões. 
     }
  
  
-\caption{Pseudo código para o passo três do algoritmo de \textit{watershed}.\cite{ruparelia2012implementation}}
+\caption{Pseudo código para o passo três do algoritmo de \textit{watershed}.\cite{ruparelia2012implementation}}
 \end{algorithm}
 
 
