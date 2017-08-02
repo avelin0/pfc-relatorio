@@ -1,6 +1,6 @@
 \chapter{Algoritmos de Segmentação}\label{cap:algoritmos}
 
-Este capítulo descreve 4 técnicas de segmentação de imagens, sendo a por limiar (\textit{thresholding}) a mais simples. As técnicas baseadas em bordas e regiões são mais complexas e demandam um ônus computacional mais elevado.
+Este capítulo descreve quatro técnicas de segmentação de imagens, sendo a por limiar (\textit{thresholding}) a mais simples. As técnicas baseadas em bordas e regiões são mais complexas e demandam um ônus computacional mais elevado.
 
 % \section{Tipos de Algoritmos}
 \begin{itemize}
@@ -13,7 +13,7 @@ Este capítulo descreve 4 técnicas de segmentação de imagens, sendo a por lim
     \end{itemize}
 \end{itemize}
 
-\subsection{\textit{Thresholding}}\label{sec:alg_thresholding}
+\section{\textit{Thresholding}}\label{sec:alg_thresholding}
 É um método simples de segmentação de imagens.
 Busca dividir a imagem em duas categorias: objetos (\textit{foreground}) e plano de fundo (\textit{background}). 
 Cada \textit{pixel} é alocado a uma categoria de acordo com seu valor em níveis de cinza.
@@ -33,16 +33,16 @@ Dado um limiar T (\textit{threshold}), o \textit{pixel} com valor $f_i_j$  e loc
 O limiar T pode ser escolhido manualmente, tentando diferentes valores de T e analisando qual deles é mais eficiente na identificação dos objetos de interesse.
 O \textit{threshold} T também pode ser escolhido a partir do histograma da imagem, e escolhe-se T como o valor entre as duas distribuições de cinza.
 
-A seguir há a figura \ref{fig:einstein}, uma imagem original do Einstein,  e as duas formas de segmentação de imagens por limiar (\textit{thresholding}). Enquanto na figura \ref{fig:einsteinglobal} há um limiar T fixo , na  figura \ref{fig:einsteinlocal} ele é variável.
+Na figura \ref{fig:einstein}, há uma imagem original do Einstein que será segmentada de duas formas distintas pela técnica de segmentação de imagens por limiar (\textit{thresholding}). Enquanto na figura \ref{fig:einsteinglobal} há um limiar T fixo , na  figura \ref{fig:einsteinlocal} ele é variável.
 
-\subsection*{\textit{Threshold} Global}
+\subsection{\textit{Threshold} Global}
 O mesmo valor de T é usado para a imagem inteira.
 
 % Figura 
   \begin{figure}[!htb]
        \begin{center}  
           \includegraphics[width=0.3\columnwidth]{img/einstein.jpg}
-           \caption{\label{fig:einstein}Imagem original\citep{stanford}.}
+           \caption{\label{fig:einstein}Imagem original. \citep{stanford}}
            % \vspace{2.0em}
        \end{center}
    \end{figure}
@@ -51,27 +51,27 @@ O mesmo valor de T é usado para a imagem inteira.
   \begin{figure}[!htb]
        \begin{center}  
           \includegraphics[width=0.3\columnwidth]{img/einstein-globalthresholding127.jpg}
-           \caption{\label{fig:einsteinglobal}Imagem segmentada pelo algoritmo threshold global.}
+           \caption{\label{fig:einsteinglobal}Imagem segmentada pelo algoritmo \textit{threshold} global.}
            % \vspace{2.0em}
        \end{center}
    \end{figure}
 
-\subsection*{\textit{Threshold} Local (ou dinâmico)}
-Divide-se a imagem em regiões distintas e adota-se um valor T para cada uma delas, onde esse valor funcionará como threshold local. 
+\subsection{\textit{Threshold} Local (ou dinâmico)}
+Divide-se a imagem em regiões distintas e adota-se um valor T para cada uma delas, onde esse valor funcionará como \textit{threshold} local. 
 
 % Figura 
   \begin{figure}[!htb]
        \begin{center}  
           \includegraphics[width=0.3\columnwidth]{img/einstein-localthresholding-adaptivegausian.jpg}
-           \caption{\label{fig:einsteinlocal}Imagem segmentada pelo método de segmentação thresholding local, chamado de adaptive gaussian  thresholding.}
+           \caption{\label{fig:einsteinlocal}Imagem segmentada pelo método de segmentação \textit{thresholding} local.}
            % \vspace{2.0em}
        \end{center}
    \end{figure}
    
    Pode-se observar pela figura \ref{fig:einsteinlocal} que houve a separação em mais regiões nesse método do que na figura \ref{fig:einsteinglobal}, já que foi usado um limiar mais apropriado a cada região.
 
-\subsection{Baseado em Bordas}
-Primeiramente, classifica-se os \textit{pixels} como “borda” ou “não-borda”.
+\section{Baseado em Bordas}
+Primeiramente, classificam-se os \textit{pixels} como “borda” ou “não-borda”.
 Depois, divide-se a imagem em regiões, baseado nas bordas detectadas.
 
 As bordas são identificadas por meio das descontinuidades, isto é, variações abruptas nos valores dos \textit{pixels}. 
@@ -85,33 +85,32 @@ Como pode-se perceber na figura \ref{fig:smandrill}, por esse método houve a se
  \def\baselinestretch{1}\small\normalsize
  \includegraphics[width=0.4\textwidth]{img/stf-smandrill.jpg}\qquad
  \includegraphics[width=0.4\textwidth]{img/stf-smandrill-edgedetect.jpg} 
- \caption{\label{fig:smandrill} Uma imagem de um macaco \citep{stanford} à esquerda e à direita segmentada pelo método de detecção de bordas em linguagem de programação python.}
+ \caption{\label{fig:smandrill} Uma imagem de um macaco \citep{stanford} à esquerda e à direita segmentada pelo método de detecção de bordas.}
  %\vspace{2.0em}
 \end{figure}
 
 
-\subsection{Baseado em Regiões}
-\subsubsection*{O que é uma região?}
+\section{Baseado em Regiões}
 Uma região pode ser “definida” como um grupo de \textit{pixels} conectados com propriedades similares.
 
 Porém, é um conceito importante e difícil de definir, já que depende da interpretação do que seria uma região  em determinado caso.
 
-Pelas figuras da seção \ref{sec:segmenthm} do capítulo \ref{cap:segmentacao}, nota-se as diferentes interpretações do conceito de região pelas diferentes quantidades de regiões notadas por humanos nas Figuras \ref{fig:Berkeley_mulher_segmentada} e \ref{fig:Berkeley_mulher_segmentada2}. Tal fato também acontece com os computadores, como nota-se pelas figuras \ref{fig:indiosegmentado}.
+As figuras \ref{fig:Berkeley_mulher}, \ref{fig:fig:Berkeley_mulher_segmentada}, \ref{fig:Berkeley_mulher_segmentada2}, \ref{fig:indio} e \ref{fig:indiosegmentado} da seção \ref{sec:segmenthm} do capítulo \ref{cap:segmentacao}, demonstram as diferentes interpretações do conceito de região pelas diferentes quantidades de regiões notadas por humanos nas figuras \ref{fig:Berkeley_mulher_segmentada} e \ref{fig:Berkeley_mulher_segmentada2}. Tal fato também acontece com os computadores, como nota-se pelas figuras \ref{fig:indiosegmentado}.
 
-\subsubsection{\textit{Split and Merge}}
-\subsubsection*{Procedimento}
-As etapas fundamentais deste algoritmo segundo  são: 
+\subsection{\textit{Split and Merge}}
+\subsubsection{Procedimento}
+As etapas fundamentais deste algoritmo são: 
 \begin{enumerate}
-    \item Criar critério para definir o que é uma área homogênea.
+    \item Criar critério para definir uma área homogênea.
     \item Começar com a imagem completa e divide em 4 sub-imagens.
     \item Checar cada sub-imagem e dividi-la novamente em 4 novas sub-imagens caso ela não seja homogênea.
-    \item Repetir Passo 3 até que não se consiga mais subdividir.
+    \item Repetir item c) até que não se consiga mais subdividir.
     \item Comparar sub-imagens com suas regiões vizinhas e agrupá-las se forem homogêneas.
-    \item Repetir Passo 5 até que não se consiga mais agrupar.
+    \item Repetir item e) até que não se consiga mais agrupar.
 \end{enumerate}
 
-\subsubsection*{EXEMPLO - \textit{QUADTREE}}
-Um exemplo de segmentação baseada em região Split and Merge é o algoritmo quadtree. A figura \ref{fig:aral} abaixo ilustra a segmentação de imagem por este algoritmo, e observa-se a segmentação da região que contém água na figura.
+\subsubsection{EXEMPLO - \textit{QUADTREE}}
+Um exemplo de segmentação baseada em região \textit{Split and Merge} é o Algoritmo \textit{Quadtree}. A figura \ref{fig:aral} abaixo ilustra a segmentação de imagem por este algoritmo, e observa-se a segmentação da região que contém água na figura.
 
 % ------------------------------------------------------------------------------------------------------------
 % Figura 
@@ -120,12 +119,12 @@ Um exemplo de segmentação baseada em região Split and Merge é o algoritmo qu
  \def\baselinestretch{1}\small\normalsize
  \includegraphics[width=0.4\textwidth]{img/stf-aral1997.jpg}\qquad
  \includegraphics[width=0.4\textwidth]{img/stf-aral1997-quadtree.jpg} 
- \caption{\label{fig:aral}Uma representação visual de uma região \citep{stanford} à esquerda e à direita segmentada pelo algoritmo quadtree em linguagem de programação python.}
+ \caption{\label{fig:aral}Uma representação visual de uma região \citep{stanford} à esquerda e à direita segmentada pelo Algoritmo \textit{Quadtree}.}
  %\vspace{2.0em}
 \end{figure}
 
-\subsubsection{\textit{Region growing} (abordagem \textit{bottom-up})}
-\subsubsection*{Procedimento}
+\subsection{\textit{Region growing} (abordagem \textit{bottom-up})}
+\subsubsection{Procedimento}
 As etapas fundamentais deste algoritmo são: 
 \begin{enumerate}
     \item Identificar o ponto de partida.
@@ -133,8 +132,8 @@ As etapas fundamentais deste algoritmo são:
     \item Continuar até que todos os \textit{pixels} estejam associados com um dos pontos de partida.
 \end{enumerate}
 
-\subsubsection*{EXEMPLO - \textit{WATERSHED}}
-Um exemplo de segmentação baseada no método \textit{Region growing} é o algoritmo \textit{watershed}. A figura \ref{fig:coins} abaixo ilustra a segmentação de imagem por este algoritmo, e observa-se regiões distintas correspondentes à cada moeda da figura.
+\subsubsection{EXEMPLO - \textit{WATERSHED}}
+Um exemplo de segmentação baseada no método \textit{Region growing} é o Algoritmo \textit{Watershed}. A figura \ref{fig:coins} abaixo ilustra a segmentação de imagem por este algoritmo, e observa-se regiões distintas correspondentes à cada moeda da figura.
 
 % ------------------------------------------------------------------------------------------------------------
 % Figura 
@@ -143,7 +142,7 @@ Um exemplo de segmentação baseada no método \textit{Region growing} é o algo
  \def\baselinestretch{1}\small\normalsize
  \includegraphics[width=0.4\textwidth]{img/stf-coins.jpg}\qquad
  \includegraphics[width=0.4\textwidth]{img/stf-coins-watersheed.jpg} 
- \caption{\label{fig:coins}Imagem de uma moeda \citep{stanford} à esquerda e à direita segmentada pelo algoritmo watersheed em linguagem de programação python.}
+ \caption{\label{fig:coins}Imagem de uma moeda \citep{stanford} à esquerda e à direita segmentada pelo Algoritmo \textit{Watersheed}.}
  %\vspace{2.0em}
 \end{figure}
  
