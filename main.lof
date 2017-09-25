@@ -11,9 +11,9 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Imagem original. \citep {stanford}}}{19}
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Imagem segmentada pelo algoritmo \textit {threshold} global.}}{19}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Imagem segmentada pelo m\IeC {\'e}todo de segmenta\IeC {\c c}\IeC {\~a}o \textit {thresholding} local.}}{19}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Imagem segmentada pelo m\IeC {\'e}todo de segmenta\IeC {\c c}\IeC {\~a}o \textit {thresholding} local.}}{20}
 \contentsline {figure}{\numberline {3.4}{\ignorespaces Uma imagem de um macaco \citep {stanford} \IeC {\`a} esquerda e \IeC {\`a} direita segmentada pelo m\IeC {\'e}todo de detec\IeC {\c c}\IeC {\~a}o de bordas.}}{20}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Uma representa\IeC {\c c}\IeC {\~a}o visual de uma regi\IeC {\~a}o \citep {stanford} \IeC {\`a} esquerda e \IeC {\`a} direita segmentada pelo Algoritmo \textit {Quadtree}.}}{21}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Uma representa\IeC {\c c}\IeC {\~a}o visual de uma regi\IeC {\~a}o \citep {stanford} \IeC {\`a} esquerda e \IeC {\`a} direita segmentada pelo Algoritmo \textit {Quadtree}.}}{22}
 \contentsline {figure}{\numberline {3.6}{\ignorespaces Imagem de uma moeda \citep {stanford} \IeC {\`a} esquerda e \IeC {\`a} direita segmentada pelo Algoritmo \textit {Watersheed}.}}{22}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Abordagem "\textit {flooding based watershed}".\cite {regseg1}}}{23}
@@ -29,6 +29,11 @@
 \contentsline {figure}{\numberline {5.3}{\ignorespaces Samsung Galaxy S7 - Processador Octa Core de 2.3GHz, 4GB de RAM.}}{35}
 \contentsline {figure}{\numberline {5.4}{\ignorespaces Samsung Google Nexus 10 - Processador Dual Core de 1.7GHz, 2 GB de RAM.}}{35}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Tela Inicial do aplicativo.}}{37}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Sequ\IeC {\^e}ncia de atividades para aquisi\IeC {\c c}\IeC {\~a}o da imagem por meio da galeria de imagens.}}{38}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Sequ\IeC {\^e}ncia de atividades para aquisi\IeC {\c c}\IeC {\~a}o e tratamento das imagens por meio da c\IeC {\^a}mera do dispositivo.}}{39}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Resultado de segmenta\IeC {\c c}\IeC {\~a}o utilizando o algoritmo \textit {watershed} desenvolvido.}}{40}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Resultado de segmenta\IeC {\c c}\IeC {\~a}o utilizando o algoritmo \textit {watershed} do OpenCV Java.}}{40}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
