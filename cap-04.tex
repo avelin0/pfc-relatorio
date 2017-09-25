@@ -15,12 +15,24 @@ A aquisição da imagem pode ser feita de duas maneiras diferentes:
 
 \subsection{Galeria de imagens}
 
-Para escolher uma imagem a ser segmentada, basta clicar no botão "galeria" a fim de acessar as imagens existentes no dispositivo e, depois, clicar sobre a imagem desejada.
+Para escolher uma imagem a ser segmentada, basta clicar no botão "GALERIA" a fim de acessar as imagens existentes no dispositivo e, depois, clicar sobre a imagem desejada.
 A imagem escolhida será apresentada na tela, substituindo a imagem anterior.
 
 \subsection{Câmera}
 
-Uma nova imagem pode ser adquirida a qualquer momento para ser utilizada na segmentação por meio do acesso à câmera do dispositivo. Para acessar a câmera, basta clicar no botão "câmera" apresentado na tela inicial da aplicação.
+Uma nova imagem pode ser adquirida a qualquer momento para ser utilizada na segmentação por meio do acesso à câmera do dispositivo. Para acessar a câmera, basta clicar no botão "CÂMERA" apresentado na tela inicial da aplicação.
+Com a câmera funcionando, pode-se aplicar diversos procedimentos de pré-processamento nas imagens em tempo real:
+
+% \section{Procedimentos de pré-processamento}
+\begin{itemize}
+    \item Conversão para Cinza;
+    \item Operador Sobel;
+    \item Filtro Biltateral;
+    \item Operação Morfológica;
+    \item SIFT;
+\end{itemize}
+
+Além de poder realizar a segmentação pela técnica baseada em \textit{watershed} também.
 
 \section{Segmentação da imagem}\label{sec:segmentacao_aplicacao}
 
@@ -33,7 +45,7 @@ A segmentação da imagem, por sua vez, pode ser feita também de duas maneiras 
 
 \subsection{\textit{Watershed} Desenvolvido}
 
-Após a escolha da imagem, ao clicar sobre o botão "\textit{watershed}", a imagem escolhida será segmentada de acordo com o algoritmo desenvolvido neste projeto. A sequência de \textit{steps} apresentados na seção \ref{sec:alg} do capítulo \ref{cap:algoritmo} é executada pelo processador do dispositivo utilizado e o resultado apresentado da imagem segmentada apresentada na tela.  
+Após a escolha da imagem, ao clicar sobre o botão "\textit{watershed}", a imagem escolhida será segmentada de acordo com o algoritmo desenvolvido neste projeto. Antes disso, pode-se ainda ajustar os parâmetros do Filtro Bilateral e do Operador Sobel por meio de dois \textit{seekbars}. A sequência de \textit{steps} apresentados na seção \ref{sec:alg} do capítulo \ref{cap:algoritmo} é executada pelo processador do dispositivo utilizado e o resultado apresentado da imagem segmentada apresentada na tela.  
 
 \subsection{\textit{Watershed} OpenCV Java}
 

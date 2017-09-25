@@ -86,36 +86,54 @@ A ordem em que esses procedimentos ocorrem nesta etapa consta na estrutura apres
 Um dos procedimentos realizados na etapa de pré-processamento é a conversão da imagem original colorida para a imagem em níveis de cinza. Utiliza-se a quantização em 256 níveis de cinza (8 bits), onde o nível zero representa o preto e o nível 255, o branco.
 O objetivo dessa conversão é tratar a imagem em um canal já que o escopo da presente pesquisa é tratar imagens em escala de cinza.
 
-\subsubsection{Filtro Gaussiano}
-O filtro gaussiano é utilizado como um dos primeiros procedimentos da etapa de pré-processamento a fim de remover os ruídos presentes na imagem a ser segmentada.
+\subsubsection{Filtro Bilateral}
+O filtro biltateral é utilizado como um dos primeiros procedimentos da etapa de pré-processamento a fim de reduzir os ruídos presentes na imagem a ser segmentada, preservando suas bordas.
 
+Abaixo a definição matemática do Filtro Bilateral:
 
-\subsubsection{Operador \textit{Not}}
-O operador not é utilizado no pré-processamento para que o algoritmo \textit{watersheed } seja executado da maneira correta, isto é, dos plateaus para os mínimos locais através. Ele inverte cada bit de um \textit{array}.
+% Figura
+	\begin{figure}[!htb]
+       \begin{center}  
+          \includegraphics[width=0.7\columnwidth]{img/definicao_matematica_filtro_bilateral.jpg}
+           \caption{\label{fig:definicao_matematica_filtro_bilateral}Definição matemática do Filtro Bilateral.}
+           % \vspace{2.0em}
+       \end{center}
+   \end{figure}
+   
+%\subsubsection{Operador \textit{Not}}
+%O operador not é utilizado no pré-processamento para que o algoritmo \textit{watersheed } seja executado da maneira correta, isto é, dos plateaus para os mínimos locais através. Ele inverte cada bit de um \textit{array}.
 
 \subsubsection{Operador Sobel}
 Operador de detecção de bordas, que se baseia no operador gradiente. Esse operador é utilizado sobre a imagem resultante do operador \textit{not} com a finalidade de gerar uma imagem com as bordas detectadas brilhantes em um fundo (\textit{background}) mais escuro.
 
 Os gradientes horizontal, \textit{Gx}, e vertical, \textit{Gy}, são calculados considerando uma janela de tamanho 3, isto é, \textit{3 x 3 pixels}, e calcula-se uma aproximação do gradiente em cada ponto da seguinte forma: \citep{sobel}
 
-% Equação
-\[G = |G_{x}| + |G_{y}|\]
-
-% Código
-
-
-\subsubsection{Filtro de Mediana}
-O objetivo do filtro de mediana é a redução ou, até mesmo, a remoção de ruídos das imagens, a fim de suavizá-las e torná-las mais tratáveis para o processo de segmentação. O filtro de mediana é eficaz para o tratamento de ruídos impulsivos, como o ruído Gaussiano (aleatório) e, principalmente, o ruído sal e pimenta, em que os \textit{pixels} ruidosos assumem os valores máximos e mínimos da imagem.
-Para a implementação do filtro de mediana, considera-se uma imagem com \textit{n x m pixels} e um filtro com janela de \textit{k x k pixels}, onde \textit{k < n e k < m}. Em casa janela considerada na imagem, o valor de cada \textit{pixel} é substituído pelo valor da mediana da mesma janela. No algoritmo, usa-se \textit{k = 3} e o funcionamento do filtro pode ser entendido na figura \ref{fig:filtromediana}.
-
+Abaixo a definição matemática do Operador Sobel:
 % Figura
 	\begin{figure}[!htb]
        \begin{center}  
-          \includegraphics[width=0.8\columnwidth]{img/filtromediana.jpg}
-           \caption{\label{fig:filtromediana}Ilustração do funcionamento do filtro de mediana. \cite{ruparelia2012implementation}}
+          \includegraphics[width=0.7\columnwidth]{img/definicao_matematica_sobel.jpg}
+           \caption{\label{fig:definicao_matematica_sobel}Definição matemática do Operador Sobel.}
            % \vspace{2.0em}
        \end{center}
-   \end{figure}
+   \end{figure} 
+% Equação
+%\[G = |G_{x}| + |G_{y}|\]
+
+% Código
+
+%\subsubsection{Filtro de Mediana}
+%O objetivo do filtro de mediana é a redução ou, até mesmo, a remoção de ruídos das imagens, a fim de suavizá-las e torná-las mais tratáveis para o processo de segmentação. O filtro de mediana é eficaz para o tratamento de ruídos impulsivos, como o ruído Gaussiano (aleatório) e, principalmente, o ruído sal e pimenta, em que os \textit{pixels} ruidosos assumem os valores máximos e mínimos da imagem.
+%Para a implementação do filtro de mediana, considera-se uma imagem com \textit{n x m pixels} e um filtro com janela de \textit{k x k pixels}, onde \textit{k < n e k < m}. Em casa janela considerada na imagem, o valor de cada \textit{pixel} é substituído pelo valor da mediana da mesma janela. No algoritmo, usa-se \textit{k = 3} e o funcionamento do filtro pode ser entendido na figura \ref{fig:filtromediana}.
+
+% Figura
+	%\begin{figure}[!htb]
+     %  \begin{center}  
+      %    \includegraphics[width=0.8\columnwidth]{img/filtromediana.jpg}
+       %    \caption{\label{fig:filtromediana}Ilustração do funcionamento do filtro de mediana. \cite{ruparelia2012implementation}}
+           % \vspace{2.0em}
+       %\end{center}
+  % \end{figure}
    
 % Código
 
@@ -138,11 +156,9 @@ A biblioteca OpenCV fornece 5 transformações morfológicas baseadas nessas dua
     \item \textit{Black Hat}.
 \end{itemize} 
 
-No algoritmo utiliza-se apenas a transformação \textit{closing}, a qual é útil para o fechamento de bordas, removendo pequenos buracos que possam ter sido gerados nos procedimentos anteriores. \citep{morphology_transformations}
-
+No algoritmo utiliza-se apenas a transformação do gradiente morfológico - \textit{Morphological Gradient} -, a qual é a diferença entre a dilatação e a erosão de uma imagem. Essa transformação é útil para encontrar o contorno de um objeto em uma dada imagem. \citep{morphology_transformations}
 % Equação
-\[dst = close(src, element) = erode(dilate(src, element))\]
-
+\[dst = morph_{grad}( src, element ) = dilate( src, element ) - erode( src, element )\]
 
 \subsection{Segmentação por Técnica Baseada em \textit{Watershed}}
 Dentre as duas principais abordagens da técnica de \textit{watershed} mencionadas na seção \ref{sec:watershed} do capítulo \ref{cap:algoritmo}, optou-se pela abordagem "\textit{rainfalling based watershed}" a fim de servir como base para a implementação da etapa de segmentação implementada neste algoritmo. Essa etapa é composta por três passos (\textit{steps}). 
