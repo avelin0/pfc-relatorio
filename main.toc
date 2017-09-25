@@ -1,54 +1,79 @@
-\contentsline {listas}{\nomelistafiguras }{8}
-\contentsline {listas}{\nomelistatabelas }{9}
+\contentsline {listas}{\nomelistafiguras }{9}
+\contentsline {listas}{\nomelistatabelas }{11}
 \select@language {brazilian}
-\contentsline {chapter}{\numberline {1\ }\bf Introdu\IeC {\c c}\IeC {\~a}o}{10}
-\contentsline {section}{\numberline {1.1}Motiva\IeC {\c c}\IeC {\~a}o}{10}
-\contentsline {section}{\numberline {1.2}Objetivos}{11}
-\contentsline {section}{\numberline {1.3}Justificativa}{11}
-\contentsline {chapter}{\numberline {2\ }\bf Segmenta\IeC {\c c}\IeC {\~a}o de Imagens}{13}
-\contentsline {section}{\numberline {2.1}Conceito}{13}
-\contentsline {section}{\numberline {2.2}Segmenta\IeC {\c c}\IeC {\~a}o para seres humanos e para computadores}{13}
-\contentsline {chapter}{\numberline {3\ }\bf Algoritmos de Segmenta\IeC {\c c}\IeC {\~a}o}{16}
-\contentsline {section}{\numberline {3.1}\textit {Thresholding}}{16}
-\contentsline {subsection}{\numberline {3.1.1}\textit {Threshold} Global}{16}
-\contentsline {subsection}{\numberline {3.1.2}\textit {Threshold} Local (ou din\IeC {\^a}mico)}{17}
-\contentsline {section}{\numberline {3.2}Baseado em Bordas}{18}
-\contentsline {section}{\numberline {3.3}Baseado em Regi\IeC {\~o}es}{18}
-\contentsline {subsection}{\numberline {3.3.1}\textit {Split and Merge}}{18}
-\contentsline {subsubsection}{\numberline {3.3.1.1}Procedimento}{18}
-\contentsline {subsubsection}{\numberline {3.3.1.2}EXEMPLO - \textit {QUADTREE}}{19}
-\contentsline {subsection}{\numberline {3.3.2}\textit {Region growing} (abordagem \textit {bottom-up})}{19}
-\contentsline {subsubsection}{\numberline {3.3.2.1}Procedimento}{19}
-\contentsline {subsubsection}{\numberline {3.3.2.2}EXEMPLO - \textit {WATERSHED}}{20}
-\contentsline {chapter}{\numberline {4\ }\bf Algoritmo}{21}
-\contentsline {section}{\numberline {4.1}\textit {Watershed}}{21}
-\contentsline {section}{\numberline {4.2}\textit {Watershed Algorithm Based On Connected Components}}{22}
-\contentsline {section}{\numberline {4.3}Implementa\IeC {\c c}\IeC {\~a}o do Algoritmo}{23}
-\contentsline {subsection}{\numberline {4.3.1}Pr\IeC {\'e}-Processamento}{24}
-\contentsline {subsubsection}{\numberline {4.3.1.1}Convers\IeC {\~a}o para Cinza}{24}
-\contentsline {subsubsection}{\numberline {4.3.1.2}Filtro Gaussiano}{24}
-\contentsline {subsubsection}{\numberline {4.3.1.3}Operador \textit {Not}}{24}
-\contentsline {subsubsection}{\numberline {4.3.1.4}Operador Sobel}{25}
-\contentsline {subsubsection}{\numberline {4.3.1.5}Filtro de Mediana}{25}
-\contentsline {subsubsection}{\numberline {4.3.1.6}Operadores Morfol\IeC {\'o}gicos}{26}
-\contentsline {subsection}{\numberline {4.3.2}Segmenta\IeC {\c c}\IeC {\~a}o por T\IeC {\'e}cnica Baseada em \textit {Watershed}}{26}
-\contentsline {subsubsection}{\numberline {4.3.2.1}\textit {Step} 1}{26}
-\contentsline {subsubsection}{\numberline {4.3.2.2}\textit {Step} 2}{27}
-\contentsline {subsubsection}{\numberline {4.3.2.3}\textit {Step} 3}{27}
-\contentsline {subsection}{\numberline {4.3.3}P\IeC {\'o}s-Processamento}{29}
-\contentsline {chapter}{\numberline {5\ }\bf Cronograma}{30}
-\contentsline {section}{\numberline {5.1}Defini\IeC {\c c}\IeC {\~a}o de Etapas}{30}
-\contentsline {subsection}{\numberline {5.1.1}Escolha do Tema e Estudo de Viabilidade}{30}
-\contentsline {subsection}{\numberline {5.1.2}Revis\IeC {\~a}o Bibliogr\IeC {\'a}fica}{30}
-\contentsline {subsection}{\numberline {5.1.3}Elabora\IeC {\c c}\IeC {\~a}o da Monografia}{30}
-\contentsline {subsection}{\numberline {5.1.4}Estudo e An\IeC {\'a}lise dos Algoritmos de Segmenta\IeC {\c c}\IeC {\~a}o de Imagem}{30}
-\contentsline {subsection}{\numberline {5.1.5}Implementa\IeC {\c c}\IeC {\~a}o}{30}
-\contentsline {subsection}{\numberline {5.1.6}Teste}{31}
-\contentsline {subsection}{\numberline {5.1.7}Entrega do Relat\IeC {\'o}rio Final e Apresenta\IeC {\c c}\IeC {\~a}o}{31}
-\contentsline {section}{\numberline {5.2}Entreg\IeC {\'a}veis}{31}
-\contentsline {chapter}{\numberline {6\ }\bf REFER\^ENCIAS BIBLIOGR\'AFICAS }{32}
-\contentsline {chapter}{\numberline {7\ }\textbf ANEXOS}{34}
-\contentsline {section}{\numberline {7.1\ }\uppercase {ANEXO 1}: Ferramentas}{35}
-\contentsline {section}{\numberline {7.2}Android Studio}{35}
-\contentsline {section}{\numberline {7.3}OpenCV}{35}
-\contentsline {section}{\numberline {7.4}Android NDK}{35}
+\contentsline {chapter}{\numberline {1\ }\bf Introdu\IeC {\c c}\IeC {\~a}o}{12}
+\contentsline {section}{\numberline {1.1}Motiva\IeC {\c c}\IeC {\~a}o}{12}
+\contentsline {section}{\numberline {1.2}Objetivos}{13}
+\contentsline {section}{\numberline {1.3}Justificativa}{13}
+\contentsline {section}{\numberline {1.4}Estrutura da Monografia}{14}
+\contentsline {subsection}{\numberline {1.4.1}Introdu\IeC {\c c}\IeC {\~a}o}{14}
+\contentsline {subsection}{\numberline {1.4.2}Segmenta\IeC {\c c}\IeC {\~a}o de Imagens}{14}
+\contentsline {subsection}{\numberline {1.4.3}Algoritmos de Segmenta\IeC {\c c}\IeC {\~a}o}{14}
+\contentsline {subsection}{\numberline {1.4.4}Algoritmo}{14}
+\contentsline {subsection}{\numberline {1.4.5}Ferramentas}{14}
+\contentsline {subsection}{\numberline {1.4.6}Cronograma}{14}
+\contentsline {chapter}{\numberline {2\ }\bf Segmenta\IeC {\c c}\IeC {\~a}o de Imagens}{15}
+\contentsline {section}{\numberline {2.1}Conceito}{15}
+\contentsline {section}{\numberline {2.2}Segmenta\IeC {\c c}\IeC {\~a}o para seres humanos e para computadores}{15}
+\contentsline {chapter}{\numberline {3\ }\bf Algoritmos de Segmenta\IeC {\c c}\IeC {\~a}o}{18}
+\contentsline {section}{\numberline {3.1}\textit {Thresholding}}{18}
+\contentsline {subsection}{\numberline {3.1.1}\textit {Threshold} Global}{18}
+\contentsline {subsection}{\numberline {3.1.2}\textit {Threshold} Local (ou din\IeC {\^a}mico)}{19}
+\contentsline {section}{\numberline {3.2}Baseado em Bordas}{20}
+\contentsline {section}{\numberline {3.3}Baseado em Regi\IeC {\~o}es}{20}
+\contentsline {subsection}{\numberline {3.3.1}\textit {Split and Merge}}{20}
+\contentsline {subsubsection}{\numberline {3.3.1.1}Procedimento}{20}
+\contentsline {subsubsection}{\numberline {3.3.1.2}EXEMPLO - \textit {QUADTREE}}{21}
+\contentsline {subsection}{\numberline {3.3.2}\textit {Region growing} (abordagem \textit {bottom-up})}{21}
+\contentsline {subsubsection}{\numberline {3.3.2.1}Procedimento}{21}
+\contentsline {subsubsection}{\numberline {3.3.2.2}EXEMPLO - \textit {WATERSHED}}{22}
+\contentsline {chapter}{\numberline {4\ }\bf Algoritmo}{23}
+\contentsline {section}{\numberline {4.1}\textit {Watershed}}{23}
+\contentsline {section}{\numberline {4.2}\textit {Watershed Algorithm Based On Connected Components}}{24}
+\contentsline {section}{\numberline {4.3}Implementa\IeC {\c c}\IeC {\~a}o do Algoritmo}{25}
+\contentsline {subsection}{\numberline {4.3.1}Pr\IeC {\'e}-Processamento}{26}
+\contentsline {subsubsection}{\numberline {4.3.1.1}Convers\IeC {\~a}o para Cinza}{26}
+\contentsline {subsubsection}{\numberline {4.3.1.2}Filtro Gaussiano}{26}
+\contentsline {subsubsection}{\numberline {4.3.1.3}Operador \textit {Not}}{26}
+\contentsline {subsubsection}{\numberline {4.3.1.4}Operador Sobel}{27}
+\contentsline {subsubsection}{\numberline {4.3.1.5}Filtro de Mediana}{27}
+\contentsline {subsubsection}{\numberline {4.3.1.6}Operadores Morfol\IeC {\'o}gicos}{28}
+\contentsline {subsection}{\numberline {4.3.2}Segmenta\IeC {\c c}\IeC {\~a}o por T\IeC {\'e}cnica Baseada em \textit {Watershed}}{28}
+\contentsline {subsubsection}{\numberline {4.3.2.1}\textit {Step} 1}{28}
+\contentsline {subsubsection}{\numberline {4.3.2.2}\textit {Step} 2}{29}
+\contentsline {subsubsection}{\numberline {4.3.2.3}\textit {Step} 3}{29}
+\contentsline {subsection}{\numberline {4.3.3}P\IeC {\'o}s-Processamento}{31}
+\contentsline {chapter}{\numberline {5\ }\bf Ambiente de Desenvolvimento}{32}
+\contentsline {section}{\numberline {5.1}Android}{32}
+\contentsline {section}{\numberline {5.2}NDK}{33}
+\contentsline {section}{\numberline {5.3}JNI}{33}
+\contentsline {section}{\numberline {5.4}Aplica\IeC {\c c}\IeC {\~a}o do JNI}{33}
+\contentsline {section}{\numberline {5.5}OpenCV Java e OpenCV Nativo}{34}
+\contentsline {section}{\numberline {5.6}CMAKE}{34}
+\contentsline {section}{\numberline {5.7}Dispositivos de Testes}{34}
+\contentsline {subsection}{\numberline {5.7.1}Firebase}{35}
+\contentsline {subsubsection}{\numberline {5.7.1.1}Layout}{36}
+\contentsline {chapter}{\numberline {6\ }\bf Aplica\IeC {\c c}\IeC {\~a}o}{37}
+\contentsline {section}{\numberline {6.1}Aquisi\IeC {\c c}\IeC {\~a}o da imagem}{37}
+\contentsline {subsection}{\numberline {6.1.1}Galeria de imagens}{37}
+\contentsline {subsection}{\numberline {6.1.2}C\IeC {\^a}mera}{37}
+\contentsline {section}{\numberline {6.2}Segmenta\IeC {\c c}\IeC {\~a}o da imagem}{37}
+\contentsline {subsection}{\numberline {6.2.1}\textit {Watershed} Desenvolvido}{38}
+\contentsline {subsection}{\numberline {6.2.2}\textit {Watershed} OpenCV Java}{38}
+\contentsline {chapter}{\numberline {7\ }\bf Cronograma}{39}
+\contentsline {section}{\numberline {7.1}Defini\IeC {\c c}\IeC {\~a}o de Etapas}{39}
+\contentsline {subsection}{\numberline {7.1.1}Escolha do Tema e Estudo de Viabilidade}{39}
+\contentsline {subsection}{\numberline {7.1.2}Revis\IeC {\~a}o Bibliogr\IeC {\'a}fica}{39}
+\contentsline {subsection}{\numberline {7.1.3}Elabora\IeC {\c c}\IeC {\~a}o da Monografia}{39}
+\contentsline {subsection}{\numberline {7.1.4}Estudo e An\IeC {\'a}lise dos Algoritmos de Segmenta\IeC {\c c}\IeC {\~a}o de Imagem}{39}
+\contentsline {subsection}{\numberline {7.1.5}Implementa\IeC {\c c}\IeC {\~a}o}{39}
+\contentsline {subsection}{\numberline {7.1.6}Teste}{40}
+\contentsline {subsection}{\numberline {7.1.7}Entrega do Relat\IeC {\'o}rio Final e Apresenta\IeC {\c c}\IeC {\~a}o}{40}
+\contentsline {section}{\numberline {7.2}Entreg\IeC {\'a}veis}{40}
+\contentsline {chapter}{\numberline {8\ }\bf REFER\^ENCIAS BIBLIOGR\'AFICAS }{41}
+\contentsline {chapter}{\numberline {9\ }\textbf ANEXOS}{43}
+\contentsline {section}{\numberline {9.1\ }\uppercase {ANEXO 1}: Ferramentas}{44}
+\contentsline {section}{\numberline {9.2}Android Studio}{44}
+\contentsline {section}{\numberline {9.3}OpenCV}{44}
+\contentsline {section}{\numberline {9.4}Android SDK}{44}
+\contentsline {section}{\numberline {9.5}Android NDK}{45}

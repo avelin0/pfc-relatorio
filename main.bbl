@@ -1,16 +1,23 @@
-\begin{thethesisbibliography}{11}
+\begin{thethesisbibliography}{13}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{{\tt #1}}\fi
 
-\bibitem[Android(2017{\natexlab{a}}){\MakeUppercase{Android}}]{ndk}
+\bibitem[Android(2017{\natexlab{a}}){\MakeUppercase{Android}}]{arquiteturaplataforma}
+{\MakeUppercase{Developers Android}}.
+\newblock
+\newblock Arquitetura da plataforma. Disponível em:
+  <https://developer.android.com/guide/platform/index.html?hl=pt-br>. Acesso
+  em: 24 set. de 2017.
+
+\bibitem[Android(2017{\natexlab{b}}){\MakeUppercase{Android}}]{ndk}
 {\MakeUppercase{Developers Android}}.
 \newblock
 \newblock Primeiros passos com o NDK. Disponível em:
   <https://developer.android.com/ndk/guides/index.html?hl=pt-br>. Acesso em: 10
   mai. de 2017.
 
-\bibitem[Android(2017{\natexlab{b}}){\MakeUppercase{Android}}]{androidstudio}
+\bibitem[Android(2017{\natexlab{c}}){\MakeUppercase{Android}}]{androidstudio}
 {\MakeUppercase{Developers Android}}.
 \newblock
 \newblock Tudo de que você precisa para criar aplicativos no Android.
@@ -34,6 +41,13 @@
 \newblock Berkeley Segmentation Dataset. Disponível em:
   <https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/bsds/BSDS300>.
   Acesso em: 10 mai. de 2017.
+
+\bibitem[Developers(2017){\MakeUppercase{Developers}}]{firebasetestlab}
+{\MakeUppercase{Google Developers}}.
+\newblock
+\newblock Firebase Test Lab para Android. Disponível em:
+  <https://firebase.google.com/products/test-lab/?hl=pt-br>. Acesso em: 23 set.
+  de 2017.
 
 \bibitem[Gomes(2017){\MakeUppercase{Gomes}}]{regseg1}
 {\MakeUppercase{Abel Gomes}}.

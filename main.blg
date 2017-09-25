@@ -7,9 +7,12 @@ A level-1 auxiliary file: cap-01.aux
 A level-1 auxiliary file: cap-02.aux
 A level-1 auxiliary file: cap-03.aux
 A level-1 auxiliary file: cap-03.1.aux
+A level-1 auxiliary file: cap-03.2.aux
 A level-1 auxiliary file: cap-04.aux
+A level-1 auxiliary file: cap-04.1.aux
 A level-1 auxiliary file: cap-05.aux
 The style file: pfc.bst
+A level-1 auxiliary file: anexo.aux
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 150 items from 100.
@@ -21,7 +24,14 @@ Repeated entry---line 76 of file main.bib.bib
  : @siteurl{regseg1
  :                 ,
 I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 120 of file main.bib.bib
+ : 
+ : %ok
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+You can't pop an empty literal stack for entry arquiteturaplataforma
+while executing---line 1265 of file pfc.bst
 You can't pop an empty literal stack for entry ndk
 while executing---line 1265 of file pfc.bst
 You can't pop an empty literal stack for entry androidstudio
@@ -29,6 +39,8 @@ while executing---line 1265 of file pfc.bst
 You can't pop an empty literal stack for entry Arbelez2011
 while executing---line 1265 of file pfc.bst
 You can't pop an empty literal stack for entry berkeley
+while executing---line 1265 of file pfc.bst
+You can't pop an empty literal stack for entry firebasetestlab
 while executing---line 1265 of file pfc.bst
 You can't pop an empty literal stack for entry regseg1
 while executing---line 1265 of file pfc.bst
@@ -42,45 +54,45 @@ You can't pop an empty literal stack for entry stanford
 while executing---line 1265 of file pfc.bst
 You can't pop an empty literal stack for entry l6
 while executing---line 1265 of file pfc.bst
-You've used 11 entries,
+You've used 13 entries,
             3136 wiz_defined-function locations,
-            662 strings with 5560 characters,
-and the built_in function-call counts, 3242 in all, are:
-= -- 353
-> -- 115
-< -- 10
-+ -- 50
-- -- 35
-* -- 310
-:= -- 572
-add.period$ -- 33
-call.type$ -- 11
-change.case$ -- 49
-chr.to.int$ -- 8
-cite$ -- 11
-duplicate$ -- 134
-empty$ -- 194
-format.name$ -- 48
-if$ -- 616
-int.to.chr$ -- 4
+            674 strings with 5850 characters,
+and the built_in function-call counts, 3750 in all, are:
+= -- 413
+> -- 129
+< -- 12
++ -- 57
+- -- 39
+* -- 354
+:= -- 663
+add.period$ -- 39
+call.type$ -- 13
+change.case$ -- 57
+chr.to.int$ -- 9
+cite$ -- 13
+duplicate$ -- 156
+empty$ -- 222
+format.name$ -- 54
+if$ -- 712
+int.to.chr$ -- 5
 int.to.str$ -- 1
 missing$ -- 0
-newline$ -- 61
-num.names$ -- 35
-pop$ -- 29
+newline$ -- 71
+num.names$ -- 41
+pop$ -- 33
 preamble$ -- 1
-purify$ -- 48
+purify$ -- 56
 quote$ -- 0
-skip$ -- 118
+skip$ -- 139
 stack$ -- 0
-substring$ -- 88
-swap$ -- 36
+substring$ -- 100
+swap$ -- 41
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 121
+type$ -- 143
 warning$ -- 0
-while$ -- 25
+while$ -- 29
 width$ -- 0
-write$ -- 126
-(There were 12 error messages)
+write$ -- 148
+(There were 15 error messages)

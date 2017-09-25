@@ -1,12 +1,45 @@
-\chapter{Ferramentas}\label{cap:ferramentas}
+\chapter{Aplicação}\label{cap:aplicacao}
 
-\section{Android Studio}
-Plataforma de desenvolvimento de aplicativos para sistemas Android. Criado especificamente para esse propósito, a IDE oficial do Android oferece diversos recursos que aceleram o desenvolvimento e aumentam a qualidade dos aplicativos criados.
+O objetivo da aplicação como descrito na seção \ref{sec:objetivos} do capítulo \ref{cap:introducao} é realizar a segmentação de imagens por meio de um aplicativo móvel na plataforma Android.
+O processo de segmentação é realizado pelo algoritmo de segmentação por técnica baseada em \textit{watershed}, descrito no capítulo \ref{cap:algoritmo}, e a imagem segmentada resultante é apresentada na tela do aplicativo.
 
-Tais recursos como ferramentas de edição, depuração, testes e geração de perfis de código motivaram a escolha dessa plataforma para o desenvolvimento da aplicação dessa pesquisa. Além da programação na linguagem Java, é permitido o desenvolvimento em linguagem nativa, C/C++, por meio da ferramenta Android NDK, que será utilizada na implementação dos algoritmos de segmentação presentes nessa aplicação. \citep{androidstudio}.
+\section{Aquisição da imagem}\label{sec:aquisicao_aplicacao}
 
-\section{OpenCV}\label{sec:opencv}
-Biblioteca \textit{open source} para o desenvolvimento de aplicativos na área de Visão Computacional. Conta com mais de 2500 algoritmos otimizados com abordagens clássicas e no estado da arte nas áreas de visão computacional e aprendizado de máquina, sendo, portanto, uma ferramenta amplamente usada em aplicações que envolvem o processamento de imagens (mais de 14 milhões de \textit{downloads}). Tem interfaces para linguagens como C++, C, Python e Java e suporta diferentes plataformas como Windows, Linux, Mac OS e Android. A maior performance é obtida com seu uso em C++ pelo fato de ser sua linguagem nativa. \citep{opencv}
+A aquisição da imagem pode ser feita de duas maneiras diferentes: 
 
-\section{Android NDK}
-O Android Native Developmentt Kit (NDK) é um conjunto de ferramentas que permite a codificação de arquivos de projeto em linguagens nativas como C/C++. Essa ferramenta auxiliará na implementação dos algoritmos de segmentação de imagens que farão parte de nossa aplicação. \citep{ndk}
+% \section{Aquisição da imagem}
+\begin{itemize}
+    \item Por meio do acesso à galeria de imagens do dispositivo; e
+    \item Por meio da captura de uma imagem através da câmera do dispositivo.
+\end{itemize}
+
+\subsection{Galeria de imagens}
+
+Para escolher uma imagem a ser segmentada, basta clicar no botão "galeria" a fim de acessar as imagens existentes no dispositivo e, depois, clicar sobre a imagem desejada.
+A imagem escolhida será apresentada na tela, substituindo a imagem anterior.
+
+\subsection{Câmera}
+
+Uma nova imagem pode ser adquirida a qualquer momento para ser utilizada na segmentação por meio do acesso à câmera do dispositivo. Para acessar a câmera, basta clicar no botão "câmera" apresentado na tela inicial da aplicação.
+
+\section{Segmentação da imagem}\label{sec:segmentacao_aplicacao}
+
+A segmentação da imagem, por sua vez, pode ser feita também de duas maneiras diferentes:
+% \section{Segmentação da imagem}
+\begin{itemize}
+    \item Por meio do algoritmo desenvolvido para esta alicação; e
+    \item Por meio do algoritmo de \textit{watershed} implementado no OpenCV Java.
+\end{itemize}
+
+\subsection{\textit{Watershed} Desenvolvido}
+
+Após a escolha da imagem, ao clicar sobre o botão "\textit{watershed}", a imagem escolhida será segmentada de acordo com o algoritmo desenvolvido neste projeto. A sequência de \textit{steps} apresentados na seção \ref{sec:alg} do capítulo \ref{cap:algoritmo} é executada pelo processador do dispositivo utilizado e o resultado apresentado da imagem segmentada apresentada na tela.  
+
+\subsection{\textit{Watershed} OpenCV Java}
+
+Da mesma forma, com a imagem escolhida, pode-se optar por segmentá-la através do algoritmo já existente e implementado na interface Java da biblioteca OpenCV. Para isso basta clicar sobre o botão "\textit{watershed} OpenCV" e a imagem resultante da segmentação será apresentada na tela do dispositivo. Enquanto que a imagem resultante pelo processo de segmentação que utiliza o algoritmo desenvolvido para a aplicação é colorida, a imagem resultante da segmentação fornecida pelo OpenCV Java é em níveis de cinza, uma vez que foi assim foi implementada.
+
+
+
+
+O objetivo de se colocar a segmentação  \textit{watershed} fornecida pelo OpenCV Java é possibilitar uma análise comparativa dos resultados obtidos.

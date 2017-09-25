@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.7.24)  2 AUG 2017 11:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.7.24)  24 SEP 2017 23:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -757,7 +757,8 @@ Package geometry Warning: Over-specification in `v'-direction.
     `height' (688.55669pt) is ignored.
 
 (./main.aux (./dados-pfc.aux) (./pre-texto.aux) (./cap-01.aux) (./cap-02.aux)
-(./cap-03.aux) (./cap-03.1.aux) (./cap-04.aux) (./cap-05.aux) (./anexo.aux))
+(./cap-03.aux) (./cap-03.1.aux) (./cap-03.2.aux) (./cap-04.aux) (./cap-04.1.aux
+) (./cap-05.aux) (./anexo.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 89.
@@ -918,52 +919,51 @@ and I'll forget about whatever was undefined.
 
 ] (./main.toc [6
 
-])
+] [7])
 \tf@toc=\write3
 \openout3 = `main.toc'.
 
- [7] (./main.lof
+ [8] (./main.lof
 LaTeX Info: Redefining \NATand on input line 19.
 LaTeX Info: Redefining \NATand on input line 20.
 LaTeX Info: Redefining \NATand on input line 21.
 LaTeX Info: Redefining \NATand on input line 24.
-)
+ [9
+
+])
 \tf@lof=\write4
 \openout4 = `main.lof'.
 
- [8
-
-] (./main.lot)
+ [10] (./main.lot)
 \tf@lot=\write5
 \openout5 = `main.lot'.
 
- [9
+[11
 
 ])
 \openout2 = `cap-01.aux'.
 
-
-(./cap-01.tex
+ (./cap-01.tex
 CAP{\'I}TULO 1.
-<img/tela_android-original.png, id=43, 190.7125pt x 308.15125pt>
+<img/tela_android-original.png, id=50, 190.7125pt x 308.15125pt>
 File: img/tela_android-original.png Graphic file (type png)
 
 <use img/tela_android-original.png>
 Package pdftex.def Info: img/tela_android-original.png used on input line 46.
 (pdftex.def)             Requested size: 91.04742pt x 147.11157pt.
 
-<img/tela_android.png, id=45, 191.71625pt x 308.15125pt>
+<img/tela_android.png, id=52, 191.71625pt x 308.15125pt>
 File: img/tela_android.png Graphic file (type png)
 
 <use img/tela_android.png>
 Package pdftex.def Info: img/tela_android.png used on input line 47.
 (pdftex.def)             Requested size: 91.04742pt x 146.34514pt.
- [10
+ [12
 
 
 
  <./img/tela_android-original.png> <./img/tela_android.png>] <img/diag_blocos.p
-ng, id=51, 886.31125pt x 497.86pt>
+ng, id=58, 886.31125pt x 497.86pt>
 File: img/diag_blocos.png Graphic file (type png)
 
 <use img/diag_blocos.png>
@@ -976,60 +976,60 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 74.
- [11 <./img/diag_blocos.png>]) [12]
+ [13 <./img/diag_blocos.png>]) [14]
 \openout2 = `cap-02.aux'.
 
  (./cap-02.tex
 CAP{\'I}TULO 2.
-<img/198023.jpg, id=61, 322.20375pt x 482.80376pt>
+<img/198023.jpg, id=67, 322.20375pt x 482.80376pt>
 File: img/198023.jpg Graphic file (type jpg)
  <use img/198023.jpg>
 Package pdftex.def Info: img/198023.jpg used on input line 21.
 (pdftex.def)             Requested size: 136.57462pt x 204.65477pt.
 
-<img/198023-8-color.jpg, id=62, 160.6pt x 240.9pt>
+<img/198023-8-color.jpg, id=68, 160.6pt x 240.9pt>
 File: img/198023-8-color.jpg Graphic file (type jpg)
 
 <use img/198023-8-color.jpg>
 Package pdftex.def Info: img/198023-8-color.jpg used on input line 31.
 (pdftex.def)             Requested size: 91.04742pt x 136.57558pt.
- <img/198023-8.jpg, id=63, 160.6pt x 240.9pt>
+ <img/198023-8.jpg, id=69, 160.6pt x 240.9pt>
 File: img/198023-8.jpg Graphic file (type jpg)
 
 <use img/198023-8.jpg>
 Package pdftex.def Info: img/198023-8.jpg used on input line 32.
 (pdftex.def)             Requested size: 91.04742pt x 136.57558pt.
- <img/198023-16-color.jpg, id=64, 160.6pt x 240.9pt>
+ <img/198023-16-color.jpg, id=70, 160.6pt x 240.9pt>
 File: img/198023-16-color.jpg Graphic file (type jpg)
 
 <use img/198023-16-color.jpg>
 Package pdftex.def Info: img/198023-16-color.jpg used on input line 33.
 (pdftex.def)             Requested size: 91.04742pt x 136.57558pt.
- <img/198023-16.jpg, id=65, 160.6pt x 240.9pt>
+ <img/198023-16.jpg, id=71, 160.6pt x 240.9pt>
 File: img/198023-16.jpg Graphic file (type jpg)
 
 <use img/198023-16.jpg>
 Package pdftex.def Info: img/198023-16.jpg used on input line 34.
 (pdftex.def)             Requested size: 91.04742pt x 136.57558pt.
- <img/198023-22-color.jpg, id=66, 160.6pt x 240.9pt>
+ <img/198023-22-color.jpg, id=72, 160.6pt x 240.9pt>
 File: img/198023-22-color.jpg Graphic file (type jpg)
 
 <use img/198023-22-color.jpg>
 Package pdftex.def Info: img/198023-22-color.jpg used on input line 44.
 (pdftex.def)             Requested size: 91.04742pt x 136.57558pt.
- <img/198023-22.jpg, id=67, 160.6pt x 240.9pt>
+ <img/198023-22.jpg, id=73, 160.6pt x 240.9pt>
 File: img/198023-22.jpg Graphic file (type jpg)
 
 <use img/198023-22.jpg>
 Package pdftex.def Info: img/198023-22.jpg used on input line 45.
 (pdftex.def)             Requested size: 91.04742pt x 136.57558pt.
- <img/198023-26-color.jpg, id=68, 160.6pt x 240.9pt>
+ <img/198023-26-color.jpg, id=74, 160.6pt x 240.9pt>
 File: img/198023-26-color.jpg Graphic file (type jpg)
 
 <use img/198023-26-color.jpg>
 Package pdftex.def Info: img/198023-26-color.jpg used on input line 46.
 (pdftex.def)             Requested size: 91.04742pt x 136.57558pt.
- <img/198023-26.jpg, id=69, 160.6pt x 240.9pt>
+ <img/198023-26.jpg, id=75, 160.6pt x 240.9pt>
 File: img/198023-26.jpg Graphic file (type jpg)
 
 <use img/198023-26.jpg>
@@ -1039,44 +1039,44 @@ Package pdftex.def Info: img/198023-26.jpg used on input line 47.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[13
+[15
 
 
 
-] [14 <./img/198023.jpg> <./img/198023-8-color.jpg> <./img/198023-8.jpg> <./img
+] [16 <./img/198023.jpg> <./img/198023-8-color.jpg> <./img/198023-8.jpg> <./img
 /198023-16-color.jpg> <./img/198023-16.jpg> <./img/198023-22-color.jpg> <./img/
 198023-22.jpg> <./img/198023-26-color.jpg> <./img/198023-26.jpg>]
-<img/101087.jpg, id=76, 322.20375pt x 482.80376pt>
+<img/101087.jpg, id=82, 322.20375pt x 482.80376pt>
 File: img/101087.jpg Graphic file (type jpg)
  <use img/101087.jpg>
 Package pdftex.def Info: img/101087.jpg used on input line 61.
 (pdftex.def)             Requested size: 136.57462pt x 204.65477pt.
 
-<img/101087-77.jpg, id=77, 322.20375pt x 482.80376pt>
+<img/101087-77.jpg, id=83, 322.20375pt x 482.80376pt>
 File: img/101087-77.jpg Graphic file (type jpg)
  <use img/101087-77.jpg>
 Package pdftex.def Info: img/101087-77.jpg used on input line 73.
 (pdftex.def)             Requested size: 91.04742pt x 136.42915pt.
 
-<img/101087-80.jpg, id=78, 322.20375pt x 482.80376pt>
+<img/101087-80.jpg, id=84, 322.20375pt x 482.80376pt>
 File: img/101087-80.jpg Graphic file (type jpg)
  <use img/101087-80.jpg>
 Package pdftex.def Info: img/101087-80.jpg used on input line 74.
 (pdftex.def)             Requested size: 91.04742pt x 136.42915pt.
 
-<img/101087-82.jpg, id=79, 322.20375pt x 482.80376pt>
+<img/101087-82.jpg, id=85, 322.20375pt x 482.80376pt>
 File: img/101087-82.jpg Graphic file (type jpg)
  <use img/101087-82.jpg>
 Package pdftex.def Info: img/101087-82.jpg used on input line 75.
 (pdftex.def)             Requested size: 91.04742pt x 136.42915pt.
 
-<img/101087-85.jpg, id=80, 322.20375pt x 482.80376pt>
+<img/101087-85.jpg, id=86, 322.20375pt x 482.80376pt>
 File: img/101087-85.jpg Graphic file (type jpg)
  <use img/101087-85.jpg>
 Package pdftex.def Info: img/101087-85.jpg used on input line 76.
 (pdftex.def)             Requested size: 91.04742pt x 136.42915pt.
 )
-[15 <./img/101087.jpg> <./img/101087-77.jpg> <./img/101087-80.jpg> <./img/10108
+[17 <./img/101087.jpg> <./img/101087-77.jpg> <./img/101087-80.jpg> <./img/10108
 7-82.jpg> <./img/101087-85.jpg>]
 \openout2 = `cap-03.aux'.
 
@@ -1132,13 +1132,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 24--32
 
  []
 
-<img/einstein.jpg, id=84, 256.96pt x 256.96pt>
+<img/einstein.jpg, id=91, 256.96pt x 256.96pt>
 File: img/einstein.jpg Graphic file (type jpg)
  <use img/einstein.jpg>
 Package pdftex.def Info: img/einstein.jpg used on input line 44.
 (pdftex.def)             Requested size: 136.57462pt x 136.57631pt.
 
-<img/einstein-globalthresholding127.jpg, id=85, 449.68pt x 447.6725pt>
+<img/einstein-globalthresholding127.jpg, id=92, 449.68pt x 447.6725pt>
 File: img/einstein-globalthresholding127.jpg Graphic file (type jpg)
 
 <use img/einstein-globalthresholding127.jpg>
@@ -1146,7 +1146,7 @@ Package pdftex.def Info: img/einstein-globalthresholding127.jpg used on input l
 ine 53.
 (pdftex.def)             Requested size: 136.57462pt x 135.96269pt.
 
-<img/einstein-localthresholding-adaptivegausian.jpg, id=86, 451.6875pt x 447.67
+<img/einstein-localthresholding-adaptivegausian.jpg, id=93, 451.6875pt x 447.67
 25pt>
 File: img/einstein-localthresholding-adaptivegausian.jpg Graphic file (type jpg
 )
@@ -1154,20 +1154,20 @@ File: img/einstein-localthresholding-adaptivegausian.jpg Graphic file (type jpg
 Package pdftex.def Info: img/einstein-localthresholding-adaptivegausian.jpg use
 d on input line 65.
 (pdftex.def)             Requested size: 136.57462pt x 135.36157pt.
- [16
+ [18
 
 
 
-] [17 <./img/einstein.jpg> <./img/einstein-globalthresholding127.jpg> <./img/ei
+] [19 <./img/einstein.jpg> <./img/einstein-globalthresholding127.jpg> <./img/ei
 nstein-localthresholding-adaptivegausian.jpg>]
-<img/stf-smandrill.jpg, id=97, 256.96pt x 256.96pt>
+<img/stf-smandrill.jpg, id=103, 256.96pt x 256.96pt>
 File: img/stf-smandrill.jpg Graphic file (type jpg)
 
 <use img/stf-smandrill.jpg>
 Package pdftex.def Info: img/stf-smandrill.jpg used on input line 86.
 (pdftex.def)             Requested size: 182.09486pt x 182.09782pt.
 
-<img/stf-smandrill-edgedetect.jpg, id=98, 284.06125pt x 284.06125pt>
+<img/stf-smandrill-edgedetect.jpg, id=104, 284.06125pt x 284.06125pt>
 File: img/stf-smandrill-edgedetect.jpg Graphic file (type jpg)
 
 <use img/stf-smandrill-edgedetect.jpg>
@@ -1176,56 +1176,56 @@ Package pdftex.def Info: img/stf-smandrill-edgedetect.jpg used on input line 87
 (pdftex.def)             Requested size: 182.09486pt x 182.10197pt.
 
 
-LaTeX Warning: Reference `fig:fig:Berkeley_mulher_segmentada' on page 18 undefi
+LaTeX Warning: Reference `fig:fig:Berkeley_mulher_segmentada' on page 20 undefi
 ned on input line 98.
 
-[18 <./img/stf-smandrill.jpg> <./img/stf-smandrill-edgedetect.jpg>]
-<img/stf-aral1997.jpg, id=102, 451.6875pt x 325.215pt>
+[20 <./img/stf-smandrill.jpg> <./img/stf-smandrill-edgedetect.jpg>]
+<img/stf-aral1997.jpg, id=108, 451.6875pt x 325.215pt>
 File: img/stf-aral1997.jpg Graphic file (type jpg)
 
 <use img/stf-aral1997.jpg>
 Package pdftex.def Info: img/stf-aral1997.jpg used on input line 120.
 (pdftex.def)             Requested size: 182.09486pt x 131.1109pt.
 
-<img/stf-aral1997-quadtree.jpg, id=103, 452.69125pt x 326.21875pt>
+<img/stf-aral1997-quadtree.jpg, id=109, 452.69125pt x 326.21875pt>
 File: img/stf-aral1997-quadtree.jpg Graphic file (type jpg)
 
 <use img/stf-aral1997-quadtree.jpg>
 Package pdftex.def Info: img/stf-aral1997-quadtree.jpg used on input line 121.
 (pdftex.def)             Requested size: 182.09486pt x 131.22188pt.
- [19 <./img/stf-aral1997.jpg> <./img/stf-aral1997-quadtree.jpg>] <img/stf-coins
-.jpg, id=107, 258.9675pt x 195.73125pt>
+ [21 <./img/stf-aral1997.jpg> <./img/stf-aral1997-quadtree.jpg>] <img/stf-coins
+.jpg, id=113, 258.9675pt x 195.73125pt>
 File: img/stf-coins.jpg Graphic file (type jpg)
 
 <use img/stf-coins.jpg>
 Package pdftex.def Info: img/stf-coins.jpg used on input line 143.
 (pdftex.def)             Requested size: 182.09486pt x 137.63513pt.
 
-<img/stf-coins-watersheed.jpg, id=108, 626.34pt x 472.76625pt>
+<img/stf-coins-watersheed.jpg, id=114, 626.34pt x 472.76625pt>
 File: img/stf-coins-watersheed.jpg Graphic file (type jpg)
 
 <use img/stf-coins-watersheed.jpg>
 Package pdftex.def Info: img/stf-coins-watersheed.jpg used on input line 144.
 (pdftex.def)             Requested size: 182.09486pt x 137.44496pt.
-) [20 <./img/stf-coins.jpg> <./img/stf-coins-watersheed.jpg>]
+) [22 <./img/stf-coins.jpg> <./img/stf-coins-watersheed.jpg>]
 \openout2 = `cap-03.1.aux'.
 
  (./cap-03.1.tex
 CAP{\'I}TULO 4.
 LaTeX Info: Redefining \NATand on input line 3.
-<img/abordagem_flooding.jpg, id=112, 595.22375pt x 287.0725pt>
+<img/abordagem_flooding.jpg, id=118, 595.22375pt x 287.0725pt>
 File: img/abordagem_flooding.jpg Graphic file (type jpg)
 
 <use img/abordagem_flooding.jpg>
 Package pdftex.def Info: img/abordagem_flooding.jpg used on input line 14.
 (pdftex.def)             Requested size: 273.14923pt x 131.73518pt.
 LaTeX Info: Redefining \NATand on input line 15.
- [21
+ [23
 
 
 
  <./img/abordagem_flooding.jpg>]
-<img/abordagem_rainfalling.jpg, id=117, 457.71pt x 176.66pt>
+<img/abordagem_rainfalling.jpg, id=124, 457.71pt x 176.66pt>
 File: img/abordagem_rainfalling.jpg Graphic file (type jpg)
 
 <use img/abordagem_rainfalling.jpg>
@@ -1233,7 +1233,7 @@ Package pdftex.def Info: img/abordagem_rainfalling.jpg used on input line 26.
 (pdftex.def)             Requested size: 273.14923pt x 105.43073pt.
 LaTeX Info: Redefining \NATand on input line 27.
 
-<img/connected_components.jpg, id=118, 523.9575pt x 131.49126pt>
+<img/connected_components.jpg, id=125, 523.9575pt x 131.49126pt>
 File: img/connected_components.jpg Graphic file (type jpg)
 
 <use img/connected_components.jpg>
@@ -1241,44 +1241,98 @@ Package pdftex.def Info: img/connected_components.jpg used on input line 52.
 (pdftex.def)             Requested size: 409.71692pt x 102.82358pt.
 LaTeX Info: Redefining \NATand on input line 53.
 LaTeX Info: Redefining \NATand on input line 53.
- [22 <./img/abordagem_rainfalling.jpg>]
-<img/diagrama_blocos_algoritmo.jpg, id=123, 657.45625pt x 339.2675pt>
+ [24 <./img/abordagem_rainfalling.jpg>]
+<img/diagrama_blocos_algoritmo.jpg, id=130, 657.45625pt x 339.2675pt>
 File: img/diagrama_blocos_algoritmo.jpg Graphic file (type jpg)
 
 <use img/diagrama_blocos_algoritmo.jpg>
 Package pdftex.def Info: img/diagrama_blocos_algoritmo.jpg used on input line 6
 6.
 (pdftex.def)             Requested size: 318.66948pt x 164.44617pt.
- [23 <./img/connected_components.jpg> <./img/diagrama_blocos_algoritmo.jpg>]
-<img/diagrama_blocos_preprocessamento.jpg, id=130, 643.40375pt x 247.92625pt>
+ [25 <./img/connected_components.jpg> <./img/diagrama_blocos_algoritmo.jpg>]
+<img/diagrama_blocos_preprocessamento.jpg, id=136, 643.40375pt x 247.92625pt>
 File: img/diagrama_blocos_preprocessamento.jpg Graphic file (type jpg)
 
 <use img/diagrama_blocos_preprocessamento.jpg>
 Package pdftex.def Info: img/diagrama_blocos_preprocessamento.jpg used on input
  line 79.
 (pdftex.def)             Requested size: 364.19667pt x 140.3434pt.
- [24 <./img/diagrama_blocos_preprocessamento.jpg>] <img/filtromediana.jpg, id=1
-35, 498.86375pt x 270.00874pt>
+ [26 <./img/diagrama_blocos_preprocessamento.jpg>] <img/filtromediana.jpg, id=1
+41, 498.86375pt x 270.00874pt>
 File: img/filtromediana.jpg Graphic file (type jpg)
 
 <use img/filtromediana.jpg>
 Package pdftex.def Info: img/filtromediana.jpg used on input line 114.
 (pdftex.def)             Requested size: 364.19667pt x 197.12534pt.
 LaTeX Info: Redefining \NATand on input line 115.
- [25 <./img/filtromediana.jpg>]
+ [27 <./img/filtromediana.jpg>]
 LaTeX Info: Redefining \NATand on input line 171.
- [26]
+ [28]
 LaTeX Info: Redefining \NATand on input line 198.
- [27]
+ [29]
 LaTeX Info: Redefining \NATand on input line 253.
 LaTeX Info: Redefining \NATand on input line 253.
-) [28]
-[29]
+) [30]
+[31]
+\openout2 = `cap-03.2.aux'.
+
+ (./cap-03.2.tex
+CAP{\'I}TULO 5.
+LaTeX Info: Redefining \NATand on input line 6.
+<img/android_stack.jpg, id=159, 1389.19pt x 2045.6425pt>
+File: img/android_stack.jpg Graphic file (type jpg)
+
+<use img/android_stack.jpg>
+Package pdftex.def Info: img/android_stack.jpg used on input line 11.
+(pdftex.def)             Requested size: 227.62206pt x 335.1754pt.
+ [32
+
+
+
+ <./img/android_stack.jpg>] [33]
+<img/dispositivo1.jpg, id=166, 375.4025pt x 441.65pt>
+File: img/dispositivo1.jpg Graphic file (type jpg)
+
+<use img/dispositivo1.jpg>
+Package pdftex.def Info: img/dispositivo1.jpg used on input line 53.
+(pdftex.def)             Requested size: 136.57462pt x 160.67862pt.
+ <img/dispositivo2.jpg, id=167, 803.0pt x 602.25pt>
+File: img/dispositivo2.jpg Graphic file (type jpg)
+
+<use img/dispositivo2.jpg>
+Package pdftex.def Info: img/dispositivo2.jpg used on input line 62.
+(pdftex.def)             Requested size: 227.62206pt x 170.71487pt.
+
+<img/dispositivo3.jpg, id=168, 261.97874pt x 193.72375pt>
+File: img/dispositivo3.jpg Graphic file (type jpg)
+
+<use img/dispositivo3.jpg>
+Package pdftex.def Info: img/dispositivo3.jpg used on input line 71.
+(pdftex.def)             Requested size: 136.57462pt x 100.9941pt.
+ [34] [35 <./img/dispositivo1.jpg> <./img/dispositivo2.jpg> <./img/dispositivo3
+.jpg>]
+LaTeX Info: Redefining \NATand on input line 85.
+) [36]
+\openout2 = `cap-04.aux'.
+
+ (./cap-04.tex
+CAP{\'I}TULO 6.
+[37
+
+
+
+]) [38]
+\openout2 = `cap-04.1.aux'.
+
+
+No file cap-04.1.tex.
 \openout2 = `cap-05.aux'.
 
- (./cap-05.tex
-CAP{\'I}TULO 5.
-[30
+(./cap-05.tex
+CAP{\'I}TULO 7.
+[39
+
+
 
 
 
@@ -1287,32 +1341,44 @@ Overfull \hbox (20.82771pt too wide) in paragraph at lines 52--67
  [][] 
  []
 
-) [31] (./main.bbl
-CAP{\'I}TULO 6.
+) [40] (./main.bbl
+CAP{\'I}TULO 8.
 
-Underfull \hbox (badness 2564) in paragraph at lines 7--12
+Underfull \hbox (badness 7722) in paragraph at lines 7--12
+[]\T1/cmr/m/n/12 DEVELOPERS AN-DROID.   Ar-qui-te-tura da pla-ta-forma. Dis-po-
+ní-vel em:
+ []
+
+
+Underfull \hbox (badness 2564) in paragraph at lines 14--19
 []\T1/cmr/m/n/12 DEVELOPERS AN-DROID.   Pri-mei-ros pas-sos com o NDK. Dis-po-n
 í-vel em:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--37
+Underfull \hbox (badness 10000) in paragraph at lines 39--44
 []\T1/cmr/m/n/12 THE BER-KE-LEY SEG-MEN-TA-TION DA-TA-SET AND BEN-CH-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--37
+Underfull \hbox (badness 10000) in paragraph at lines 39--44
 \T1/cmr/m/n/12 MARK.   Ber-ke-ley Seg-men-ta-tion Da-ta-set. Dis-po-ní-vel em:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--37
+Underfull \hbox (badness 10000) in paragraph at lines 39--44
 \T1/cmr/m/n/12 <https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/bsds
 /BSDS300>.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--44
+Underfull \hbox (badness 1661) in paragraph at lines 46--51
+[]\T1/cmr/m/n/12 GOOGLE DE-VE-LO-PERS.   Fi-re-base Test Lab para An-droid. Dis
+-po-ní-vel em:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--58
 []\T1/cmr/m/n/12 ABEL GO-MES.   Com-pu-ta-ção Vi-sual e Mul-ti-mí-dia. Dis-po-n
 í-vel em:
  []
@@ -1320,7 +1386,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 39--44
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.49 ...ncv.org/2.4/doc/tutorials/imgproc/opening_
+l.63 ...ncv.org/2.4/doc/tutorials/imgproc/opening_
                                                   closing_hats/opening_closi...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1328,7 +1394,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.51 
+l.65 
      
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1336,7 +1402,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.51 
+l.65 
      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1345,13 +1411,13 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--51
+Underfull \hbox (badness 10000) in paragraph at lines 60--65
 []\T1/cmr/m/n/12 OPENCV.   More Morpho-logy Trans-for-ma-ti-ons. Dis-po-ní-vel 
 em:
  []
 
 
-Overfull \hbox (80.67706pt too wide) in paragraph at lines 46--51
+Overfull \hbox (80.67706pt too wide) in paragraph at lines 60--65
 \T1/cmr/m/n/12 <http://docs.opencv.org/2.4/doc/tutorials/imgproc/opening$[]\OML
 /cmm/m/it/12 losing[]ats=opening[]losing[]ats:html >
  []
@@ -1359,7 +1425,7 @@ Overfull \hbox (80.67706pt too wide) in paragraph at lines 46--51
 ! Extra }, or forgotten \endgroup.
 \par ...m \@noitemerr {\@@par }\fi \else {\@@par }
                                                   \fi 
-l.51 
+l.65 
      
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1370,7 +1436,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.62 .../2.4/doc/tutorials/imgproc/imgtrans/sobel_
+l.76 .../2.4/doc/tutorials/imgproc/imgtrans/sobel_
                                                   derivatives/sobel_derivati...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1378,7 +1444,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.64 
+l.78 
      
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1386,7 +1452,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.64 
+l.78 
      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1395,16 +1461,20 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (293.17424pt too wide) in paragraph at lines 59--64
+Overfull \hbox (293.17424pt too wide) in paragraph at lines 73--78
 []\T1/cmr/m/n/12 OPENCV.   So-bel De-ri-va-ti-ves. Dis-po-ní-vel em: <http://do
 cs.opencv.org/2.4/doc/tutorials/imgproc/imgtrans/sobel$[]\OML/cmm/m/it/12 eriva
 tives=sobel[]erivatives:html >
  []
 
+[41
+
+
+]
 ! Extra }, or forgotten \endgroup.
 \par ...m \@noitemerr {\@@par }\fi \else {\@@par }
                                                   \fi 
-l.64 
+l.78 
      
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1412,14 +1482,10 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-[32
-
-
-]
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.83 ...t.uu.se/edu/course/homepage/bild1/ht14/L6_
+l.97 ...t.uu.se/edu/course/homepage/bild1/ht14/L6_
                                                   segmentation.pdf>. Acesso em:
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1427,7 +1493,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.85 
+l.99 
      
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1435,7 +1501,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.85 
+l.99 
      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1444,14 +1510,14 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--85
+Underfull \hbox (badness 10000) in paragraph at lines 94--99
 []\T1/cmr/m/n/12 ROBIN STRAND.   Seg-men-ta-tion. Dis-po-ní-vel em:
  []
 
 ! Extra }, or forgotten \endgroup.
 \par ...m \@noitemerr {\@@par }\fi \else {\@@par }
                                                   \fi 
-l.85 
+l.99 
      
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1459,22 +1525,23 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-) [33]
-ANEXO 7.
-[34
+) [42]
+ANEXO 9.
+[43
 
 ]
 \openout2 = `anexo.aux'.
 
  (./anexo.tex
-ANEXO 7.
-) [35
+ANEXO 9.
+[44
 
 
-] 
+]) [45] 
 AED: lastpage setting LastPage
 (./main.aux (./dados-pfc.aux) (./pre-texto.aux) (./cap-01.aux) (./cap-02.aux)
-(./cap-03.aux) (./cap-03.1.aux) (./cap-05.aux) (./anexo.aux))
+(./cap-03.aux) (./cap-03.1.aux) (./cap-03.2.aux) (./cap-04.aux) (./cap-04.1.aux
+) (./cap-05.aux) (./anexo.aux))
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.2pt have occurred.
@@ -1482,20 +1549,17 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  )
 (\end occurred inside a group at level 1)
 
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 12153 strings out of 492995
- 201381 string characters out of 6132704
- 380481 words of memory out of 5000000
- 15391 multiletter control sequences out of 15000+600000
- 14369 words of font info for 44 fonts, out of 8000000 for 9000
+ 12219 strings out of 492995
+ 202563 string characters out of 6132704
+ 383875 words of memory out of 5000000
+ 15436 multiletter control sequences out of 15000+600000
+ 15068 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,15n,43p,1433b,3847s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm
@@ -1504,16 +1568,17 @@ m/cmex10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmmi12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/
 cmmi8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 r12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
-10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfbx1200
-.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfbx1440.p
-fb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb
-></usr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><
-/usr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></u
-sr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on main.pdf (37 pages, 1347212 bytes).
+10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfbi1200
+.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfbx1200.p
+fb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb
+></usr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb><
+/usr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></u
+sr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr
+/local/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
+Output written on main.pdf (47 pages, 1764216 bytes).
 PDF statistics:
- 213 PDF objects out of 1000 (max. 8388607)
- 120 compressed objects within 2 object streams
+ 253 PDF objects out of 1000 (max. 8388607)
+ 144 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 161 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 181 words of extra memory for PDF output out of 10000 (max. 10000000)
 
