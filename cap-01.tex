@@ -43,8 +43,8 @@ Esse projeto visa estudar e implementar técnicas de segmentação de imagens no
 % Figura -----------------------------------------------------------------------------------------------------------------------------
   \begin{figure}[!htb]
        \begin{center}  
-          \includegraphics[width=0.2\columnwidth]{img/tela_android-original.png} \quad
-          \includegraphics[width=0.2\columnwidth]{img/tela_android.png}
+          \includegraphics[width=0.2\columnwidth]{img/imagem_watershed_desenvolvido_app_n1.png} \quad
+          \includegraphics[width=0.2\columnwidth]{img/resultado_watershed_desenvolvido_app_n1.png}
            \caption{\label{fig:tela_android}Tela do Aplicativo Android (imagem original e imagem segmentada).}
            % \vspace{2.0em}
        \end{center}
@@ -55,7 +55,7 @@ Esse projeto visa estudar e implementar técnicas de segmentação de imagens no
 
 
 \section{Objetivos}\label{sec:objetivos}
-O objetivo dessa pesquisa é o desenvolvimento de uma aplicação móvel, no ambiente Android, capaz de segmentar imagens por meio de diferentes algoritmos baseados em técnicas de segmentação e procedimentos de pré-processamento na área de Visão Computacional. Para estudar a eficiência dos resultados obtidos, será realizada uma análise comparativa com relação aos algoritmos fornecidos pela biblioteca OpenCV, ferramenta de apoio a essa pesquisa descrita na seção \ref{sec:opencv} do capítulo \ref{cap:ferramentas}. A realização de todas as etapas de desenvolvimento até a concepção do produto final, que será disponibilizado para livre utilização, permitirá aos alunos maior conhecimento nesse assunto que é um dos domínios mais promissores da tecnologia. A Figura \ref{fig:diag_blocos} ilustra os passos do projeto, onde o aplicativo poderá adquirir imagens diretamente da câmera do dispositivo ou da galeria de imagens do dispositivo. O bloco denominado Pré-Processamento ilustra uma possível etapa de procedimentos a serem realizados sobre as imagens oriundas da câmera ou do banco de imagens, com a finalidade de tratar as imagens para os algoritmos de segmentação. O bloco seguinte, Técnicas de Segmentação implementa um ou mais métodos de segmentação, descritos no capítulo \ref{cap:segmentacao}. Finalmente, o bloco Exibição vai exibir a imagem segmentada na tela do dispositivo. 
+O objetivo dessa pesquisa é o desenvolvimento de uma aplicação móvel, no ambiente Android, capaz de segmentar imagens por meio de diferentes algoritmos baseados em técnicas de segmentação e procedimentos de pré-processamento na área de Visão Computacional. Para estudar a eficiência dos resultados obtidos, será realizada uma análise comparativa com relação aos algoritmos fornecidos pela biblioteca OpenCV, ferramenta de apoio a essa pesquisa descrita na seção \ref{sec:opencv} do anexo 1. A realização de todas as etapas de desenvolvimento até a concepção do produto final, disponível na plataforma do GitHub, no \textit{link} https://github.com/brunoavelino/SEG, para livre utilização, permitirá aos alunos maior conhecimento nesse assunto que é um dos domínios mais promissores da tecnologia. A Figura \ref{fig:diag_blocos} ilustra os passos do projeto, onde o aplicativo poderá adquirir imagens diretamente da câmera do dispositivo ou da galeria de imagens do dispositivo. O bloco denominado Pré-Processamento ilustra uma possível etapa de procedimentos a serem realizados sobre as imagens oriundas da câmera ou do banco de imagens, com a finalidade de tratar as imagens para os algoritmos de segmentação. O bloco seguinte, Técnicas de Segmentação implementa um ou mais métodos de segmentação, descritos no capítulo \ref{cap:segmentacao}. Finalmente, o bloco Exibição vai exibir a imagem segmentada na tela do dispositivo. 
 
 % Figura -----------------------------------------------------------------------------------------------------------------------------
   \begin{figure}[!htb]
@@ -78,29 +78,7 @@ Este trabalho pode ser justificado com base nos seguintes pontos:
 
 \section{Estrutura da Monografia}
 
-\subsection{Introdução}
-Capítulo introdutório da monografia. Nele encontram-se as seguintes seções:
-% \section{Seções cap1}
-\begin{itemize}
-    \item \textbf{Motivação}: Explica o problema 
-    \item \textbf{Objetivos}:
-    \item \textbf{Justificativa}:
-    \item \textbf{Estrutura da Monografia}:
-\end{itemize}    
-
-\subsection{Segmentação de Imagens}
-
-
-\subsection{Algoritmos de Segmentação}
-
-
-\subsection{Algoritmo}
-
-
-\subsection{Ferramentas}
-
-
-\subsection{Cronograma}
+A seguir é apresentado o capítulo \ref{cap:segmentacao}, onde é introduzido os problemas inerentes à segmentação. Em seguida, o capítulo \ref{cap:algoritmos} que descreve três principais técnicas de segmentação. No capítulo \ref{cap:algoritmo} é apresentado o algoritmo desenvolvido para essa aplicação, adaptado do algoritmo original \textit{watershed}, o qual é introduzido neste mesmo capítulo, além de sua implementação com auxílio da biblioteca OpenCV. O capítulo \ref{cap:ambdes} descreve o ambiente de desenvolvimento utilizado para a construção dessa aplicação, entrando em detalhes sobre o processo de portabildiade do algoritmo implementado em C++ para o ambiente Android, com auxílio da ferramenta JNI. O capítulo \ref{cap:aplicacao} é responsável por ilustrar o funcionamento do aplicativo desenvolvido e, finalmente, o capítulo \ref{cap:conclusao} sintetiza a pesquisa, abordando os impactos desse projeto.  
 
 %\chapter{REFRÊNCIAS BIBLIOGRÁFICAS}
 %\begin{itemize}

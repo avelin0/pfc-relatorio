@@ -1,39 +1,53 @@
 \select@language {brazilian}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Tela do Aplicativo Android (imagem original e imagem segmentada).}}{12}
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Diagrama em Blocos do Projeto.}}{13}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Tela do Aplicativo Android (imagem original e imagem segmentada).}}{15}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Diagrama em Blocos do Projeto.}}{16}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Imagem original. \citep {Arbelez2011}}}{16}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Imagens segmentadas por seres humanos, gerando 8 e 16 segmentos nas duas primeiras imagens e nas duas \IeC {\'u}ltimas, respectivamente. \citep {Arbelez2011}}}{16}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Imagens segmentadas por seres humanos, gerando 22 e 26 segmentos nas duas primeiras imagens e nas duas \IeC {\'u}ltimas, respectivamente. \citep {Arbelez2011}}}{16}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Imagem original. \citep {berkeley}}}{17}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Resultados de 4 algoritmo de detec\c {c}\~{a}o de bordas. \citep {berkeley}}}{17}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Imagem original. \citep {Arbelez2011}}}{19}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Imagens segmentadas por seres humanos, gerando 8 e 16 segmentos nas duas primeiras imagens e nas duas \IeC {\'u}ltimas, respectivamente. \citep {Arbelez2011}}}{19}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Imagens segmentadas por seres humanos, gerando 22 e 26 segmentos nas duas primeiras imagens e nas duas \IeC {\'u}ltimas, respectivamente. \citep {Arbelez2011}}}{19}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Imagem original. \citep {berkeley}}}{20}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Resultados de 4 algoritmo de detec\c {c}\~{a}o de bordas. \citep {berkeley}}}{20}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Imagem original. \citep {stanford}}}{19}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Imagem segmentada pelo algoritmo \textit {threshold} global.}}{19}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Imagem segmentada pelo m\IeC {\'e}todo de segmenta\IeC {\c c}\IeC {\~a}o \textit {thresholding} local.}}{20}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Uma imagem de um macaco \citep {stanford} \IeC {\`a} esquerda e \IeC {\`a} direita segmentada pelo m\IeC {\'e}todo de detec\IeC {\c c}\IeC {\~a}o de bordas.}}{20}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Uma representa\IeC {\c c}\IeC {\~a}o visual de uma regi\IeC {\~a}o \citep {stanford} \IeC {\`a} esquerda e \IeC {\`a} direita segmentada pelo Algoritmo \textit {Quadtree}.}}{22}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Imagem de uma moeda \citep {stanford} \IeC {\`a} esquerda e \IeC {\`a} direita segmentada pelo Algoritmo \textit {Watersheed}.}}{22}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Imagem original. \citep {stanford}}}{22}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Imagem segmentada pelo algoritmo \textit {threshold} global.}}{22}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Imagem segmentada pelo m\IeC {\'e}todo de segmenta\IeC {\c c}\IeC {\~a}o \textit {thresholding} local.}}{23}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Uma imagem de um macaco \citep {stanford} \IeC {\`a} esquerda e \IeC {\`a} direita segmentada pelo m\IeC {\'e}todo de detec\IeC {\c c}\IeC {\~a}o de bordas.}}{23}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Uma representa\IeC {\c c}\IeC {\~a}o visual de uma regi\IeC {\~a}o \citep {stanford} \IeC {\`a} esquerda e \IeC {\`a} direita segmentada pelo Algoritmo \textit {Quadtree}.}}{25}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Imagem de uma moeda \citep {stanford} \IeC {\`a} esquerda e \IeC {\`a} direita segmentada pelo Algoritmo \textit {Watersheed}.}}{25}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Abordagem "\textit {flooding based watershed}".\cite {regseg1}}}{23}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Abordagem "\textit {rainfalling based watershed}". \cite {ruparelia2012implementation}}}{24}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Ilustra\IeC {\c c}\IeC {\~a}o do funcionamento da t\IeC {\'e}cnica \textit {Watershed Based On Connected Components}. \cite {ruparelia2012implementation}}}{25}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Diagrama de blocos do algoritmo de segmenta\IeC {\c c}\IeC {\~a}o dessa pesquisa.}}{25}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Diagrama de blocos da etapa de pr\IeC {\'e}-processamento.}}{26}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Defini\IeC {\c c}\IeC {\~a}o matem\IeC {\'a}tica do Filtro Bilateral.}}{27}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Defini\IeC {\c c}\IeC {\~a}o matem\IeC {\'a}tica do Operador Sobel.}}{27}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Abordagem "\textit {flooding based watershed}".\cite {regseg1}}}{26}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Abordagem "\textit {rainfalling based watershed}". \cite {ruparelia2012implementation}}}{27}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Ilustra\IeC {\c c}\IeC {\~a}o do funcionamento da t\IeC {\'e}cnica \textit {Watershed Based On Connected Components}. \cite {ruparelia2012implementation}}}{28}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Diagrama de blocos do algoritmo de segmenta\IeC {\c c}\IeC {\~a}o dessa pesquisa.}}{28}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Diagrama de blocos da etapa de pr\IeC {\'e}-processamento.}}{29}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Defini\IeC {\c c}\IeC {\~a}o matem\IeC {\'a}tica do Filtro Bilateral. \citep {Banterle2012}}}{30}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Defini\IeC {\c c}\IeC {\~a}o matem\IeC {\'a}tica do Operador Sobel.}}{31}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Resultado pr\IeC {\'a}tica da aplica\IeC {\c c}\IeC {\~a}o do operador Sobel.}}{31}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Resultado pr\IeC {\'a}tica da aplica\IeC {\c c}\IeC {\~a}o do operador morfol\IeC {\'o}gico.}}{33}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Pilha de software Android.}}{32}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Motorola Moto G3 - Processador Quad Core de 1.4GHz, 2 GB de RAM.}}{35}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Samsung Galaxy S7 - Processador Octa Core de 2.3GHz, 4GB de RAM.}}{35}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Samsung Google Nexus 10 - Processador Dual Core de 1.7GHz, 2 GB de RAM.}}{35}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Pilha de software Android.}}{37}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Motorola Moto G3 - Processador Quad Core de 1.4GHz, 2 GB de RAM.}}{40}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Samsung Galaxy S7 - Processador Octa Core de 2.3GHz, 4GB de RAM.}}{40}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Samsung Google Nexus 10 - Processador Dual Core de 1.7GHz, 2 GB de RAM.}}{40}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Sele\IeC {\c c}\IeC {\~a}o do disposito virtual no Android Studio.}}{41}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Nexus 5 API 24.}}{42}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Op\IeC {\c c}\IeC {\~o}es de configura\IeC {\c c}\IeC {\~a}o de hardware do dispositivo virtual.}}{42}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Tela Inicial do aplicativo.}}{37}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Sequ\IeC {\^e}ncia de atividades para aquisi\IeC {\c c}\IeC {\~a}o da imagem por meio da galeria de imagens.}}{38}
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Sequ\IeC {\^e}ncia de atividades para aquisi\IeC {\c c}\IeC {\~a}o e tratamento das imagens por meio da c\IeC {\^a}mera do dispositivo.}}{39}
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Resultado de segmenta\IeC {\c c}\IeC {\~a}o utilizando o algoritmo \textit {watershed} desenvolvido.}}{40}
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Resultado de segmenta\IeC {\c c}\IeC {\~a}o utilizando o algoritmo \textit {watershed} do OpenCV Java.}}{40}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Tela Inicial do aplicativo.}}{44}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Sequ\IeC {\^e}ncia de atividades para aquisi\IeC {\c c}\IeC {\~a}o da imagem por meio da galeria de imagens.}}{45}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Sequ\IeC {\^e}ncia de atividades para aquisi\IeC {\c c}\IeC {\~a}o da imagem por meio da galeria de imagens.}}{46}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Sequ\IeC {\^e}ncia de atividades para aquisi\IeC {\c c}\IeC {\~a}o e tratamento das imagens por meio da c\IeC {\^a}mera do dispositivo.}}{47}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Sequ\IeC {\^e}ncia de atividades para aquisi\IeC {\c c}\IeC {\~a}o e tratamento das imagens por meio da c\IeC {\^a}mera do dispositivo.}}{48}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Sequ\IeC {\^e}ncia de atividades para aquisi\IeC {\c c}\IeC {\~a}o e tratamento das imagens por meio da c\IeC {\^a}mera do dispositivo.}}{48}
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Sequ\IeC {\^e}ncia de atividades para aquisi\IeC {\c c}\IeC {\~a}o e tratamento das imagens por meio da c\IeC {\^a}mera do dispositivo.}}{48}
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Resultados de segmenta\IeC {\c c}\IeC {\~a}o utilizando o algoritmo \textit {watershed} desenvolvido.}}{49}
+\contentsline {figure}{\numberline {6.9}{\ignorespaces Resultados de segmenta\IeC {\c c}\IeC {\~a}o utilizando o algoritmo \textit {watershed} desenvolvido.}}{50}
+\contentsline {figure}{\numberline {6.10}{\ignorespaces Resultados de segmenta\IeC {\c c}\IeC {\~a}o utilizando o algoritmo \textit {watershed} desenvolvido.}}{51}
+\contentsline {figure}{\numberline {6.11}{\ignorespaces Resultados de segmenta\IeC {\c c}\IeC {\~a}o utilizando o algoritmo \textit {watershed} desenvolvido.}}{52}
+\contentsline {figure}{\numberline {6.12}{\ignorespaces Resultados de segmenta\IeC {\c c}\IeC {\~a}o utilizando o algoritmo \textit {watershed} desenvolvido.}}{53}
+\contentsline {figure}{\numberline {6.13}{\ignorespaces Resultados de segmenta\IeC {\c c}\IeC {\~a}o utilizando o algoritmo \textit {watershed} desenvolvido.}}{54}
+\contentsline {figure}{\numberline {6.14}{\ignorespaces Resultados de segmenta\IeC {\c c}\IeC {\~a}o utilizando o algoritmo \textit {watershed} desenvolvido.}}{55}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

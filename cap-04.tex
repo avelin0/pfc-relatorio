@@ -26,19 +26,26 @@ A aquisição da imagem pode ser feita de duas maneiras diferentes:
 
 Para escolher uma imagem a ser segmentada, deve-se clicar no botão "GALERIA" que levará a uma tela com uma imagem modelo já pré-definida e com três botões. Basta clicar no botão "LOAD" para acessar as imagens existentes no dispositivo e, depois, clicar sobre a imagem desejada a fim de carregá-la na tela.
 A imagem escolhida será apresentada na tela, substituindo a imagem anterior.
- % Figura
+% Figura 
 \begin{figure}[!htb]
  \centering
  \def\baselinestretch{1}\small\normalsize
- \includegraphics[width=0.2\textwidth]{img/galeria_app_n1.png}\qquad
- \includegraphics[width=0.2\textwidth]{img/galeria_app_n2.png}  \qquad 
- \includegraphics[width=0.2\textwidth]{img/galeria_app_n3.png}  \qquad
- \includegraphics[width=0.2\textwidth]{img/galeria_app_n4.png}        
- \caption{\label{fig:indiosegmentado}Sequência de atividades para aquisição da imagem por meio da galeria de imagens.}
+ \includegraphics[width=0.4\textwidth]{img/galeria_app_n1.png}\qquad
+ \includegraphics[width=0.4\textwidth]{img/galeria_app_n2.png} 
+ \caption{\label{fig:galeria_app_p1}Sequência de atividades para aquisição da imagem por meio da galeria de imagens.}
  %\vspace{2.0em}
 \end{figure}
- % Figura
-
+% Figura 
+\begin{figure}[!htb]
+ \centering
+ \def\baselinestretch{1}\small\normalsize
+ \includegraphics[width=0.4\textwidth]{img/galeria_app_n3.png}\qquad
+ \includegraphics[width=0.4\textwidth]{img/galeria_app_n4.png} 
+ \caption{\label{fig:galeria_app_p2}Sequência de atividades para aquisição da imagem por meio da galeria de imagens.}
+ %\vspace{2.0em}
+\end{figure}
+\clearpage
+ 
 \subsection{Câmera}
 
 Uma nova imagem pode ser adquirida a qualquer momento para ser utilizada na segmentação por meio do acesso à câmera do dispositivo. Para acessar a câmera, basta clicar no botão "CÂMERA" apresentado na tela inicial da aplicação.
@@ -52,66 +59,121 @@ Com a câmera funcionando, pode-se aplicar diversos procedimentos de pré-proces
     \item Operação Morfológica;
     \item SIFT;
 \end{itemize}
-
-Além de poder realizar a segmentação pela técnica baseada em \textit{watershed} também.
-
+% Figura 
+  \begin{figure}[!htb]
+       \begin{center}  
+          \includegraphics[width=0.4\columnwidth]{img/camera_app_n1.png}
+           \caption{\label{fig:camera_app_p1}Sequência de atividades para aquisição e tratamento das imagens por meio da câmera do dispositivo.}
+           % \vspace{2.0em}
+       \end{center}
+   \end{figure}
+% Figura 
 \begin{figure}[!htb]
  \centering
  \def\baselinestretch{1}\small\normalsize
- \includegraphics[width=0.2\textwidth]{img/camera_app_n1.png}\qquad
- \includegraphics[width=0.2\textwidth]{img/camera_app_n2.png}  \qquad 
- \includegraphics[width=0.2\textwidth]{img/camera_app_n3.png}  \qquad
- \includegraphics[width=0.2\textwidth]{img/camera_app_n4.png}        
+ \includegraphics[width=0.4\textwidth]{img/camera_app_n2.png}\qquad
+ \includegraphics[width=0.4\textwidth]{img/camera_app_n3.png} 
+ \caption{\label{fig:camera_app_p2}Sequência de atividades para aquisição e tratamento das imagens por meio da câmera do dispositivo.}
  %\vspace{2.0em}
 \end{figure}
- % Figura
- 
+% Figura 
 \begin{figure}[!htb]
  \centering
  \def\baselinestretch{1}\small\normalsize
- \includegraphics[width=0.2\textwidth]{img/camera_app_n5.png}\qquad
- \includegraphics[width=0.2\textwidth]{img/camera_app_n6.png}  \qquad 
- \includegraphics[width=0.2\textwidth]{img/camera_app_n7.png}  \qquad
- \includegraphics[width=0.2\textwidth]{img/camera_app_n8.png}        
- \caption{\label{fig:indiosegmentado}Sequência de atividades para aquisição e tratamento das imagens por meio da câmera do dispositivo.}
+ \includegraphics[width=0.4\textwidth]{img/camera_app_n4.png}\qquad
+ \includegraphics[width=0.4\textwidth]{img/camera_app_n5.png} 
+ \caption{\label{fig:camera_app_p3}Sequência de atividades para aquisição e tratamento das imagens por meio da câmera do dispositivo.}
  %\vspace{2.0em}
 \end{figure}
- % Figura 
-
+% Figura 
+\begin{figure}[!htb]
+ \centering
+ \def\baselinestretch{1}\small\normalsize
+ \includegraphics[width=0.4\textwidth]{img/camera_app_n6.png}\qquad
+ \includegraphics[width=0.4\textwidth]{img/camera_app_n7.png} 
+ \caption{\label{fig:camera_app_p4}Sequência de atividades para aquisição e tratamento das imagens por meio da câmera do dispositivo.}
+ %\vspace{2.0em}
+\end{figure}
+\clearpage
 
 \section{Segmentação da imagem}\label{sec:segmentacao_aplicacao}
 
-A segmentação da imagem, por sua vez, pode ser feita também de duas maneiras diferentes:
-% \section{Segmentação da imagem}
-\begin{itemize}
-    \item Por meio do algoritmo desenvolvido para esta alicação; e
-    \item Por meio do algoritmo de \textit{watershed} implementado no OpenCV Java.
-\end{itemize}
+A segmentação da imagem, é feita por meio do algoritmo desenvolvido para esta aplicação.
 
 \subsection{\textit{Watershed} Desenvolvido}
 
 Após a escolha da imagem, ao clicar sobre o botão "\textit{watershed}", a imagem escolhida será segmentada de acordo com o algoritmo desenvolvido neste projeto. Antes disso, pode-se ainda ajustar os parâmetros do Filtro Bilateral e do Operador Sobel por meio de dois \textit{seekbars}. A sequência de \textit{steps} apresentados na seção \ref{sec:alg} do capítulo \ref{cap:algoritmo} é executada pelo processador do dispositivo utilizado e o resultado apresentado da imagem segmentada apresentada na tela.
 
+A seguir são apresentados os resultados da segmentação para algumas das imagens testadas.
 % Figura 
-  \begin{figure}[!htb]
-       \begin{center}  
-          \includegraphics[width=0.3\columnwidth]{img/resultado_watershed_desenvolvido_app.png}
-           \caption{\label{fig:resultado_watershed_desenvolvido_app}Resultado de segmentação utilizando o algoritmo \textit{watershed} desenvolvido.}
-           % \vspace{2.0em}
-       \end{center}
-   \end{figure}  
-
-\subsection{\textit{Watershed} OpenCV Java}
-
-Da mesma forma, com a imagem escolhida, pode-se optar por segmentá-la através do algoritmo já existente e implementado na interface Java da biblioteca OpenCV. Para isso basta clicar sobre o botão "\textit{watershed} OpenCV" e a imagem resultante da segmentação será apresentada na tela do dispositivo. Enquanto que a imagem resultante pelo processo de segmentação que utiliza o algoritmo desenvolvido para a aplicação é colorida, a imagem resultante da segmentação fornecida pelo OpenCV Java é em níveis de cinza, uma vez que foi assim foi implementada.
-
+\begin{figure}[!htb]
+ \centering
+ \def\baselinestretch{1}\small\normalsize
+ \includegraphics[width=0.4\textwidth]{img/imagem_watershed_desenvolvido_app_n1.png}\qquad
+ \includegraphics[width=0.4\textwidth]{img/resultado_watershed_desenvolvido_app_n1.png} 
+ \caption{\label{fig:resultado_watershed_desenvolvido_app_p1}Resultados de segmentação utilizando o algoritmo \textit{watershed} desenvolvido.}
+ %\vspace{2.0em}
+\end{figure}
 % Figura 
-  \begin{figure}[!htb]
-       \begin{center}  
-          \includegraphics[width=0.3\columnwidth]{img/resultado_watershed_opencv_app.png}
-           \caption{\label{fig:resultado_watershed_opencv_app}Resultado de segmentação utilizando o algoritmo \textit{watershed} do OpenCV Java.}
-           % \vspace{2.0em}
-       \end{center}
-   \end{figure}
+\begin{figure}[!htb]
+ \centering
+ \def\baselinestretch{1}\small\normalsize
+ \includegraphics[width=0.4\textwidth]{img/galeria_app_n4.png}\qquad
+ \includegraphics[width=0.4\textwidth]{img/resultado_watershed_desenvolvido_app_n2.png} 
+ \caption{\label{fig:resultado_watershed_desenvolvido_app_p2}Resultados de segmentação utilizando o algoritmo \textit{watershed} desenvolvido.}
+ %\vspace{2.0em}
+\end{figure}
+% Figura 
+\begin{figure}[!htb]
+ \centering
+ \def\baselinestretch{1}\small\normalsize
+ \includegraphics[width=0.4\textwidth]{img/imagem_watershed_desenvolvido_app_n3.png}\qquad
+ \includegraphics[width=0.4\textwidth]{img/resultado_watershed_desenvolvido_app_n3.png} 
+ \caption{\label{fig:resultado_watershed_desenvolvido_app_p3}Resultados de segmentação utilizando o algoritmo \textit{watershed} desenvolvido.}
+ %\vspace{2.0em}
+\end{figure}
+% Figura 
+\begin{figure}[!htb]
+ \centering
+ \def\baselinestretch{1}\small\normalsize
+ \includegraphics[width=0.4\textwidth]{img/imagem_watershed_desenvolvido_app_n4.png}\qquad
+ \includegraphics[width=0.4\textwidth]{img/resultado_watershed_desenvolvido_app_n4.png} 
+ \caption{\label{fig:resultado_watershed_desenvolvido_app_p4}Resultados de segmentação utilizando o algoritmo \textit{watershed} desenvolvido.}
+ %\vspace{2.0em}
+\end{figure}
+% Figura 
+\begin{figure}[!htb]
+ \centering
+ \def\baselinestretch{1}\small\normalsize
+ \includegraphics[width=0.4\textwidth]{img/imagem_watershed_desenvolvido_app_n5.png}\qquad
+ \includegraphics[width=0.4\textwidth]{img/resultado_watershed_desenvolvido_app_n5.png} 
+ \caption{\label{fig:resultado_watershed_desenvolvido_app_p5}Resultados de segmentação utilizando o algoritmo \textit{watershed} desenvolvido.}
+ %\vspace{2.0em}
+\end{figure}
+% Figura 
+\begin{figure}[!htb]
+ \centering
+ \def\baselinestretch{1}\small\normalsize
+ \includegraphics[width=0.4\textwidth]{img/imagem_watershed_desenvolvido_app_n6.png}\qquad
+ \includegraphics[width=0.4\textwidth]{img/resultado_watershed_desenvolvido_app_n6.png} 
+ \caption{\label{fig:resultado_watershed_desenvolvido_app_p6}Resultados de segmentação utilizando o algoritmo \textit{watershed} desenvolvido.}
+ %\vspace{2.0em}
+\end{figure}
+% Figura 
+\begin{figure}[!htb]
+ \centering
+ \def\baselinestretch{1}\small\normalsize
+ \includegraphics[width=0.4\textwidth]{img/imagem_watershed_desenvolvido_app_n7.png}\qquad
+ \includegraphics[width=0.4\textwidth]{img/resultado_watershed_desenvolvido_app_n7.png} 
+ \caption{\label{fig:resultado_watershed_desenvolvido_app_p7}Resultados de segmentação utilizando o algoritmo \textit{watershed} desenvolvido.}
+ %\vspace{2.0em}
+\end{figure}	
 
-O objetivo de se colocar a segmentação \textit{watershed} fornecida pelo OpenCV Java é possibilitar uma análise comparativa dos resultados obtidos.
+ 
+
+%\subsection{\textit{Watershed} OpenCV Java}
+
+%Da mesma forma, com a imagem escolhida, pode-se optar por segmentá-la através do algoritmo já existente e implementado na interface Java da biblioteca OpenCV. Para isso basta clicar sobre o botão "\textit{watershed} OpenCV" e a imagem resultante da segmentação será apresentada na tela do dispositivo. Enquanto que a imagem resultante pelo processo de segmentação que utiliza o algoritmo desenvolvido para a aplicação é colorida, a imagem resultante da segmentação fornecida pelo OpenCV Java é em níveis de cinza, uma vez que foi assim foi implementada.
+
+
+%O objetivo de se colocar a segmentação \textit{watershed} fornecida pelo OpenCV Java é possibilitar uma análise comparativa dos resultados obtidos.

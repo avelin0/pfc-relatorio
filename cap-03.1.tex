@@ -1,9 +1,9 @@
-\chapter{Algoritmo}\label{cap:algoritmo}
+\chapter{Algoritmo \textit{watershed} Adaptado}\label{cap:algoritmo}
 
 O algoritmo proposto nessa pesquisa é baseado no algoritmo "\textit{Watershed Algorithm Based On Connected Components}", apresentado em \cite{ruparelia2012implementation}, o qual trata-se de uma variação da técnica de \textit{watershed} com resultados de segmentação considerados satisfatórios além da menor complexidade computacional com relação à abordagem tradicional \textit{watershed}.
 
 \section{\textit{Watershed}}\label{sec:watershed}
-\textit{Watershed} é uma técnica de segmentação eficiente e poderosa. Tal técnica tem como vantagem gerar sempre resultados com contornos fechados e bem definidos, o que é de grande importância para o processo de segmentação de imagens. Além disso, comparada a outras técnicas de segmentação, apresenta menor complexidade computacional.
+\textit{Watershed} é uma técnica de segmentação eficiente e poderosa. Tal técnica tem a tendência de gerar sempre resultados com contornos fechados e bem definidos, o que é de grande importância para o processo de segmentação de imagens. Além disso, comparada a outras técnicas de segmentação, apresenta menor complexidade computacional.
 
 Duas abordagens são utilizadas para explicar a ideia básica do \textit{watershed} na segmentação de imagens. 
 A primeira, denominada "\textit{flooding based watershed}", trata a imagem em níveis de cinza com uma paisagem formada por vales, onde encontram-se os mínimos locais. Considerando um processo de inundação com a água subindo a partir de cada um dos vales, serão construídas barragens nos pontos de encontro da água oriunda de dois vales distintos, chamadas de \textit{watersheds}. Essas barragens, portanto, são interpretadas como bordas entra diferentes regiões da imagem.\citep{l6} 
@@ -32,7 +32,9 @@ A outra abordagem, denominada "\textit{rainfalling based watershed}" trata a ima
 
 Ambas abordagens tratam da mesma ideia básica da técnica, sendo duas formas diferentes de ilustrar seus funcionamento sobre os quais diferentes algoritmos são propostos.
 
-Um dos principais problemas relacionados à abordagem tradicional do \textit{watershed} é o problema de \textit{over-segmentation}. Para reduzir esse problema, diversas variações de algoritmos baseados na técnica de \textit{watershed} foram implementados, tal qual o algoritmo utilizado nessa pesquisa que será explicado detalhadamente na seção \ref{sec:alg} do capítulo \ref{cap:algoritmo}. Assim as diferenças entre o algoritmo proposto e o tradicional, como o implementado na biblioteca OpenCV, apresentada na seção \ref{sec:opencv} do capítulo \ref{cap:ferramentas}, conduzirão a uma análise comparativa entre os resultados obtidos por meio de cada um deles.
+Um dos principais problemas relacionados à abordagem tradicional do \textit{watershed} é o problema de \textit{over-segmentation}. Para reduzir esse problema, diversas variações de algoritmos baseados na técnica de \textit{watershed} foram implementados, tal qual o algoritmo utilizado nessa pesquisa, explicado detalhadamente na seção \ref{sec:alg} do capítulo \ref{cap:algoritmo}. 
+
+Assim as diferenças entre o algoritmo proposto e o tradicional, como o implementado na biblioteca OpenCV, apresentada na seção \ref{sec:opencv} do anexo 1, conduzirão a uma análise comparativa entre os resultados obtidos por meio de cada um deles.
 
 \section{\textit{Watershed Algorithm Based On Connected Components}}
 Destacam-se as seguintes características entre este algoritmo e a abordagem tradicional \textit{watershed} que demonstram sua maior eficiência:
@@ -81,6 +83,7 @@ A ordem em que esses procedimentos ocorrem nesta etapa consta na estrutura apres
            % \vspace{2.0em}
        \end{center}
    \end{figure}
+\clearpage   
 
 \subsubsection{Conversão para Cinza}
 Um dos procedimentos realizados na etapa de pré-processamento é a conversão da imagem original colorida para a imagem em níveis de cinza. Utiliza-se a quantização em 256 níveis de cinza (8 bits), onde o nível zero representa o preto e o nível 255, o branco.
@@ -94,21 +97,19 @@ Abaixo a definição matemática do Filtro Bilateral:
 % Figura
 	\begin{figure}[!htb]
        \begin{center}  
-          \includegraphics[width=0.7\columnwidth]{img/definicao_matematica_filtro_bilateral.jpg}
-           \caption{\label{fig:definicao_matematica_filtro_bilateral}Definição matemática do Filtro Bilateral.}
+          \includegraphics[width=0.8\columnwidth]{img/definicao_matematica_filtro_bilateral.jpg}
+           \caption{\label{fig:definicao_matematica_filtro_bilateral}Definição matemática do Filtro Bilateral. \citep{Banterle2012}}
            % \vspace{2.0em}
        \end{center}
    \end{figure}
-   
+	\clearpage
 %\subsubsection{Operador \textit{Not}}
 %O operador not é utilizado no pré-processamento para que o algoritmo \textit{watersheed } seja executado da maneira correta, isto é, dos plateaus para os mínimos locais através. Ele inverte cada bit de um \textit{array}.
-
 \subsubsection{Operador Sobel}
-Operador de detecção de bordas, que se baseia no operador gradiente. Esse operador é utilizado sobre a imagem resultante do operador \textit{not} com a finalidade de gerar uma imagem com as bordas detectadas brilhantes em um fundo (\textit{background}) mais escuro.
-
+Operador de detecção de bordas, que se baseia no operador gradiente.
 Os gradientes horizontal, \textit{Gx}, e vertical, \textit{Gy}, são calculados considerando uma janela de tamanho 3, isto é, \textit{3 x 3 pixels}, e calcula-se uma aproximação do gradiente em cada ponto da seguinte forma: \citep{sobel}
 
-Abaixo a definição matemática do Operador Sobel:
+Abaixo a definição matemática do operador Sobel:
 % Figura
 	\begin{figure}[!htb]
        \begin{center}  
@@ -117,6 +118,20 @@ Abaixo a definição matemática do Operador Sobel:
            % \vspace{2.0em}
        \end{center}
    \end{figure} 
+%\clearpage     
+   
+Abaixo um exemplo prático da aplicação do operador Sobel:   
+% Figura 
+\begin{figure}[!htb]
+ \centering
+ \def\baselinestretch{1}\small\normalsize
+ \includegraphics[width=0.4\textwidth]{img/lena_original.png}\qquad
+ \includegraphics[width=0.4\textwidth]{img/lena_sobel.png} 
+ \caption{\label{fig:lena_sobel}Resultado prática da aplicação do operador Sobel.}
+ %\vspace{2.0em}
+\end{figure} 
+\clearpage
+
 % Equação
 %\[G = |G_{x}| + |G_{y}|\]
 
@@ -155,13 +170,27 @@ A biblioteca OpenCV fornece 5 transformações morfológicas baseadas nessas dua
     \item \textit{Top Hat}; e 
     \item \textit{Black Hat}.
 \end{itemize} 
+\clearpage
+
 
 No algoritmo utiliza-se apenas a transformação do gradiente morfológico - \textit{Morphological Gradient} -, a qual é a diferença entre a dilatação e a erosão de uma imagem. Essa transformação é útil para encontrar o contorno de um objeto em uma dada imagem. \citep{morphology_transformations}
 % Equação
 \[dst = morph_{grad}( src, element ) = dilate( src, element ) - erode( src, element )\]
 
+Abaixo um exemplo prático da aplicação do operador morfológico: 
+% Figura 
+\begin{figure}[!htb]
+ \centering
+ \def\baselinestretch{1}\small\normalsize
+ \includegraphics[width=0.4\textwidth]{img/org.png}\qquad
+ \includegraphics[width=0.4\textwidth]{img/op_morf.png} 
+ \caption{\label{fig:lena_sobel}Resultado prática da aplicação do operador morfológico.}
+ %\vspace{2.0em}
+\end{figure}   
+
+
 \subsection{Segmentação por Técnica Baseada em \textit{Watershed}}
-Dentre as duas principais abordagens da técnica de \textit{watershed} mencionadas na seção \ref{sec:watershed} do capítulo \ref{cap:algoritmo}, optou-se pela abordagem "\textit{rainfalling based watershed}" a fim de servir como base para a implementação da etapa de segmentação implementada neste algoritmo. Essa etapa é composta por três passos (\textit{steps}). 
+Dentre as duas principais abordagens da técnica de \textit{watershed} mencionadas na seção \ref{sec:watershed} do capítulo \ref{cap:algoritmo}, optou-se pela abordagem "\textit{rainfalling based watershed}", ilustrado na figura \ref{fig:abordagem_rainfalling}, a fim de servir como base para a implementação da etapa de segmentação implementada neste algoritmo. Essa etapa é composta por três passos (\textit{steps}). 
 
 \subsubsection{\textit{Step} 1}
 % Explicar 
@@ -273,4 +302,8 @@ O objetivo da da terceira etapa do algoritmo é separar os \textit{pixels} em re
 
 
 \subsection{Pós-Processamento}
-Após as etapas de pré-processamento e segmentação, ainda podem ser necessárias algumas correções relacionadas ao problema de \textit{over-segmentation}. É comum obter diferentes segmentos que fazem parte de uma mesma região como resultado do processo de segmentação. Para tanto pode-se utilizar algum método de  agrupamento para mesclar esses segmentos a fim de melhorar a qualidade da segmentação.
+Após as etapas de pré-processamento e segmentação, ainda podem ser necessárias algumas correções relacionadas ao problema de \textit{over-segmentation}. É comum obter diferentes segmentos que fazem parte de uma mesma região como resultado do processo de segmentação. Para tanto pode-se utilizar algum método de agrupamento para mesclar esses segmentos a fim de melhorar a qualidade da segmentação. 
+
+A aplicação desenvolvida para esse projeto não contempla a etapa de pós-processamento, melhoria esperada para as futuras versões do aplicativo.
+
+

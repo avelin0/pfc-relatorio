@@ -1,7 +1,7 @@
 \chapter{Ambiente de Desenvolvimento}\label{cap:ambdes}
 
 \section{Android}\label{sec:android}
-A plataforma Android foi projetada pela Open Handset Alliance (OHA), um consórcio formado por diversas empresas de tecnologia, incluindo a Google, com o objetivo de fornecer uma estrutura completa e avançada para o desenvolvimento de aplicações para dispositivos móveis. É consituído por um sistema operacional e kits de desenvolvimento (SKD e NDK), apresentados no capítulo \ref{cap:ferramentas}.
+A plataforma Android foi projetada pela Open Handset Alliance (OHA), um consórcio formado por diversas empresas de tecnologia, incluindo a Google, com o objetivo de fornecer uma estrutura completa e avançada para o desenvolvimento de aplicações para dispositivos móveis. É consituído por um sistema operacional e kits de desenvolvimento (SKD e NDK), apresentados no anexo 1.
 
 O Android é uma pilha de software com base em Linux de código aberto criada para diversos dispositivos e fatores de forma. A figura \ref{fig:android_stack} mostra os componentes da plataforma Android. \cite{arquiteturaplataforma}
 
@@ -41,7 +41,7 @@ Como a comunicação entre o código escrito em Java e o código nativo é reali
 Essas matrizes de pixels são manipuladas como objetos \textit{Mat} no código nativo com auxílio das funcionalidades fornecidas pela biblioteca OpenCV e convertidas em objeto \textit{Bitmap} em Java para ser apresentada na tela da interface da aplicação por meio do método \textbf{\textit{setImageBitmap}} chamado pelo objeto da classe \textbf{\textit{ImageView}}.
 
 \section{OpenCV Java e OpenCV Nativo}\label{sec:opencv_java_nativo}
-Como descrito no capítulo \ref{cap:ferramentas}, o OpenCV é uma biblioteca de grande suporte ao desenvolvimento de aplicações na área de Visão Computacional. O OpenCV possui interface Java, porém o conjunto de funcionalidades implementadas não é tão completo como as implementadas no OpenCV nativo. Além disso, uma parte significativa dessas funcionalidades em Java são chamadas ao código nativo através da interface do JNI. Junto a isso, a maior performance obtida com seu uso em C++, isto é, a linguagem nativa, completa o conjunto de razões para a utilização do OpenCV nativo nesta aplicação.
+Como descrito no anexo 1, o OpenCV é uma biblioteca de grande suporte ao desenvolvimento de aplicações na área de Visão Computacional. O OpenCV possui interface Java, porém o conjunto de funcionalidades implementadas não é tão completo como as implementadas no OpenCV nativo. Além disso, uma parte significativa dessas funcionalidades em Java são chamadas ao código nativo através da interface do JNI. Junto a isso, a maior performance obtida com seu uso em C++, isto é, a linguagem nativa, completa o conjunto de razões para a utilização do OpenCV nativo nesta aplicação.
 
 %\section{CMAKE}\label{sec:cmake}
 
@@ -75,10 +75,40 @@ Os dispositivos ilustrados pelas figuras \ref{fig:dispositivo1}, \ref{fig:dispos
            % \vspace{2.0em}
        \end{center}
    \end{figure}
+\clearpage   
 
 Como a capacidade operacional varia significativamente entre os dispositivos utilizados, foi possível notar a diferença de performance durante a execução da aplicação nos mesmos. Inicialmente, os testes foram realizados no dispositivo Motorola Moto G3, ilustrado na figura \ref{fig:dispositivo1}, porém, após a implementação de mais recursos, esse já não era mais capaz de atender aos requisitos de desempenho da aplicação. Dessa forma, foram necessários outros dispositivos com capacidade de processamento superiores, como os apresentados nas figuras \ref{fig:dispositivo2} e \ref{fig:dispositivo3}, em que pôde-se executar a aplicação corretamente. 
 
-Além disso, mais dispositivos poderiam ter sido testados com auxílio da API Firebase da Google. 
+Além disso, um dispositivo virtual foi utilizado por meio do emulador fornecido pela plataforma Android Studio, IDE oficial do Android. O dispositivo escolhido para testes foi o Nexus 5 dentre uma série de dispositivos oferecidos como opção. Abaixo as imagens ilustram a seleção desse dispositivo na plataforma bem como as opções de configuração de Hardware oferecidas.
+
+% Figura
+	\begin{figure}[!htb]
+       \begin{center}  
+          \includegraphics[width=0.8\columnwidth]{img/selecao_dispositivo_virtual.png}
+           \caption{\label{fig:selecao_dispositivo_virtual}Seleção do disposito virtual no Android Studio.}
+           % \vspace{2.0em}
+       \end{center}
+   \end{figure}
+% Figura
+	\begin{figure}[!htb]
+       \begin{center}  
+          \includegraphics[width=0.8\columnwidth]{img/dispositivo_virtual.png}
+           \caption{\label{fig:dispositivo_virtual}Nexus 5 API 24.}
+           % \vspace{2.0em}
+       \end{center}
+   \end{figure}
+% Figura
+	\begin{figure}[!htb]
+       \begin{center}  
+          \includegraphics[width=0.8\columnwidth]{img/hw_dispositivo_virtual.png}
+           \caption{\label{fig:hw_dispositivo_virtual}Opções de configuração de hardware do dispositivo virtual.}
+           % \vspace{2.0em}
+       \end{center}
+   \end{figure}
+\clearpage   
+
+
+Mais dispositivos poderiam ter sido testados com auxílio da API Firebase da Google. 
 
 \subsection{Firebase}
 

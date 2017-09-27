@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.7.24)  25 SEP 2017 15:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.7.24)  26 SEP 2017 23:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -757,14 +757,12 @@ Package geometry Warning: Over-specification in `v'-direction.
     `height' (688.55669pt) is ignored.
 
 (./main.aux (./dados-pfc.aux) (./pre-texto.aux) (./cap-01.aux) (./cap-02.aux)
-(./cap-03.aux) (./cap-03.1.aux) (./cap-03.2.aux) (./cap-04.aux
+(./cap-03.aux) (./cap-03.1.aux
 
-LaTeX Warning: Label `fig:indiosegmentado' multiply defined.
+LaTeX Warning: Label `fig:lena_sobel' multiply defined.
 
-
-LaTeX Warning: Label `fig:indiosegmentado' multiply defined.
-
-) (./cap-04.1.aux) (./cap-05.aux) (./anexo.aux))
+) (./cap-03.2.aux) (./cap-04.aux) (./cap-04.1.aux) (./cap-05.aux) (./anexo.aux)
+)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 89.
@@ -779,8 +777,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 89.
 LaTeX Font Info:    ... okay on input line 89.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 89.
 LaTeX Font Info:    ... okay on input line 89.
-
-(/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+ (/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count161
 \scratchdimen=\dimen150
@@ -935,46 +932,47 @@ LaTeX Info: Redefining \NATand on input line 20.
 LaTeX Info: Redefining \NATand on input line 21.
  [9
 
-]
-Overfull \hbox (20.56055pt too wide) in paragraph at lines 36--36
- [] \T1/cmr/m/n/12 FIG.[]Resultado de seg-men-ta-ção uti-li-zando o al-go-ritmo
- \T1/cmr/m/it/12 wa-tershed \T1/cmr/m/n/12 do OpenCV 
- []
-
-)
+] [10])
 \tf@lof=\write4
 \openout4 = `main.lof'.
 
- [10] (./main.lot)
+ [11]
+(./main.lot)
 \tf@lot=\write5
 \openout5 = `main.lot'.
 
- [11
+ [12
+
+] [13
+
+] [14
 
 ])
 \openout2 = `cap-01.aux'.
 
  (./cap-01.tex
 CAP{\'I}TULO 1.
-<img/tela_android-original.png, id=50, 190.7125pt x 308.15125pt>
-File: img/tela_android-original.png Graphic file (type png)
+<img/imagem_watershed_desenvolvido_app_n1.png, id=60, 1084.05pt x 1927.2pt>
+File: img/imagem_watershed_desenvolvido_app_n1.png Graphic file (type png)
 
-<use img/tela_android-original.png>
-Package pdftex.def Info: img/tela_android-original.png used on input line 46.
-(pdftex.def)             Requested size: 91.04742pt x 147.11157pt.
+<use img/imagem_watershed_desenvolvido_app_n1.png>
+Package pdftex.def Info: img/imagem_watershed_desenvolvido_app_n1.png used on i
+nput line 46.
+(pdftex.def)             Requested size: 91.04742pt x 161.8543pt.
 
-<img/tela_android.png, id=52, 191.71625pt x 308.15125pt>
-File: img/tela_android.png Graphic file (type png)
+<img/resultado_watershed_desenvolvido_app_n1.png, id=61, 1084.05pt x 1927.2pt>
+File: img/resultado_watershed_desenvolvido_app_n1.png Graphic file (type png)
 
-<use img/tela_android.png>
-Package pdftex.def Info: img/tela_android.png used on input line 47.
-(pdftex.def)             Requested size: 91.04742pt x 146.34514pt.
- [12
+<use img/resultado_watershed_desenvolvido_app_n1.png>
+Package pdftex.def Info: img/resultado_watershed_desenvolvido_app_n1.png used o
+n input line 47.
+(pdftex.def)             Requested size: 91.04742pt x 161.8543pt.
+ [15
 
 
 
- <./img/tela_android-original.png> <./img/tela_android.png>] <img/diag_blocos.p
-ng, id=58, 886.31125pt x 497.86pt>
+ <./img/imagem_watershed_desenvolvido_app_n1.png> <./img/resultado_watershed_de
+senvolvido_app_n1.png>] <img/diag_blocos.png, id=65, 886.31125pt x 497.86pt>
 File: img/diag_blocos.png Graphic file (type png)
 
 <use img/diag_blocos.png>
@@ -987,60 +985,60 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 74.
- [13 <./img/diag_blocos.png>]) [14]
+ [16 <./img/diag_blocos.png>]) [17]
 \openout2 = `cap-02.aux'.
 
  (./cap-02.tex
 CAP{\'I}TULO 2.
-<img/198023.jpg, id=67, 322.20375pt x 482.80376pt>
+<img/198023.jpg, id=76, 322.20375pt x 482.80376pt>
 File: img/198023.jpg Graphic file (type jpg)
  <use img/198023.jpg>
 Package pdftex.def Info: img/198023.jpg used on input line 21.
 (pdftex.def)             Requested size: 136.57462pt x 204.65477pt.
 
-<img/198023-8-color.jpg, id=68, 160.6pt x 240.9pt>
+<img/198023-8-color.jpg, id=77, 160.6pt x 240.9pt>
 File: img/198023-8-color.jpg Graphic file (type jpg)
 
 <use img/198023-8-color.jpg>
 Package pdftex.def Info: img/198023-8-color.jpg used on input line 31.
 (pdftex.def)             Requested size: 91.04742pt x 136.57558pt.
- <img/198023-8.jpg, id=69, 160.6pt x 240.9pt>
+ <img/198023-8.jpg, id=78, 160.6pt x 240.9pt>
 File: img/198023-8.jpg Graphic file (type jpg)
 
 <use img/198023-8.jpg>
 Package pdftex.def Info: img/198023-8.jpg used on input line 32.
 (pdftex.def)             Requested size: 91.04742pt x 136.57558pt.
- <img/198023-16-color.jpg, id=70, 160.6pt x 240.9pt>
+ <img/198023-16-color.jpg, id=79, 160.6pt x 240.9pt>
 File: img/198023-16-color.jpg Graphic file (type jpg)
 
 <use img/198023-16-color.jpg>
 Package pdftex.def Info: img/198023-16-color.jpg used on input line 33.
 (pdftex.def)             Requested size: 91.04742pt x 136.57558pt.
- <img/198023-16.jpg, id=71, 160.6pt x 240.9pt>
+ <img/198023-16.jpg, id=80, 160.6pt x 240.9pt>
 File: img/198023-16.jpg Graphic file (type jpg)
 
 <use img/198023-16.jpg>
 Package pdftex.def Info: img/198023-16.jpg used on input line 34.
 (pdftex.def)             Requested size: 91.04742pt x 136.57558pt.
- <img/198023-22-color.jpg, id=72, 160.6pt x 240.9pt>
+ <img/198023-22-color.jpg, id=81, 160.6pt x 240.9pt>
 File: img/198023-22-color.jpg Graphic file (type jpg)
 
 <use img/198023-22-color.jpg>
 Package pdftex.def Info: img/198023-22-color.jpg used on input line 44.
 (pdftex.def)             Requested size: 91.04742pt x 136.57558pt.
- <img/198023-22.jpg, id=73, 160.6pt x 240.9pt>
+ <img/198023-22.jpg, id=82, 160.6pt x 240.9pt>
 File: img/198023-22.jpg Graphic file (type jpg)
 
 <use img/198023-22.jpg>
 Package pdftex.def Info: img/198023-22.jpg used on input line 45.
 (pdftex.def)             Requested size: 91.04742pt x 136.57558pt.
- <img/198023-26-color.jpg, id=74, 160.6pt x 240.9pt>
+ <img/198023-26-color.jpg, id=83, 160.6pt x 240.9pt>
 File: img/198023-26-color.jpg Graphic file (type jpg)
 
 <use img/198023-26-color.jpg>
 Package pdftex.def Info: img/198023-26-color.jpg used on input line 46.
 (pdftex.def)             Requested size: 91.04742pt x 136.57558pt.
- <img/198023-26.jpg, id=75, 160.6pt x 240.9pt>
+ <img/198023-26.jpg, id=84, 160.6pt x 240.9pt>
 File: img/198023-26.jpg Graphic file (type jpg)
 
 <use img/198023-26.jpg>
@@ -1050,44 +1048,44 @@ Package pdftex.def Info: img/198023-26.jpg used on input line 47.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[15
+[18
 
 
 
-] [16 <./img/198023.jpg> <./img/198023-8-color.jpg> <./img/198023-8.jpg> <./img
+] [19 <./img/198023.jpg> <./img/198023-8-color.jpg> <./img/198023-8.jpg> <./img
 /198023-16-color.jpg> <./img/198023-16.jpg> <./img/198023-22-color.jpg> <./img/
 198023-22.jpg> <./img/198023-26-color.jpg> <./img/198023-26.jpg>]
-<img/101087.jpg, id=82, 322.20375pt x 482.80376pt>
+<img/101087.jpg, id=91, 322.20375pt x 482.80376pt>
 File: img/101087.jpg Graphic file (type jpg)
  <use img/101087.jpg>
 Package pdftex.def Info: img/101087.jpg used on input line 61.
 (pdftex.def)             Requested size: 136.57462pt x 204.65477pt.
 
-<img/101087-77.jpg, id=83, 322.20375pt x 482.80376pt>
+<img/101087-77.jpg, id=92, 322.20375pt x 482.80376pt>
 File: img/101087-77.jpg Graphic file (type jpg)
  <use img/101087-77.jpg>
 Package pdftex.def Info: img/101087-77.jpg used on input line 73.
 (pdftex.def)             Requested size: 91.04742pt x 136.42915pt.
 
-<img/101087-80.jpg, id=84, 322.20375pt x 482.80376pt>
+<img/101087-80.jpg, id=93, 322.20375pt x 482.80376pt>
 File: img/101087-80.jpg Graphic file (type jpg)
  <use img/101087-80.jpg>
 Package pdftex.def Info: img/101087-80.jpg used on input line 74.
 (pdftex.def)             Requested size: 91.04742pt x 136.42915pt.
 
-<img/101087-82.jpg, id=85, 322.20375pt x 482.80376pt>
+<img/101087-82.jpg, id=94, 322.20375pt x 482.80376pt>
 File: img/101087-82.jpg Graphic file (type jpg)
  <use img/101087-82.jpg>
 Package pdftex.def Info: img/101087-82.jpg used on input line 75.
 (pdftex.def)             Requested size: 91.04742pt x 136.42915pt.
 
-<img/101087-85.jpg, id=86, 322.20375pt x 482.80376pt>
+<img/101087-85.jpg, id=95, 322.20375pt x 482.80376pt>
 File: img/101087-85.jpg Graphic file (type jpg)
  <use img/101087-85.jpg>
 Package pdftex.def Info: img/101087-85.jpg used on input line 76.
 (pdftex.def)             Requested size: 91.04742pt x 136.42915pt.
 )
-[17 <./img/101087.jpg> <./img/101087-77.jpg> <./img/101087-80.jpg> <./img/10108
+[20 <./img/101087.jpg> <./img/101087-77.jpg> <./img/101087-80.jpg> <./img/10108
 7-82.jpg> <./img/101087-85.jpg>]
 \openout2 = `cap-03.aux'.
 
@@ -1143,17 +1141,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 26--34
 
  []
 
-[18
+[21
 
 
 
-] <img/einstein.jpg, id=97, 256.96pt x 256.96pt>
+] <img/einstein.jpg, id=105, 256.96pt x 256.96pt>
 File: img/einstein.jpg Graphic file (type jpg)
  <use img/einstein.jpg>
 Package pdftex.def Info: img/einstein.jpg used on input line 46.
 (pdftex.def)             Requested size: 136.57462pt x 136.57631pt.
 
-<img/einstein-globalthresholding127.jpg, id=98, 449.68pt x 447.6725pt>
+<img/einstein-globalthresholding127.jpg, id=106, 449.68pt x 447.6725pt>
 File: img/einstein-globalthresholding127.jpg Graphic file (type jpg)
 
 <use img/einstein-globalthresholding127.jpg>
@@ -1161,62 +1159,58 @@ Package pdftex.def Info: img/einstein-globalthresholding127.jpg used on input l
 ine 55.
 (pdftex.def)             Requested size: 136.57462pt x 135.96269pt.
 
-<img/einstein-localthresholding-adaptivegausian.jpg, id=99, 451.6875pt x 447.67
-25pt>
+<img/einstein-localthresholding-adaptivegausian.jpg, id=107, 451.6875pt x 447.6
+725pt>
 File: img/einstein-localthresholding-adaptivegausian.jpg Graphic file (type jpg
 )
  <use img/einstein-localthresholding-adaptivegausian.jpg>
 Package pdftex.def Info: img/einstein-localthresholding-adaptivegausian.jpg use
 d on input line 67.
 (pdftex.def)             Requested size: 136.57462pt x 135.36157pt.
- [19 <./img/einstein.jpg> <./img/einstein-globalthresholding127.jpg>]
-<img/stf-smandrill.jpg, id=103, 256.96pt x 256.96pt>
+ [22 <./img/einstein.jpg> <./img/einstein-globalthresholding127.jpg>]
+<img/stf-smandrill.jpg, id=111, 256.96pt x 256.96pt>
 File: img/stf-smandrill.jpg Graphic file (type jpg)
 
 <use img/stf-smandrill.jpg>
 Package pdftex.def Info: img/stf-smandrill.jpg used on input line 88.
 (pdftex.def)             Requested size: 182.09486pt x 182.09782pt.
 
-<img/stf-smandrill-edgedetect.jpg, id=104, 284.06125pt x 284.06125pt>
+<img/stf-smandrill-edgedetect.jpg, id=112, 284.06125pt x 284.06125pt>
 File: img/stf-smandrill-edgedetect.jpg Graphic file (type jpg)
 
 <use img/stf-smandrill-edgedetect.jpg>
 Package pdftex.def Info: img/stf-smandrill-edgedetect.jpg used on input line 89
 .
 (pdftex.def)             Requested size: 182.09486pt x 182.10197pt.
- [20 <./img/einstein-localthresholding-adaptivegausian.jpg> <./img/stf-smandril
-l.jpg> <./img/stf-smandrill-edgedetect.jpg>]
-
-LaTeX Warning: Reference `fig:fig:Berkeley_mulher_segmentada' on page 21 undefi
-ned on input line 100.
-
-<img/stf-aral1997.jpg, id=108, 451.6875pt x 325.215pt>
+ [23 <./img/einstein-localthresholding-adaptivegausian.jpg> <./img/stf-smandril
+l.jpg> <./img/stf-smandrill-edgedetect.jpg>] <img/stf-aral1997.jpg, id=117, 451
+.6875pt x 325.215pt>
 File: img/stf-aral1997.jpg Graphic file (type jpg)
 
 <use img/stf-aral1997.jpg>
 Package pdftex.def Info: img/stf-aral1997.jpg used on input line 122.
 (pdftex.def)             Requested size: 182.09486pt x 131.1109pt.
 
-<img/stf-aral1997-quadtree.jpg, id=109, 452.69125pt x 326.21875pt>
+<img/stf-aral1997-quadtree.jpg, id=118, 452.69125pt x 326.21875pt>
 File: img/stf-aral1997-quadtree.jpg Graphic file (type jpg)
 
 <use img/stf-aral1997-quadtree.jpg>
 Package pdftex.def Info: img/stf-aral1997-quadtree.jpg used on input line 123.
 (pdftex.def)             Requested size: 182.09486pt x 131.22188pt.
- [21]
-<img/stf-coins.jpg, id=113, 258.9675pt x 195.73125pt>
+ [24]
+<img/stf-coins.jpg, id=122, 258.9675pt x 195.73125pt>
 File: img/stf-coins.jpg Graphic file (type jpg)
  <use img/stf-coins.jpg>
 Package pdftex.def Info: img/stf-coins.jpg used on input line 145.
 (pdftex.def)             Requested size: 182.09486pt x 137.63513pt.
 
-<img/stf-coins-watersheed.jpg, id=114, 626.34pt x 472.76625pt>
+<img/stf-coins-watersheed.jpg, id=123, 626.34pt x 472.76625pt>
 File: img/stf-coins-watersheed.jpg Graphic file (type jpg)
 
 <use img/stf-coins-watersheed.jpg>
 Package pdftex.def Info: img/stf-coins-watersheed.jpg used on input line 146.
 (pdftex.def)             Requested size: 182.09486pt x 137.44496pt.
-) [22 <./img/stf-aral1997.jpg> <./img/stf-aral1997-quadtree.jpg> <./img/stf-coi
+) [25 <./img/stf-aral1997.jpg> <./img/stf-aral1997-quadtree.jpg> <./img/stf-coi
 ns.jpg> <./img/stf-coins-watersheed.jpg>]
 \openout2 = `cap-03.1.aux'.
 
@@ -1224,19 +1218,19 @@ ns.jpg> <./img/stf-coins-watersheed.jpg>]
 (./cap-03.1.tex
 CAP{\'I}TULO 4.
 LaTeX Info: Redefining \NATand on input line 3.
-<img/abordagem_flooding.jpg, id=118, 595.22375pt x 287.0725pt>
+<img/abordagem_flooding.jpg, id=127, 595.22375pt x 287.0725pt>
 File: img/abordagem_flooding.jpg Graphic file (type jpg)
 
 <use img/abordagem_flooding.jpg>
 Package pdftex.def Info: img/abordagem_flooding.jpg used on input line 14.
 (pdftex.def)             Requested size: 273.14923pt x 131.73518pt.
 LaTeX Info: Redefining \NATand on input line 15.
- [23
+ [26
 
 
 
  <./img/abordagem_flooding.jpg>]
-<img/abordagem_rainfalling.jpg, id=124, 457.71pt x 176.66pt>
+<img/abordagem_rainfalling.jpg, id=132, 457.71pt x 176.66pt>
 File: img/abordagem_rainfalling.jpg Graphic file (type jpg)
 
 <use img/abordagem_rainfalling.jpg>
@@ -1244,218 +1238,373 @@ Package pdftex.def Info: img/abordagem_rainfalling.jpg used on input line 26.
 (pdftex.def)             Requested size: 273.14923pt x 105.43073pt.
 LaTeX Info: Redefining \NATand on input line 27.
 
-<img/connected_components.jpg, id=125, 523.9575pt x 131.49126pt>
+<img/connected_components.jpg, id=133, 523.9575pt x 131.49126pt>
 File: img/connected_components.jpg Graphic file (type jpg)
 
 <use img/connected_components.jpg>
-Package pdftex.def Info: img/connected_components.jpg used on input line 52.
+Package pdftex.def Info: img/connected_components.jpg used on input line 54.
 (pdftex.def)             Requested size: 409.71692pt x 102.82358pt.
-LaTeX Info: Redefining \NATand on input line 53.
-LaTeX Info: Redefining \NATand on input line 53.
- [24 <./img/abordagem_rainfalling.jpg>]
-<img/diagrama_blocos_algoritmo.jpg, id=130, 706.64pt x 332.24126pt>
+LaTeX Info: Redefining \NATand on input line 55.
+LaTeX Info: Redefining \NATand on input line 55.
+ [27 <./img/abordagem_rainfalling.jpg>]
+<img/diagrama_blocos_algoritmo.jpg, id=138, 706.64pt x 332.24126pt>
 File: img/diagrama_blocos_algoritmo.jpg Graphic file (type jpg)
 
 <use img/diagrama_blocos_algoritmo.jpg>
 Package pdftex.def Info: img/diagrama_blocos_algoritmo.jpg used on input line 6
-6.
+8.
 (pdftex.def)             Requested size: 318.66948pt x 149.83162pt.
- [25 <./img/connected_components.jpg> <./img/diagrama_blocos_algoritmo.jpg>]
-<img/diagrama_blocos_preprocessamento.jpg, id=136, 587.19376pt x 139.52126pt>
+ [28 <./img/connected_components.jpg> <./img/diagrama_blocos_algoritmo.jpg>]
+<img/diagrama_blocos_preprocessamento.jpg, id=144, 587.19376pt x 139.52126pt>
 File: img/diagrama_blocos_preprocessamento.jpg Graphic file (type jpg)
 
 <use img/diagrama_blocos_preprocessamento.jpg>
 Package pdftex.def Info: img/diagrama_blocos_preprocessamento.jpg used on input
- line 79.
+ line 81.
 (pdftex.def)             Requested size: 364.19667pt x 86.53421pt.
-
-<img/definicao_matematica_filtro_bilateral.jpg, id=137, 503.8825pt x 225.84375p
+ [29 <./img/diagrama_blocos_preprocessamento.jpg>]
+<img/definicao_matematica_filtro_bilateral.jpg, id=150, 503.8825pt x 225.84375p
 t>
 File: img/definicao_matematica_filtro_bilateral.jpg Graphic file (type jpg)
  <use img/definicao_matematica_filtro_bilateral.jpg>
 Package pdftex.def Info: img/definicao_matematica_filtro_bilateral.jpg used on 
-input line 97.
-(pdftex.def)             Requested size: 318.66948pt x 142.83023pt.
- [26 <./img/diagrama_blocos_preprocessamento.jpg>]
-<img/definicao_matematica_sobel.jpg, id=142, 584.1825pt x 200.75pt>
+input line 100.
+(pdftex.def)             Requested size: 364.19667pt x 163.23456pt.
+ [30
+
+ <./img/definicao_matematica_filtro_bilateral.jpg>]
+<img/definicao_matematica_sobel.jpg, id=155, 584.1825pt x 200.75pt>
 File: img/definicao_matematica_sobel.jpg Graphic file (type jpg)
 
 <use img/definicao_matematica_sobel.jpg>
 Package pdftex.def Info: img/definicao_matematica_sobel.jpg used on input line 
-115.
+116.
 (pdftex.def)             Requested size: 318.66948pt x 109.51225pt.
- [27 <./img/definicao_matematica_filtro_bilateral.jpg> <./img/definicao_matemat
-ica_sobel.jpg>]
-LaTeX Info: Redefining \NATand on input line 187.
- [28]
-LaTeX Info: Redefining \NATand on input line 214.
-LaTeX Info: Redefining \NATand on input line 269.
-LaTeX Info: Redefining \NATand on input line 269.
- [29]) [30]
-[31]
+
+<img/lena_original.png, id=156, 481.8pt x 481.8pt>
+File: img/lena_original.png Graphic file (type png)
+ <use img/lena_original.png>
+Package pdftex.def Info: img/lena_original.png used on input line 128.
+(pdftex.def)             Requested size: 182.09486pt x 182.09341pt.
+
+<img/lena_sobel.png, id=157, 514.92375pt x 514.92375pt>
+File: img/lena_sobel.png Graphic file (type png)
+
+<use img/lena_sobel.png>
+Package pdftex.def Info: img/lena_sobel.png used on input line 129.
+(pdftex.def)             Requested size: 182.09486pt x 182.08813pt.
+ [31
+
+ <./img/definicao_matematica_sobel.jpg> <./img/lena_original.png> <./img/lena_s
+obel.png>] [32
+
+]
+<img/org.png, id=166, 624.3325pt x 626.34pt>
+File: img/org.png Graphic file (type png)
+ <use img/org.png>
+Package pdftex.def Info: img/org.png used on input line 185.
+(pdftex.def)             Requested size: 182.09486pt x 182.67567pt.
+
+<img/op_morf.png, id=167, 625.33624pt x 630.355pt>
+File: img/op_morf.png Graphic file (type png)
+ <use img/op_morf.png>
+Package pdftex.def Info: img/op_morf.png used on input line 186.
+(pdftex.def)             Requested size: 182.09486pt x 183.55812pt.
+LaTeX Info: Redefining \NATand on input line 216.
+
+[33
+
+ <./img/org.png> <./img/op_morf.png>]
+LaTeX Info: Redefining \NATand on input line 243.
+ [34]
+LaTeX Info: Redefining \NATand on input line 298.
+LaTeX Info: Redefining \NATand on input line 298.
+ [35]
+Overfull \hbox (10.26208pt too wide) in paragraph at lines 307--308
+[]\T1/cmr/m/n/12 A apli-ca-ção de-sen-vol-vida para esse pro-jeto não con-tem-p
+la a etapa de pós-processamento,
+ []
+
+) [36]
 \openout2 = `cap-03.2.aux'.
 
  (./cap-03.2.tex
 CAP{\'I}TULO 5.
 LaTeX Info: Redefining \NATand on input line 6.
-<img/android_stack.jpg, id=161, 1389.19pt x 2045.6425pt>
+<img/android_stack.jpg, id=183, 1389.19pt x 2045.6425pt>
 File: img/android_stack.jpg Graphic file (type jpg)
 
 <use img/android_stack.jpg>
 Package pdftex.def Info: img/android_stack.jpg used on input line 11.
 (pdftex.def)             Requested size: 227.62206pt x 335.1754pt.
- [32
+ [37
 
 
 
- <./img/android_stack.jpg>] [33]
-<img/dispositivo1.jpg, id=168, 375.4025pt x 441.65pt>
+ <./img/android_stack.jpg>] [38]
+<img/dispositivo1.jpg, id=190, 375.4025pt x 441.65pt>
 File: img/dispositivo1.jpg Graphic file (type jpg)
 
 <use img/dispositivo1.jpg>
 Package pdftex.def Info: img/dispositivo1.jpg used on input line 55.
 (pdftex.def)             Requested size: 136.57462pt x 160.67862pt.
- <img/dispositivo2.jpg, id=169, 803.0pt x 602.25pt>
+ <img/dispositivo2.jpg, id=191, 803.0pt x 602.25pt>
 File: img/dispositivo2.jpg Graphic file (type jpg)
 
 <use img/dispositivo2.jpg>
 Package pdftex.def Info: img/dispositivo2.jpg used on input line 64.
 (pdftex.def)             Requested size: 227.62206pt x 170.71487pt.
 
-<img/dispositivo3.jpg, id=170, 261.97874pt x 193.72375pt>
+<img/dispositivo3.jpg, id=192, 261.97874pt x 193.72375pt>
 File: img/dispositivo3.jpg Graphic file (type jpg)
 
 <use img/dispositivo3.jpg>
 Package pdftex.def Info: img/dispositivo3.jpg used on input line 73.
 (pdftex.def)             Requested size: 136.57462pt x 100.9941pt.
- [34] [35 <./img/dispositivo1.jpg> <./img/dispositivo2.jpg> <./img/dispositivo3
+ [39] [40 <./img/dispositivo1.jpg> <./img/dispositivo2.jpg> <./img/dispositivo3
 .jpg>]
-LaTeX Info: Redefining \NATand on input line 87.
-) [36]
+<img/selecao_dispositivo_virtual.png, id=200, 1027.84pt x 620.81938pt>
+File: img/selecao_dispositivo_virtual.png Graphic file (type png)
+
+<use img/selecao_dispositivo_virtual.png>
+Package pdftex.def Info: img/selecao_dispositivo_virtual.png used on input line
+ 87.
+(pdftex.def)             Requested size: 364.19667pt x 219.98035pt.
+
+<img/dispositivo_virtual.png, id=201, 803.0pt x 422.57875pt>
+File: img/dispositivo_virtual.png Graphic file (type png)
+
+<use img/dispositivo_virtual.png>
+Package pdftex.def Info: img/dispositivo_virtual.png used on input line 95.
+(pdftex.def)             Requested size: 364.19667pt x 191.66106pt.
+
+<img/hw_dispositivo_virtual.png, id=202, 803.0pt x 713.66624pt>
+File: img/hw_dispositivo_virtual.png Graphic file (type png)
+
+<use img/hw_dispositivo_virtual.png>
+Package pdftex.def Info: img/hw_dispositivo_virtual.png used on input line 103.
+
+(pdftex.def)             Requested size: 364.19667pt x 323.68413pt.
+ [41
+
+ <./img/selecao_dispositivo_virtual.png>] [42 <./img/dispositivo_virtual.png> <
+./img/hw_dispositivo_virtual.png>]
+LaTeX Info: Redefining \NATand on input line 117.
+)
+[43
+
+]
 \openout2 = `cap-04.aux'.
 
  (./cap-04.tex
 CAP{\'I}TULO 6.
-<img/telainicial_app.png, id=183, 1606.0pt x 2569.6pt>
+<img/telainicial_app.png, id=216, 1084.05pt x 1927.2pt>
 File: img/telainicial_app.png Graphic file (type png)
 
 <use img/telainicial_app.png>
 Package pdftex.def Info: img/telainicial_app.png used on input line 19.
-(pdftex.def)             Requested size: 136.57462pt x 218.51114pt.
+(pdftex.def)             Requested size: 136.57462pt x 242.78143pt.
 
-<img/galeria_app_n1.png, id=184, 1606.0pt x 2569.6pt>
+<img/galeria_app_n1.png, id=217, 1084.05pt x 1927.2pt>
 File: img/galeria_app_n1.png Graphic file (type png)
 
 <use img/galeria_app_n1.png>
 Package pdftex.def Info: img/galeria_app_n1.png used on input line 33.
-(pdftex.def)             Requested size: 91.04742pt x 145.66101pt.
+(pdftex.def)             Requested size: 182.09486pt x 323.70859pt.
 
-<img/galeria_app_n2.png, id=185, 1606.0pt x 2569.6pt>
+<img/galeria_app_n2.png, id=218, 1084.05pt x 1927.2pt>
 File: img/galeria_app_n2.png Graphic file (type png)
 
 <use img/galeria_app_n2.png>
 Package pdftex.def Info: img/galeria_app_n2.png used on input line 34.
-(pdftex.def)             Requested size: 91.04742pt x 145.66101pt.
+(pdftex.def)             Requested size: 182.09486pt x 323.70859pt.
 
-<img/galeria_app_n3.png, id=186, 2569.6pt x 1606.0pt>
+<img/galeria_app_n3.png, id=219, 1084.05pt x 1927.2pt>
 File: img/galeria_app_n3.png Graphic file (type png)
 
 <use img/galeria_app_n3.png>
-Package pdftex.def Info: img/galeria_app_n3.png used on input line 35.
-(pdftex.def)             Requested size: 91.04742pt x 56.90189pt.
+Package pdftex.def Info: img/galeria_app_n3.png used on input line 42.
+(pdftex.def)             Requested size: 182.09486pt x 323.70859pt.
 
-<img/galeria_app_n4.png, id=187, 1606.0pt x 2569.6pt>
+<img/galeria_app_n4.png, id=220, 1084.05pt x 1927.2pt>
 File: img/galeria_app_n4.png Graphic file (type png)
 
 <use img/galeria_app_n4.png>
-Package pdftex.def Info: img/galeria_app_n4.png used on input line 36.
-(pdftex.def)             Requested size: 91.04742pt x 145.66101pt.
- [37
+Package pdftex.def Info: img/galeria_app_n4.png used on input line 43.
+(pdftex.def)             Requested size: 182.09486pt x 323.70859pt.
+ [44
 
 
 
- <./img/telainicial_app.png>]
-<img/camera_app_n1.png, id=191, 1606.0pt x 2569.6pt>
+ <./img/telainicial_app.png>] [45 <./img/galeria_app_n1.png> <./img/galeria_app
+_n2.png>] [46 <./img/galeria_app_n3.png> <./img/galeria_app_n4.png>] <img/camer
+a_app_n1.png, id=232, 1084.05pt x 1927.2pt>
 File: img/camera_app_n1.png Graphic file (type png)
 
 <use img/camera_app_n1.png>
-Package pdftex.def Info: img/camera_app_n1.png used on input line 61.
-(pdftex.def)             Requested size: 91.04742pt x 145.66101pt.
+Package pdftex.def Info: img/camera_app_n1.png used on input line 65.
+(pdftex.def)             Requested size: 182.09486pt x 323.70859pt.
 
-<img/camera_app_n2.png, id=192, 2569.6pt x 1606.0pt>
+<img/camera_app_n2.png, id=233, 1927.2pt x 1084.05pt>
 File: img/camera_app_n2.png Graphic file (type png)
 
 <use img/camera_app_n2.png>
-Package pdftex.def Info: img/camera_app_n2.png used on input line 62.
-(pdftex.def)             Requested size: 91.04742pt x 56.90189pt.
+Package pdftex.def Info: img/camera_app_n2.png used on input line 74.
+(pdftex.def)             Requested size: 182.09486pt x 102.42342pt.
 
-<img/camera_app_n3.png, id=193, 2569.6pt x 1606.0pt>
+<img/camera_app_n3.png, id=234, 1927.2pt x 1084.05pt>
 File: img/camera_app_n3.png Graphic file (type png)
 
 <use img/camera_app_n3.png>
-Package pdftex.def Info: img/camera_app_n3.png used on input line 63.
-(pdftex.def)             Requested size: 91.04742pt x 56.90189pt.
+Package pdftex.def Info: img/camera_app_n3.png used on input line 75.
+(pdftex.def)             Requested size: 182.09486pt x 102.42342pt.
 
-<img/camera_app_n4.png, id=194, 2569.6pt x 1606.0pt>
+<img/camera_app_n4.png, id=235, 1927.2pt x 1084.05pt>
 File: img/camera_app_n4.png Graphic file (type png)
 
 <use img/camera_app_n4.png>
-Package pdftex.def Info: img/camera_app_n4.png used on input line 64.
-(pdftex.def)             Requested size: 91.04742pt x 56.90189pt.
+Package pdftex.def Info: img/camera_app_n4.png used on input line 83.
+(pdftex.def)             Requested size: 182.09486pt x 102.42342pt.
 
-<img/camera_app_n5.png, id=195, 2569.6pt x 1606.0pt>
+<img/camera_app_n5.png, id=236, 1927.2pt x 1084.05pt>
 File: img/camera_app_n5.png Graphic file (type png)
 
 <use img/camera_app_n5.png>
-Package pdftex.def Info: img/camera_app_n5.png used on input line 72.
-(pdftex.def)             Requested size: 91.04742pt x 56.90189pt.
+Package pdftex.def Info: img/camera_app_n5.png used on input line 84.
+(pdftex.def)             Requested size: 182.09486pt x 102.42342pt.
 
-<img/camera_app_n6.png, id=196, 2569.6pt x 1606.0pt>
+<img/camera_app_n6.png, id=237, 1927.2pt x 1084.05pt>
 File: img/camera_app_n6.png Graphic file (type png)
 
 <use img/camera_app_n6.png>
-Package pdftex.def Info: img/camera_app_n6.png used on input line 73.
-(pdftex.def)             Requested size: 91.04742pt x 56.90189pt.
+Package pdftex.def Info: img/camera_app_n6.png used on input line 92.
+(pdftex.def)             Requested size: 182.09486pt x 102.42342pt.
 
-<img/camera_app_n7.png, id=197, 2569.6pt x 1606.0pt>
+<img/camera_app_n7.png, id=238, 1927.2pt x 1084.05pt>
 File: img/camera_app_n7.png Graphic file (type png)
 
 <use img/camera_app_n7.png>
-Package pdftex.def Info: img/camera_app_n7.png used on input line 74.
-(pdftex.def)             Requested size: 91.04742pt x 56.90189pt.
+Package pdftex.def Info: img/camera_app_n7.png used on input line 93.
+(pdftex.def)             Requested size: 182.09486pt x 102.42342pt.
+ [47
 
-<img/camera_app_n8.png, id=198, 2569.6pt x 1606.0pt>
-File: img/camera_app_n8.png Graphic file (type png)
-
-<use img/camera_app_n8.png>
-Package pdftex.def Info: img/camera_app_n8.png used on input line 75.
-(pdftex.def)             Requested size: 91.04742pt x 56.90189pt.
- [38 <./img/galeria_app_n1.png> <./img/galeria_app_n2.png> <./img/galeria_app_n
-3.png> <./img/galeria_app_n4.png>]
-<img/resultado_watershed_desenvolvido_app.png, id=205, 1606.0pt x 2569.6pt>
-File: img/resultado_watershed_desenvolvido_app.png Graphic file (type png)
-
-<use img/resultado_watershed_desenvolvido_app.png>
-Package pdftex.def Info: img/resultado_watershed_desenvolvido_app.png used on i
-nput line 98.
-(pdftex.def)             Requested size: 136.57462pt x 218.51114pt.
-
-<img/resultado_watershed_opencv_app.png, id=206, 1606.0pt x 2569.6pt>
-File: img/resultado_watershed_opencv_app.png Graphic file (type png)
-
-<use img/resultado_watershed_opencv_app.png>
-Package pdftex.def Info: img/resultado_watershed_opencv_app.png used on input l
-ine 111.
-(pdftex.def)             Requested size: 136.57462pt x 218.51114pt.
-) [39 <./img/camera_app_n1.png> <./img/camera_app_n2.png> <./img/camera_app_n3.
+ <./img/camera_app_n1.png>] [48 <./img/camera_app_n2.png> <./img/camera_app_n3.
 png> <./img/camera_app_n4.png> <./img/camera_app_n5.png> <./img/camera_app_n6.p
-ng> <./img/camera_app_n7.png> <./img/camera_app_n8.png>] [40 <./img/resultado_w
-atershed_desenvolvido_app.png> <./img/resultado_watershed_opencv_app.png>]
+ng> <./img/camera_app_n7.png>]
+File: img/imagem_watershed_desenvolvido_app_n1.png Graphic file (type png)
+
+<use img/imagem_watershed_desenvolvido_app_n1.png>
+Package pdftex.def Info: img/imagem_watershed_desenvolvido_app_n1.png used on i
+nput line 112.
+(pdftex.def)             Requested size: 182.09486pt x 323.70859pt.
+File: img/resultado_watershed_desenvolvido_app_n1.png Graphic file (type png)
+
+<use img/resultado_watershed_desenvolvido_app_n1.png>
+Package pdftex.def Info: img/resultado_watershed_desenvolvido_app_n1.png used o
+n input line 113.
+(pdftex.def)             Requested size: 182.09486pt x 323.70859pt.
+File: img/galeria_app_n4.png Graphic file (type png)
+
+<use img/galeria_app_n4.png>
+Package pdftex.def Info: img/galeria_app_n4.png used on input line 121.
+(pdftex.def)             Requested size: 182.09486pt x 323.70859pt.
+
+<img/resultado_watershed_desenvolvido_app_n2.png, id=248, 1084.05pt x 1927.2pt>
+File: img/resultado_watershed_desenvolvido_app_n2.png Graphic file (type png)
+<use img/resultado_watershed_desenvolvido_app_n2.png>
+Package pdftex.def Info: img/resultado_watershed_desenvolvido_app_n2.png used o
+n input line 122.
+(pdftex.def)             Requested size: 182.09486pt x 323.70859pt.
+
+<img/imagem_watershed_desenvolvido_app_n3.png, id=249, 1084.05pt x 1927.2pt>
+File: img/imagem_watershed_desenvolvido_app_n3.png Graphic file (type png)
+
+<use img/imagem_watershed_desenvolvido_app_n3.png>
+Package pdftex.def Info: img/imagem_watershed_desenvolvido_app_n3.png used on i
+nput line 130.
+(pdftex.def)             Requested size: 182.09486pt x 323.70859pt.
+
+<img/resultado_watershed_desenvolvido_app_n3.png, id=250, 1084.05pt x 1927.2pt>
+File: img/resultado_watershed_desenvolvido_app_n3.png Graphic file (type png)
+<use img/resultado_watershed_desenvolvido_app_n3.png>
+Package pdftex.def Info: img/resultado_watershed_desenvolvido_app_n3.png used o
+n input line 131.
+(pdftex.def)             Requested size: 182.09486pt x 323.70859pt.
+
+<img/imagem_watershed_desenvolvido_app_n4.png, id=251, 1084.05pt x 1927.2pt>
+File: img/imagem_watershed_desenvolvido_app_n4.png Graphic file (type png)
+
+<use img/imagem_watershed_desenvolvido_app_n4.png>
+Package pdftex.def Info: img/imagem_watershed_desenvolvido_app_n4.png used on i
+nput line 139.
+(pdftex.def)             Requested size: 182.09486pt x 323.70859pt.
+
+<img/resultado_watershed_desenvolvido_app_n4.png, id=252, 1084.05pt x 1927.2pt>
+File: img/resultado_watershed_desenvolvido_app_n4.png Graphic file (type png)
+<use img/resultado_watershed_desenvolvido_app_n4.png>
+Package pdftex.def Info: img/resultado_watershed_desenvolvido_app_n4.png used o
+n input line 140.
+(pdftex.def)             Requested size: 182.09486pt x 323.70859pt.
+
+<img/imagem_watershed_desenvolvido_app_n5.png, id=253, 1084.05pt x 1927.2pt>
+File: img/imagem_watershed_desenvolvido_app_n5.png Graphic file (type png)
+
+<use img/imagem_watershed_desenvolvido_app_n5.png>
+Package pdftex.def Info: img/imagem_watershed_desenvolvido_app_n5.png used on i
+nput line 148.
+(pdftex.def)             Requested size: 182.09486pt x 323.70859pt.
+
+<img/resultado_watershed_desenvolvido_app_n5.png, id=254, 1084.05pt x 1927.2pt>
+File: img/resultado_watershed_desenvolvido_app_n5.png Graphic file (type png)
+<use img/resultado_watershed_desenvolvido_app_n5.png>
+Package pdftex.def Info: img/resultado_watershed_desenvolvido_app_n5.png used o
+n input line 149.
+(pdftex.def)             Requested size: 182.09486pt x 323.70859pt.
+
+<img/imagem_watershed_desenvolvido_app_n6.png, id=255, 1084.05pt x 1927.2pt>
+File: img/imagem_watershed_desenvolvido_app_n6.png Graphic file (type png)
+
+<use img/imagem_watershed_desenvolvido_app_n6.png>
+Package pdftex.def Info: img/imagem_watershed_desenvolvido_app_n6.png used on i
+nput line 157.
+(pdftex.def)             Requested size: 182.09486pt x 323.70859pt.
+
+<img/resultado_watershed_desenvolvido_app_n6.png, id=256, 1084.05pt x 1927.2pt>
+File: img/resultado_watershed_desenvolvido_app_n6.png Graphic file (type png)
+<use img/resultado_watershed_desenvolvido_app_n6.png>
+Package pdftex.def Info: img/resultado_watershed_desenvolvido_app_n6.png used o
+n input line 158.
+(pdftex.def)             Requested size: 182.09486pt x 323.70859pt.
+
+<img/imagem_watershed_desenvolvido_app_n7.png, id=257, 1084.05pt x 1927.2pt>
+File: img/imagem_watershed_desenvolvido_app_n7.png Graphic file (type png)
+
+<use img/imagem_watershed_desenvolvido_app_n7.png>
+Package pdftex.def Info: img/imagem_watershed_desenvolvido_app_n7.png used on i
+nput line 166.
+(pdftex.def)             Requested size: 182.09486pt x 323.70859pt.
+
+<img/resultado_watershed_desenvolvido_app_n7.png, id=258, 1084.05pt x 1927.2pt>
+File: img/resultado_watershed_desenvolvido_app_n7.png Graphic file (type png)
+<use img/resultado_watershed_desenvolvido_app_n7.png>
+Package pdftex.def Info: img/resultado_watershed_desenvolvido_app_n7.png used o
+n input line 167.
+(pdftex.def)             Requested size: 182.09486pt x 323.70859pt.
+) [49
+
+] [50 <./img/resultado_watershed_desenvolvido_app_n2.png>] [51 <./img/imagem_wa
+tershed_desenvolvido_app_n3.png> <./img/resultado_watershed_desenvolvido_app_n3
+.png>] [52 <./img/imagem_watershed_desenvolvido_app_n4.png> <./img/resultado_wa
+tershed_desenvolvido_app_n4.png>] [53 <./img/imagem_watershed_desenvolvido_app_
+n5.png> <./img/resultado_watershed_desenvolvido_app_n5.png>] [54 <./img/imagem_
+watershed_desenvolvido_app_n6.png> <./img/resultado_watershed_desenvolvido_app_
+n6.png>] [55 <./img/imagem_watershed_desenvolvido_app_n7.png> <./img/resultado_
+watershed_desenvolvido_app_n7.png>]
 \openout2 = `cap-04.1.aux'.
 
  (./cap-04.1.tex
 CAP{\'I}TULO 7.
-) [41
+) [56
 
 
 
@@ -1464,7 +1613,7 @@ CAP{\'I}TULO 7.
 
  (./cap-05.tex
 CAP{\'I}TULO 8.
-[42
+[57
 
 
 
@@ -1473,7 +1622,7 @@ Overfull \hbox (20.82771pt too wide) in paragraph at lines 52--67
  [][] 
  []
 
-) [43] (./main.bbl
+) [58] (./main.bbl
 CAP{\'I}TULO 9.
 
 Underfull \hbox (badness 7722) in paragraph at lines 7--12
@@ -1488,29 +1637,29 @@ Underfull \hbox (badness 2564) in paragraph at lines 14--19
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--44
+Underfull \hbox (badness 10000) in paragraph at lines 49--54
 []\T1/cmr/m/n/12 THE BER-KE-LEY SEG-MEN-TA-TION DA-TA-SET AND BEN-CH-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--44
+Underfull \hbox (badness 10000) in paragraph at lines 49--54
 \T1/cmr/m/n/12 MARK.   Ber-ke-ley Seg-men-ta-tion Da-ta-set. Dis-po-ní-vel em:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--44
+Underfull \hbox (badness 10000) in paragraph at lines 49--54
 \T1/cmr/m/n/12 <https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/bsds
 /BSDS300>.
  []
 
 
-Underfull \hbox (badness 1661) in paragraph at lines 46--51
+Underfull \hbox (badness 1661) in paragraph at lines 56--61
 []\T1/cmr/m/n/12 GOOGLE DE-VE-LO-PERS.   Fi-re-base Test Lab para An-droid. Dis
 -po-ní-vel em:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 53--58
+Underfull \hbox (badness 10000) in paragraph at lines 63--68
 []\T1/cmr/m/n/12 ABEL GO-MES.   Com-pu-ta-ção Vi-sual e Mul-ti-mí-dia. Dis-po-n
 í-vel em:
  []
@@ -1518,7 +1667,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 53--58
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.63 ...ncv.org/2.4/doc/tutorials/imgproc/opening_
+l.73 ...ncv.org/2.4/doc/tutorials/imgproc/opening_
                                                   closing_hats/opening_closi...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1526,7 +1675,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.65 
+l.75 
      
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1534,7 +1683,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.65 
+l.75 
      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1543,13 +1692,13 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--65
+Underfull \hbox (badness 10000) in paragraph at lines 70--75
 []\T1/cmr/m/n/12 OPENCV.   More Morpho-logy Trans-for-ma-ti-ons. Dis-po-ní-vel 
 em:
  []
 
 
-Overfull \hbox (80.67706pt too wide) in paragraph at lines 60--65
+Overfull \hbox (80.67706pt too wide) in paragraph at lines 70--75
 \T1/cmr/m/n/12 <http://docs.opencv.org/2.4/doc/tutorials/imgproc/opening$[]\OML
 /cmm/m/it/12 losing[]ats=opening[]losing[]ats:html >
  []
@@ -1557,7 +1706,7 @@ Overfull \hbox (80.67706pt too wide) in paragraph at lines 60--65
 ! Extra }, or forgotten \endgroup.
 \par ...m \@noitemerr {\@@par }\fi \else {\@@par }
                                                   \fi 
-l.65 
+l.75 
      
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1565,10 +1714,14 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
+[59
+
+
+]
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.76 .../2.4/doc/tutorials/imgproc/imgtrans/sobel_
+l.86 .../2.4/doc/tutorials/imgproc/imgtrans/sobel_
                                                   derivatives/sobel_derivati...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1576,7 +1729,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.78 
+l.88 
      
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1584,7 +1737,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.78 
+l.88 
      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1593,20 +1746,16 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (293.17424pt too wide) in paragraph at lines 73--78
+Overfull \hbox (293.17424pt too wide) in paragraph at lines 83--88
 []\T1/cmr/m/n/12 OPENCV.   So-bel De-ri-va-ti-ves. Dis-po-ní-vel em: <http://do
 cs.opencv.org/2.4/doc/tutorials/imgproc/imgtrans/sobel$[]\OML/cmm/m/it/12 eriva
 tives=sobel[]erivatives:html >
  []
 
-[44
-
-
-]
 ! Extra }, or forgotten \endgroup.
 \par ...m \@noitemerr {\@@par }\fi \else {\@@par }
                                                   \fi 
-l.78 
+l.88 
      
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1617,7 +1766,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.97 ...t.uu.se/edu/course/homepage/bild1/ht14/L6_
+l.107 ....uu.se/edu/course/homepage/bild1/ht14/L6_
                                                   segmentation.pdf>. Acesso em:
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1625,16 +1774,16 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.99 
-     
+l.109 
+      
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.99 
-     
+l.109 
+      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -1642,34 +1791,34 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--99
+Underfull \hbox (badness 10000) in paragraph at lines 104--109
 []\T1/cmr/m/n/12 ROBIN STRAND.   Seg-men-ta-tion. Dis-po-ní-vel em:
  []
 
 ! Extra }, or forgotten \endgroup.
 \par ...m \@noitemerr {\@@par }\fi \else {\@@par }
                                                   \fi 
-l.99 
-     
+l.109 
+      
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-) [45]
+) [60]
 ANEXO 10.
-[46
+[61
 
 ]
 \openout2 = `anexo.aux'.
 
  (./anexo.tex
 ANEXO 10.
-[47
+[62
 
 
-]) [48] 
+]) [63] 
 AED: lastpage setting LastPage
 (./main.aux (./dados-pfc.aux) (./pre-texto.aux) (./cap-01.aux) (./cap-02.aux)
 (./cap-03.aux) (./cap-03.1.aux) (./cap-03.2.aux) (./cap-04.aux) (./cap-04.1.aux
@@ -1677,9 +1826,6 @@ AED: lastpage setting LastPage
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.2pt have occurred.
-
-
-LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -1690,13 +1836,13 @@ LaTeX Warning: There were multiply-defined labels.
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 12308 strings out of 492995
- 205131 string characters out of 6132704
- 383960 words of memory out of 5000000
- 15507 multiletter control sequences out of 15000+600000
+ 12400 strings out of 492995
+ 208826 string characters out of 6132704
+ 384220 words of memory out of 5000000
+ 15584 multiletter control sequences out of 15000+600000
  15068 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,15n,43p,1476b,3847s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 44i,15n,43p,1517b,3847s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm
 -super-t1.enc}</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmex10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm
@@ -1710,10 +1856,10 @@ fb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb
 /usr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></u
 sr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr
 /local/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on main.pdf (50 pages, 13366775 bytes).
+Output written on main.pdf (65 pages, 12034468 bytes).
 PDF statistics:
- 284 PDF objects out of 1000 (max. 8388607)
- 151 compressed objects within 2 object streams
+ 349 PDF objects out of 1000 (max. 8388607)
+ 183 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 261 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 336 words of extra memory for PDF output out of 10000 (max. 10000000)
 
