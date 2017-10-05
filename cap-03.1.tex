@@ -37,7 +37,7 @@ Um dos principais problemas relacionados à abordagem tradicional do \textit{wat
 Assim as diferenças entre o algoritmo proposto e o tradicional, como o implementado na biblioteca OpenCV, apresentada na seção \ref{sec:opencv} do anexo 1, conduzirão a uma análise comparativa entre os resultados obtidos por meio de cada um deles.
 
 \section{\textit{Watershed Algorithm Based On Connected Components}}
-Destacam-se as seguintes características entre este algoritmo e a abordagem tradicional \textit{watershed} que demonstram sua maior eficiência:
+A análise comparativa dos algoritmos \textit{watershed} baseado em componentes conectados e \textit{watershed} tradicional permite verificar a maior eficiência do primeiro devido `as seguintes características:
 
 % \section{Características}
 \begin{itemize}
@@ -106,7 +106,7 @@ Abaixo a definição matemática do Filtro Bilateral:
 %\subsubsection{Operador \textit{Not}}
 %O operador not é utilizado no pré-processamento para que o algoritmo \textit{watersheed } seja executado da maneira correta, isto é, dos plateaus para os mínimos locais através. Ele inverte cada bit de um \textit{array}.
 \subsubsection{Operador Sobel}
-Operador de detecção de bordas, que se baseia no operador gradiente.
+O operador Sobel é um operador de detecção de bordas que se baseia no operador gradiente.
 Os gradientes horizontal, \textit{Gx}, e vertical, \textit{Gy}, são calculados considerando uma janela de tamanho 3, isto é, \textit{3 x 3 pixels}, e calcula-se uma aproximação do gradiente em cada ponto da seguinte forma: \citep{sobel}
 
 Abaixo a definição matemática do operador Sobel:
@@ -194,7 +194,7 @@ Dentre as duas principais abordagens da técnica de \textit{watershed} mencionad
 
 \subsubsection{\textit{Step} 1}
 % Explicar 
-O objetivo do passo 1 é encontrar os mínimos locais na imagem. Inicialmente, o \textit{array} v[p] e percorre-se a imagem de cima à esquerda até abaixo à direita e, v[p] assumirá o valor zero se o valor de seu vizinho for menos ou igual ao seu, e o valor 1 caso contrário.
+O objetivo do passo 1 é encontrar os mínimos locais na imagem. Inicialmente, o \textit{array} v[p] e percorre-se a imagem de cima à esquerda até abaixo à direita e, v[p] assumirá o valor zero se o valor de seu vizinho for menor ou igual ao seu, e o valor 1 caso contrário.
 
 
 % Código 

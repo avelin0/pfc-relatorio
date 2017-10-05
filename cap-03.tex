@@ -32,8 +32,8 @@ Dado um limiar T (\textit{threshold}), o \textit{pixel} com valor $f_i_j$  e loc
 \end{cases}
 \\
 
-O limiar T pode ser escolhido manualmente, tentando diferentes valores de T e analisando qual deles é mais eficiente na identificação dos objetos de interesse.
-O \textit{threshold} T também pode ser escolhido a partir do histograma da imagem, e escolhe-se T como o valor entre as duas distribuições de cinza.
+O limiar T pode ser escolhido manualmente, testando-se diferentes valores de T e analisando qual deles é mais eficiente na identificação dos objetos de interesse.
+O \textit{threshold} T também pode ser escolhido a partir do histograma da imagem, e escolhe-se T como o valor que maximiza a separação entre duas distribuições de níveis de cinza.
 
 Na figura \ref{fig:einstein}, há uma imagem original do Einstein que será segmentada de duas formas distintas pela técnica de segmentação de imagens por limiar (\textit{thresholding}). Enquanto na figura \ref{fig:einsteinglobal} há um limiar T fixo , na  figura \ref{fig:einsteinlocal} ele é variável.
 
@@ -87,7 +87,7 @@ Como pode-se perceber na figura \ref{fig:smandrill}, por esse método houve a se
  \def\baselinestretch{1}\small\normalsize
  \includegraphics[width=0.4\textwidth]{img/stf-smandrill.jpg}\qquad
  \includegraphics[width=0.4\textwidth]{img/stf-smandrill-edgedetect.jpg} 
- \caption{\label{fig:smandrill} Uma imagem de um macaco \citep{stanford} à esquerda e à direita segmentada pelo método de detecção de bordas.}
+ \caption{\label{fig:smandrill} Imagem original de um macaco à esquerda, e à direita, o resultado de sua segmentação pelo método de detecção de bordas. \citep{stanford}}
  %\vspace{2.0em}
 \end{figure}
 
@@ -121,7 +121,7 @@ Um exemplo de segmentação baseada em região \textit{Split and Merge} é o Alg
  \def\baselinestretch{1}\small\normalsize
  \includegraphics[width=0.4\textwidth]{img/stf-aral1997.jpg}\qquad
  \includegraphics[width=0.4\textwidth]{img/stf-aral1997-quadtree.jpg} 
- \caption{\label{fig:aral}Uma representação visual de uma região \citep{stanford} à esquerda e à direita segmentada pelo Algoritmo \textit{Quadtree}.}
+ \caption{\label{fig:aral}Uma representação visual de uma região à esquerda, e à direita, o resultado de sua segmentação pelo Algoritmo \textit{Quadtree}. \citep{stanford}}
  %\vspace{2.0em}
 \end{figure}
 
@@ -135,7 +135,7 @@ As etapas fundamentais deste algoritmo são:
 \end{enumerate}
 
 \subsubsection{EXEMPLO - \textit{WATERSHED}}
-Um exemplo de segmentação baseada no método \textit{Region growing} é o Algoritmo \textit{Watershed}. A figura \ref{fig:coins} abaixo ilustra a segmentação de imagem por este algoritmo, e observa-se regiões distintas correspondentes à cada moeda da figura.
+Um exemplo de segmentação baseada no método \textit{Region growing} é o Algoritmo \textit{Watershed}. A figura \ref{fig:coins} abaixo ilustra a segmentação de imagem por este algoritmo, e observa-se regiões distintas correspondentes a cada moeda da figura.
 
 % ------------------------------------------------------------------------------------------------------------
 % Figura 
@@ -144,7 +144,7 @@ Um exemplo de segmentação baseada no método \textit{Region growing} é o Algo
  \def\baselinestretch{1}\small\normalsize
  \includegraphics[width=0.4\textwidth]{img/stf-coins.jpg}\qquad
  \includegraphics[width=0.4\textwidth]{img/stf-coins-watersheed.jpg} 
- \caption{\label{fig:coins}Imagem de uma moeda \citep{stanford} à esquerda e à direita segmentada pelo Algoritmo \textit{Watersheed}.}
+ \caption{\label{fig:coins}Imagem original de moedas à esquerda, e à direita, o resultado de sua segmentação pelo Algoritmo \textit{Watersheed}. \citep{stanford}}
  %\vspace{2.0em}
 \end{figure}
  
